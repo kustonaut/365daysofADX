@@ -15,45 +15,42 @@ It's a frictionless way to create a free cluster that can be used for any purpos
 
 Learn more: [Start for free using Azure Data Explorer | Microsoft Learn](https://learn.microsoft.com/en-us/azure/data-explorer/start-for-free)
 
-### LinkedIn Text
+### LinkedIn Post
+
+Link- https://www.linkedin.com/posts/dixitakshay_365daysofadx-kusto-365daysofadx-activity-7015347995281879040-Haj7/
 
 𝗖𝗿𝗲𝗮𝘁𝗲 Azure Data Explorer 𝗳𝗿𝗲𝗲 𝗰𝗹𝘂𝘀𝘁𝗲𝗿
 
 #365daysofADX - Day 1
 
-
-
-Want to learn #Kusto? We think there cannot be a better day than today. It's a new year after all :) 
-
-
+Want to learn #Kusto? We think there cannot be a better day than today. It's a new year after all :)
 
 We want to help you in this journey and therefore we are launching #365daysofADX, whose aim is to get you started with Azure Data Explorer (#ADX) a.k.a. Kusto and slowly help you build upon your knowledge base with bite sized info every day, over a year.
 
-
-
 Let's begin by creating our own ADX free cluster. You don't need an Azure Subscription, nor a credit card. All you need is a #Microsoft Account (you can create one for free here: https://account.microsoft.com/account) or Azure Active Directory user identity (so if you are already using azure, there won't be any charge for spinning up a free cluster).
-
-
 
 Creating the free cluster is a simple 3 step process:
 
-
-
 1. Goto aka.ms/kustofree
-
 2. Read and agree to Terms of service and Privacy Policy
-
 3. Sign in and Create cluster
 
-
-
 You can edit cluster display name, database name and region before clicking on create.
-
-
-
 Learn more about free clusters here: https://learn.microsoft.com/en-us/azure/data-explorer/start-for-free
 
+### Twitter Post
 
+Link - https://twitter.com/kustonaut/status/1609583295540649984
+
+Create free @AzDataExplorer cluster
+#365daysofADX Day1 
+
+Creating the free cluster is a simple 3 step process:
+1. Goto http://aka.ms/kustofree
+2. Read and agree to Terms of service and Privacy Policy
+3. Sign in and Create cluster
+
+Learn more: https://lnkd.in/dgR6fw25
 
 # Assets
 
