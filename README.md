@@ -31,7 +31,7 @@ Let's begin by creating our own ADX free cluster. You don't need an Azure Subscr
 
 Creating the free cluster is a simple 3 step process:
 
-1. Goto aka.ms/kustofree
+1. Goto http://aka.ms/kustofree
 2. Read and agree to Terms of service and Privacy Policy
 3. Sign in and Create cluster
 
