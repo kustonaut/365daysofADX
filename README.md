@@ -19,6 +19,12 @@ All the day wise content for #365daysofADX
 
 ### Twitter Post - https://twitter.com/kustonaut/status/1609954828163350528
 
+## Day 3 - Print Operator
+
+### LinkedIn Post- https://www.linkedin.com/posts/adxkusto_365daysofadx-adx-azuredataexplorer-activity-7016067183193534464-8eZl/
+
+### Twitter Post - https://twitter.com/kustonaut/status/1610303236111765505
+
 
 # Assets
 
