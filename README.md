@@ -25,6 +25,11 @@ All the day wise content for #365daysofADX
 
 ### Twitter Post - https://twitter.com/kustonaut/status/1610303236111765505
 
+## Day 4 - Create Table Command
+
+### LinkedIn Post- https://www.linkedin.com/posts/adxkusto_365daysofadx-adx-kusto-activity-7016453067806011392-9XUZ
+
+### Twitter Post - https://twitter.com/kustonaut/status/1610688858471170050
 
 # Assets
 
