@@ -31,6 +31,12 @@ All the day wise content for #365daysofADX
 
 ### Twitter Post - https://twitter.com/kustonaut/status/1610688858471170050
 
+## Day 5 - Ingest Data from Blob(s)
+
+### LinkedIn Post- https://www.linkedin.com/posts/adxkusto_365daysofadx-azure-data-activity-7016784840242925569-bqp4
+
+### Twitter Post - https://twitter.com/kustonaut/status/1611020084449013761
+
 # Assets
 
 This folder contains the assets used to create the social posts.
