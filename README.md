@@ -37,6 +37,12 @@ All the day wise content for #365daysofADX
 
 ### Twitter Post - https://twitter.com/kustonaut/status/1611020084449013761
 
+## Day 6 - Create Table and ingest data from CSV
+
+### LinkedIn Post- https://www.linkedin.com/posts/adxkusto_365daysofadx-adx-kusto-activity-7017174698388037632-48So
+
+### Twitter Post - https://twitter.com/kustonaut/status/1611410598759366657
+
 # Assets
 
 This folder contains the assets used to create the social posts.
