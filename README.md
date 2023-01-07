@@ -43,11 +43,16 @@ All the day wise content for #365daysofADX
 
 ### Twitter Post - https://twitter.com/kustonaut/status/1611410598759366657
 
+## Day 7 - Drop Table(s)
+
+### LinkedIn Post- https://www.linkedin.com/posts/adxkusto_365daysofadx-kql-adx-activity-7017530334967664641-PfaX
+
+### Twitter Post - https://twitter.com/kustonaut/status/1611765661013004295
+
+
 # Assets
 
 This folder contains the assets used to create the social posts.
-
-
 
 ## PowerPoint Slide
 
