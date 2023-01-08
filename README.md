@@ -49,6 +49,12 @@ All the day wise content for #365daysofADX
 
 ### Twitter Post - https://twitter.com/kustonaut/status/1611765661013004295
 
+## Day 8 - Run T-SQL Query
+
+### LinkedIn Post- https://www.linkedin.com/posts/adxkusto_365daysofadx-kql-adx-activity-7017893686839537664-wcW4
+
+### Twitter Post - https://twitter.com/kustonaut/status/1612129341336621056
+
 
 # Assets
 
