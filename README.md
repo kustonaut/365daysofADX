@@ -55,6 +55,12 @@ All the day wise content for #365daysofADX
 
 ### Twitter Post - https://twitter.com/kustonaut/status/1612129341336621056
 
+## Day 9 - Take operator
+
+### LinkedIn Post- https://www.linkedin.com/posts/adxkusto_365daysofadx-data-sql-activity-7018259398670061568-pVCm
+
+### Twitter Post -https://twitter.com/kustonaut/status/1612494408049659905
+
 
 # Assets
 
