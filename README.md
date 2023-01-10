@@ -59,7 +59,13 @@ All the day wise content for #365daysofADX
 
 ### LinkedIn Post- https://www.linkedin.com/posts/adxkusto_365daysofadx-data-sql-activity-7018259398670061568-pVCm
 
-### Twitter Post -https://twitter.com/kustonaut/status/1612494408049659905
+### Twitter Post - https://twitter.com/kustonaut/status/1612494408049659905
+
+## Day 10 - SQL to KQL translation using EXPLAIN
+
+### LinkedIn Post- https://www.linkedin.com/posts/adxkusto_365daysofadx-sql-kql-activity-7018623785448714243-lUlX
+
+### Twitter Post - https://twitter.com/kustonaut/status/1612859165613117441
 
 
 # Assets
