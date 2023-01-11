@@ -67,6 +67,12 @@ All the day wise content for #365daysofADX
 
 ### Twitter Post - https://twitter.com/kustonaut/status/1612859165613117441
 
+## Day 11- Sample gallery on help cluster
+
+### LinkedIn Post- https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-kql-activity-7018978989192949760-4jpc
+
+### Twitter Post - https://twitter.com/kustonaut/status/1613214391431987200
+
 
 # Assets
 
