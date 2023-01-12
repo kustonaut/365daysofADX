@@ -73,6 +73,11 @@ All the day wise content for #365daysofADX
 
 ### Twitter Post - https://twitter.com/kustonaut/status/1613214391431987200
 
+## Day 12- Major components of ADX ecosystem
+
+### LinkedIn Post- https://www.linkedin.com/posts/adxkusto_365daysofadx-adx-kql-activity-7019337900332920832-sQLR
+
+### Twitter Post - https://twitter.com/kustonaut/status/1613573070551420929
 
 # Assets
 
