@@ -79,6 +79,12 @@ All the day wise content for #365daysofADX
 
 ### Twitter Post - https://twitter.com/kustonaut/status/1613573070551420929
 
+## Day 13- What is Azure Data Explorer> Learn module
+
+### LinkedIn Post- https://www.linkedin.com/posts/adxkusto_what-is-azure-data-explorer-activity-7019656238720294913-d_V-
+
+### Twitter Post - https://twitter.com/kustonaut/status/1613890999553765377
+
 # Assets
 
 This folder contains the assets used to create the social posts.
