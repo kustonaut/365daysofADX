@@ -85,6 +85,13 @@ All the day wise content for #365daysofADX
 
 ### Twitter Post - https://twitter.com/kustonaut/status/1613890999553765377
 
+## Day 14- When should you use ADX?
+
+### LinkedIn Post- https://www.linkedin.com/posts/adxkusto_365daysofadx-bigdata-analytics-activity-7020039947403300864-RIh5
+
+### Twitter Post - https://twitter.com/kustonaut/status/1614275138547220481
+
+
 # Assets
 
 This folder contains the assets used to create the social posts.
