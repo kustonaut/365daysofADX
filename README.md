@@ -91,6 +91,11 @@ All the day wise content for #365daysofADX
 
 ### Twitter Post - https://twitter.com/kustonaut/status/1614275138547220481
 
+## Day 15- Tablular Statement
+
+### LinkedIn Post- https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-kql-activity-7020377226369974272-IPp9
+
+### Twitter Post - https://twitter.com/kustonaut/status/1614612550779568128
 
 # Assets
 
