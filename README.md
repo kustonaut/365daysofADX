@@ -96,6 +96,12 @@ LinkedIn Post- https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-kql-ac
 
 Twitter Post - https://twitter.com/kustonaut/status/1614612550779568128
 
+## Day 15- Tablular Statement
+
+LinkedIn Post- https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-kql-activity-7020794638475112448-OP8k
+
+Twitter Post - https://twitter.com/kustonaut/status/1615029897302511618
+
 # Assets
 
 This folder contains the assets used to create the social posts.
