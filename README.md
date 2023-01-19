@@ -114,6 +114,12 @@ LinkedIn Post- https://www.linkedin.com/posts/adxkusto_365daysofadx-kql-kusto-ac
 
 Twitter Post - https://twitter.com/kustonaut/status/1615760936928940032
 
+## Day 19 - Let Statement
+
+LinkedIn Post- https://www.linkedin.com/posts/adxkusto_365daysofadx-kql-kusto-activity-7021833903304814592-l_Jk
+
+Twitter Post - https://twitter.com/kustonaut/status/1616068721717706752
+
 # Assets
 
 This folder contains the assets used to create the social posts.
