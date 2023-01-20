@@ -120,6 +120,12 @@ LinkedIn Post- https://www.linkedin.com/posts/adxkusto_365daysofadx-kql-kusto-ac
 
 Twitter Post - https://twitter.com/kustonaut/status/1616068721717706752
 
+## Day 20 - Datatable operator
+
+LinkedIn Post- https://www.linkedin.com/posts/adxkusto_365daysofadx-kql-adx-activity-7022197825023139840-KL1K
+
+Twitter Post - https://twitter.com/kustonaut/status/1616432627082473472
+
 # Assets
 
 This folder contains the assets used to create the social posts.
