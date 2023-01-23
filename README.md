@@ -138,6 +138,12 @@ LinkedIn Post- https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-kql-ac
 
 Twitter Post - https://twitter.com/kustonaut/status/1617132563776311297
 
+## Day 23 - Contains vs Has operator
+
+LinkedIn Post- https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-kql-activity-7023299226302300160-XTu-
+
+Twitter Post - https://twitter.com/kustonaut/status/1617534894632218625
+
 # Assets
 
 This folder contains the assets used to create the social posts.
