@@ -144,6 +144,12 @@ LinkedIn Post- https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-kql-ac
 
 Twitter Post - https://twitter.com/kustonaut/status/1617534894632218625
 
+## Day 24 - Kusto Detective Agency
+
+LinkedIn Post- https://www.linkedin.com/posts/adxkusto_365daysofadx-bigdata-kda-activity-7023660141212315648-TIDW
+
+Twitter Post - https://twitter.com/kustonaut/status/1617895027514146816
+
 # Assets
 
 This folder contains the assets used to create the social posts.
