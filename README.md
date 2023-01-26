@@ -156,6 +156,12 @@ LinkedIn Post- https://www.linkedin.com/posts/adxkusto_365daysofadx-kql-kusto-ac
 
 Twitter Post - https://twitter.com/kustonaut/status/1618258799764336642
 
+## Day 26 - Kusto Emulator
+
+LinkedIn Post- https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-kql-activity-7024412183476248576-_SlC
+
+Twitter Post - https://twitter.com/kustonaut/status/1618647126246031361
+
 # Assets
 
 This folder contains the assets used to create the social posts.
