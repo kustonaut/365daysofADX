@@ -156,7 +156,7 @@ LinkedIn Post- https://www.linkedin.com/posts/adxkusto_365daysofadx-kql-kusto-ac
 
 Twitter Post - https://twitter.com/kustonaut/status/1618258799764336642
 
-## Day 26 - Kusto Emulator
+## Day 26 - DateTime Data Type
 
 LinkedIn Post- https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-kql-activity-7024412183476248576-_SlC
 
