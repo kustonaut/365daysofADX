@@ -168,6 +168,12 @@ LinkedIn Post- https://www.linkedin.com/posts/adxkusto_365daysofadx-adx-kusto-ac
 
 Twitter Post - https://twitter.com/kustonaut/status/1618965737053503489
 
+## Day 28 - Sort Operator
+
+LinkedIn Post- https://www.linkedin.com/posts/adxkusto_365daysofadx-kql-kusto-activity-7025148143675531264-ltf6
+
+Twitter Post - https://twitter.com/kustonaut/status/1619382763010035712
+
 # Assets
 
 This folder contains the assets used to create the social posts.
