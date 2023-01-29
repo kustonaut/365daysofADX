@@ -174,6 +174,12 @@ LinkedIn Post- https://www.linkedin.com/posts/adxkusto_365daysofadx-kql-kusto-ac
 
 Twitter Post - https://twitter.com/kustonaut/status/1619382763010035712
 
+## Day 29 - Summarize Operator
+
+LinkedIn Post- https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-kql-activity-7025523184003092481-IGCF
+
+Twitter Post - https://twitter.com/kustonaut/status/1619758341949116416
+
 # Assets
 
 This folder contains the assets used to create the social posts.
