@@ -186,6 +186,12 @@ LinkedIn Post- https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-adx-ac
 
 Twitter Post - https://twitter.com/kustonaut/status/1619758341949116416
 
+## Day 31 - Bin Function
+
+LinkedIn Post- https://www.linkedin.com/posts/adxkusto_365daysofadx-kwe-ke-activity-7026183847440465920-sP7a
+
+Twitter Post - https://twitter.com/kustonaut/status/1620418716256313352
+
 # Assets
 
 This folder contains the assets used to create the social posts.
