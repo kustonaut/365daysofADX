@@ -194,9 +194,9 @@ Twitter Post - https://twitter.com/kustonaut/status/1620418716256313352
 
 ## Day 32 - PieChart Visualization
 
-LinkedIn Post- https://www.linkedin.com/posts/adxkusto_365daysofadx-kwe-ke-activity-7026183847440465920-sP7a
+LinkedIn Post- https://www.linkedin.com/posts/adxkusto_365daysofadx-geospatial-azure-activity-7026597958158553089-qtFr
 
-Twitter Post - https://twitter.com/kustonaut/status/1620418716256313352
+Twitter Post - https://twitter.com/kustonaut/status/1620833247558270980
 
 # Assets
 
