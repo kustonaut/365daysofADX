@@ -198,7 +198,7 @@ LinkedIn Post- https://www.linkedin.com/posts/adxkusto_365daysofadx-geospatial-a
 
 Twitter Post - https://twitter.com/kustonaut/status/1620833247558270980
 
-## Day 33 - Column Visualization
+## Day 33 - ColumnChart Visualization
 
 LinkedIn Post- https://www.linkedin.com/posts/adxkusto_365daysofadx-kql-kusto-activity-7026963156446887936-iGqD
 
