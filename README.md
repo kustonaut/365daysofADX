@@ -210,6 +210,12 @@ LinkedIn Post- https://www.linkedin.com/posts/adxkusto_365daysofadx-microsoft-az
 
 Twitter Post - https://twitter.com/kustonaut/status/1621559974093787136
 
+## Day 35 - AreaChart Visualization
+
+LinkedIn Post- https://www.linkedin.com/posts/adxkusto_areachart-365daysofadx-note-activity-7027606937546440704-VJKL
+
+Twitter Post - https://twitter.com/kustonaut/status/1621842358626312193
+
 # Assets
 
 This folder contains the assets used to create the social posts.
