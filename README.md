@@ -216,6 +216,12 @@ LinkedIn Post- https://www.linkedin.com/posts/adxkusto_areachart-365daysofadx-no
 
 Twitter Post - https://twitter.com/kustonaut/status/1621842358626312193
 
+## Day 36 - Stacked AreaChart Visualization
+
+LinkedIn Post- https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-adx-activity-7028039980572631040-NTL3
+
+Twitter Post - https://twitter.com/kustonaut/status/1622274668500766723
+
 # Assets
 
 This folder contains the assets used to create the social posts.
