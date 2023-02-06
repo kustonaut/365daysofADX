@@ -222,6 +222,12 @@ LinkedIn Post- https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-adx-ac
 
 Twitter Post - https://twitter.com/kustonaut/status/1622274668500766723
 
+## Day 37 - Scatter Chart Visualization
+
+LinkedIn Post- https://www.linkedin.com/posts/adxkusto_365daysofadx-adx-kusto-activity-7028335291799060480-nki5
+
+Twitter Post - https://twitter.com/kustonaut/status/1622570260170956800
+
 # Assets
 
 This folder contains the assets used to create the social posts.
