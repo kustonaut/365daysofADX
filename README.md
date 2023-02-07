@@ -228,6 +228,12 @@ LinkedIn Post- https://www.linkedin.com/posts/adxkusto_365daysofadx-adx-kusto-ac
 
 Twitter Post - https://twitter.com/kustonaut/status/1622570260170956800
 
+## Day 38 - Card Visualization
+
+LinkedIn Post- https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-kql-activity-7028746442844385280-FJwB
+
+Twitter Post - https://twitter.com/kustonaut/status/1622982343123423232
+
 # Assets
 
 This folder contains the assets used to create the social posts.
