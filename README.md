@@ -234,6 +234,12 @@ LinkedIn Post- https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-kql-ac
 
 Twitter Post - https://twitter.com/kustonaut/status/1622982343123423232
 
+## Day 39 - Line Chart Visualization
+
+LinkedIn Post- https://www.linkedin.com/posts/adxkusto_linechart-365daysofadx-note-activity-7029126704182833152-CnSo
+
+Twitter Post - https://twitter.com/kustonaut/status/1623362092479975424
+
 # Assets
 
 This folder contains the assets used to create the social posts.
