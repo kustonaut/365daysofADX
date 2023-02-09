@@ -240,6 +240,12 @@ LinkedIn Post- https://www.linkedin.com/posts/adxkusto_linechart-365daysofadx-no
 
 Twitter Post - https://twitter.com/kustonaut/status/1623362092479975424
 
+## Day 40 - Time Chart Visualization
+
+LinkedIn Post- https://www.linkedin.com/posts/adxkusto_timechart-note-syntax-activity-7029447856776196096-aodc
+
+Twitter Post - https://twitter.com/kustonaut/status/1623683543607185408
+
 # Assets
 
 This folder contains the assets used to create the social posts.
