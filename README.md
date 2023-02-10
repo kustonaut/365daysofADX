@@ -246,6 +246,12 @@ LinkedIn Post- https://www.linkedin.com/posts/adxkusto_timechart-note-syntax-act
 
 Twitter Post - https://twitter.com/kustonaut/status/1623683543607185408
 
+## Day 41 - Anomaly Chart Visualization
+
+LinkedIn Post- https://www.linkedin.com/posts/adxkusto_anomaly-365daysofadx-note-activity-7029849660630446080-i_7b
+
+Twitter Post - https://twitter.com/kustonaut/status/1624084466326208512
+
 # Assets
 
 This folder contains the assets used to create the social posts.
