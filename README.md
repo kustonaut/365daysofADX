@@ -252,6 +252,12 @@ LinkedIn Post- https://www.linkedin.com/posts/adxkusto_anomaly-365daysofadx-note
 
 Twitter Post - https://twitter.com/kustonaut/status/1624084466326208512
 
+## Day 42 - Join Operator
+
+LinkedIn Post- https://www.linkedin.com/posts/adxkusto_365daysofadx-syntax-example-activity-7030234122153340929-Mm_m
+
+Twitter Post - https://twitter.com/kustonaut/status/1624469373254787074
+
 # Assets
 
 This folder contains the assets used to create the social posts.
