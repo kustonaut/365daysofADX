@@ -258,6 +258,13 @@ LinkedIn Post- https://www.linkedin.com/posts/adxkusto_365daysofadx-syntax-examp
 
 Twitter Post - https://twitter.com/kustonaut/status/1624469373254787074
 
+## Day 43 - Pin Query to Dashboard
+
+LinkedIn Post- https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-adx-activity-7030594670564913152-IDXM
+
+Twitter Post - https://twitter.com/kustonaut/status/1624830032735772673
+
+
 # Assets
 
 This folder contains the assets used to create the social posts.
