@@ -7,8 +7,8 @@ The aim of #365daysofADX is to get started with Azure Data Explorer(ADX) a.k.a. 
 
 All the day wise content for #365daysofADX
 
-| S.No. | Topic                                     | Twitter Post | LinkedIn Post |
-| ----- | ----------------------------------------- | ------------ | ------------- |
+| Day | Topic                                     | Twitter Post | LinkedIn Post |
+| --- | ----------------------------------------- | ------------ | ------------- |
 | 1  | Free cluster                              | [Link](https://twitter.com/kustonaut/status/1609583295540649984) | [Link](https://www.linkedin.com/posts/dixitakshay_365daysofadx-kusto-365daysofadx-activity-7015347995281879040-Haj7/) |
 | 2  | Create Database                           | [Link](https://twitter.com/kustonaut/status/1609954828163350528) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-adx-kql-activity-7015718959287005184-JXW3/)                             |
 | 3  | Print Operator                            | [Link](https://twitter.com/kustonaut/status/1610303236111765505) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-adx-azuredataexplorer-activity-7016067183193534464-8eZl/) |
@@ -52,7 +52,7 @@ All the day wise content for #365daysofADX
 | 41 | Anomaly Chart Visualization               | [Link](https://twitter.com/kustonaut/status/1624084466326208512) | [Link](https://www.linkedin.com/posts/adxkusto_anomaly-365daysofadx-note-activity-7029849660630446080-i_7b)                     |
 | 42 | Join Operator                             | [Link](https://twitter.com/kustonaut/status/1624469373254787074) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-syntax-example-activity-7030234122153340929-Mm_m)                 |
 | 43 | Pin Query to Dashboard                    | [Link](https://twitter.com/kustonaut/status/1624830032735772673) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-adx-activity-7030594670564913152-IDXM)                           |
-
+| 44 | Defaul Join flavor                        | [Link](https://twitter.com/kustonaut/status/1625182523700527140) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kql-learnmore-activity-7030947264269328384-l4PA)                           |
 
 # Assets
 
