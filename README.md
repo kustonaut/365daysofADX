@@ -54,6 +54,7 @@ All the day wise content for #365daysofADX
 | 43 | Pin Query to Dashboard                    | [Link](https://twitter.com/kustonaut/status/1624830032735772673) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-adx-activity-7030594670564913152-IDXM)                           |
 | 44 | Default Join                              | [Link](https://twitter.com/kustonaut/status/1625182523700527140) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kql-learnmore-activity-7030947264269328384-l4PA)                           |
 | 45 | Inner Join                                | [Link](https://twitter.com/kustonaut/status/1625540789563719680) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-kql-activity-7031305797422723072-J1rQ)                           |
+| 46 | Left Outer Join                           | [Link](https://twitter.com/kustonaut/status/1625873535427293186) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-kql-activity-7031637776194232321-3BLg)                           |
 
 # Assets
 
