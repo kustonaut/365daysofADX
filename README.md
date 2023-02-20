@@ -58,7 +58,8 @@ All the day wise content for #365daysofADX
 | 47 | Right Outer Join                          | [Link](https://twitter.com/kustonaut/status/1626248773600165889) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kwe-kusto-activity-7032012962261282816--XEP)                           |
 | 48 | Full Outer Join                           | [Link](https://twitter.com/kustonaut/status/1626621816872771584) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-kql-activity-7032386381297401856-olCV)                           |
 | 49 | Left Anti Join                            | [Link](https://twitter.com/kustonaut/status/1626979044607799296) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-kql-activity-7032743936653705216-IDF7)                           |
-| 50 | Right Anti Join                           | [Link](https://twitter.com/kustonaut/status/1627326095036125185) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-azuredataexplorer-activity-7033090962314649600-BZgA)                           |
+| 50 | Right Anti Join                           | [Link](https://twitter.com/kustonaut/status/1627326095036125185) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-azuredataexplorer-activity-7033090962314649600-BZgA)             |
+| 51 | Left Semi Join                            | [Link](https://twitter.com/kustonaut/status/1627672481741021186) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-azure-data-activity-7033437808279105536-EtFb)                          |
 
 # Assets
 
