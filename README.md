@@ -63,6 +63,7 @@ All the day wise content for #365daysofADX
 | 52 | Right Semi Join                           | [Link](https://twitter.com/kustonaut/status/1628003208294727680) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-kql-activity-7033768343325007872-7U4X)                           |
 | 53 | ADX Dashboards                            | [Link](https://twitter.com/kustonaut/status/1628359064077078528) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-kql-activity-7034124387054141440-_djj)                           |
 | 54 | Data Ingestion                            | [Link](https://twitter.com/kustonaut/status/1628774863539425280) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-datamanagement-data-activity-7034540266564825090-K3Wu)                 |
+| 55 | OSS Connectors                            | [Link](https://twitter.com/kustonaut/status/1629096900917096448) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-data-visualization-activity-7034860825374863360-cv-f)                 |
 
 
 # Assets
