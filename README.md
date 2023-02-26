@@ -65,6 +65,7 @@ All the day wise content for #365daysofADX
 | 54 | Data Ingestion                            | [Link](https://twitter.com/kustonaut/status/1628774863539425280) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-datamanagement-data-activity-7034540266564825090-K3Wu)                 |
 | 55 | OSS Connectors                            | [Link](https://twitter.com/kustonaut/status/1629096900917096448) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-data-visualization-activity-7034860825374863360-cv-f)                  |
 | 56 | Native Ingestioon from AWS S3             | [Link](https://twitter.com/kustonaut/status/1629542282943959040) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-aws-amazon-activity-7035306938624028673-kYYK)                          |
+| 57 | Data Connectors Overview                  | [Link](https://twitter.com/kustonaut/status/1629858069466472448) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-azuresynapseanalytics-activity-7035622244387074048-sUrK)                          |
 
 # Assets
 
