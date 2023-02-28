@@ -67,6 +67,8 @@ All the day wise content for #365daysofADX
 | 56 | Native Ingestioon from AWS S3             | [Link](https://twitter.com/kustonaut/status/1629542282943959040) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-aws-amazon-activity-7035306938624028673-kYYK)                          |
 | 57 | Data Connectors Overview                  | [Link](https://twitter.com/kustonaut/status/1629858069466472448) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-azuresynapseanalytics-activity-7035622244387074048-sUrK)         |
 | 58 | Telegraf Output Connector                 | [Link](https://twitter.com/kustonaut/status/1630223492892495873) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-azuredataexplorer-telegraf-activity-7035987917172785152-RFMf)          |
+| 59 | Kakka Sink Connector                      | [Link](https://twitter.com/kustonaut/status/1630557310962769920) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-apachekafka-opensource-activity-7036321603298701312-I3F4)              |
+
 
 
 # Assets
