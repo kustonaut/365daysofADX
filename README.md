@@ -68,8 +68,7 @@ All the day wise content for #365daysofADX
 | 57 | Data Connectors Overview                  | [Link](https://twitter.com/kustonaut/status/1629858069466472448) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-azuresynapseanalytics-activity-7035622244387074048-sUrK)         |
 | 58 | Telegraf Output Connector                 | [Link](https://twitter.com/kustonaut/status/1630223492892495873) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-azuredataexplorer-telegraf-activity-7035987917172785152-RFMf)          |
 | 59 | Kakka Sink Connector                      | [Link](https://twitter.com/kustonaut/status/1630557310962769920) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-apachekafka-opensource-activity-7036321603298701312-I3F4)              |
-
-
+| 60 | Logstash Output Connector                 | [Link](https://twitter.com/kustonaut/status/1630987216796422145) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-logstash-opensource-activity-7036752130367500288-SAAy)                 |
 
 # Assets
 
