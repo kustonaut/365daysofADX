@@ -70,6 +70,7 @@ All the day wise content for #365daysofADX
 | 59 | Kakka Sink Connector                      | [Link](https://twitter.com/kustonaut/status/1630557310962769920) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-apachekafka-opensource-activity-7036321603298701312-I3F4)              |
 | 60 | Logstash Output Connector                 | [Link](https://twitter.com/kustonaut/status/1630987216796422145) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-logstash-opensource-activity-7036752130367500288-SAAy)                 |
 | 61 | OpenTelementry Connector                  | [Link](https://twitter.com/kustonaut/status/1631339618804318210) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-opentelemetry-otel-activity-7037104012151681024-kjSg)                  |
+| 62 | Supported Data Formats for Ingestion      | [Link](https://twitter.com/kustonaut/status/1631659878128427011) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-azuredataexplorer-adx-activity-7037425082834530305-IaXR)               |
 
 # Assets
 
