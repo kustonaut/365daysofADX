@@ -72,6 +72,7 @@ All the day wise content for #365daysofADX
 | 61 | OpenTelementry Connector                  | [Link](https://twitter.com/kustonaut/status/1631339618804318210) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-opentelemetry-otel-activity-7037104012151681024-kjSg)                  |
 | 62 | Supported Data Formats for Ingestion      | [Link](https://twitter.com/kustonaut/status/1631659878128427011) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-azuredataexplorer-adx-activity-7037425082834530305-IaXR)               |
 | 63 | Client Libraries                          | [Link](https://twitter.com/kustonaut/status/1631659878128427011) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-azure-azuredataexplorer-activity-7037829305438986240-_Z2H)             |
+| 63 | Rest API Supported Actions                | [Link](https://twitter.com/kustonaut/status/1632433036120969216) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-analytics-azuredataexplorer-activity-7038197910626349058-GGKZ)         |
 
 # Assets
 
