@@ -73,7 +73,7 @@ All the day wise content for #365daysofADX
 | 62 | Supported Data Formats for Ingestion      | [Link](https://twitter.com/kustonaut/status/1631659878128427011) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-azuredataexplorer-adx-activity-7037425082834530305-IaXR)               |
 | 63 | Client Libraries                          | [Link](https://twitter.com/kustonaut/status/1631659878128427011) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-azure-azuredataexplorer-activity-7037829305438986240-_Z2H)             |
 | 64 | Rest API Supported Actions                | [Link](https://twitter.com/kustonaut/status/1632433036120969216) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-analytics-azuredataexplorer-activity-7038197910626349058-GGKZ)         |
-| 65 | Rest API Supported Actions                | [Link](https://twitter.com/kustonaut/status/1632789397459333120) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-geospatial-kusto-activity-7038554404785917952-XSdX)                    |
+| 65 | Geospatial Visualizations                 | [Link](https://twitter.com/kustonaut/status/1632789397459333120) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-geospatial-kusto-activity-7038554404785917952-XSdX)                    |
 
 # Assets
 
