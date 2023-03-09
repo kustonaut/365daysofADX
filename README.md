@@ -76,6 +76,7 @@ All the day wise content for #365daysofADX
 | 65 | Geospatial Visualizations                 | [Link](https://twitter.com/kustonaut/status/1632789397459333120) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-geospatial-kusto-activity-7038554404785917952-XSdX)                    |
 | 66 | Geospatial Clustering Methods Comparison  | [Link](https://twitter.com/kustonaut/status/1632789397459333120) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-azuredataexplorer-geohash-activity-7038915943015591936-sQts)           |
 | 67 | Visualize points on a map                 | [Link](https://twitter.com/kustonaut/status/1633506700865990657) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-azure-data-activity-7039271471910690816-KqfM)                          |
+| 68 | Find an ADX Partner                       | [Link](https://twitter.com/kustonaut/status/1633869325822984201) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-azuredataexplorer-adx-activity-7039633990059737088-8hlz)                          |
 
 # Assets
 
