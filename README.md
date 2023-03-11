@@ -78,6 +78,7 @@ All the day wise content for #365daysofADX
 | 67 | Visualize points on a map                 | [Link](https://twitter.com/kustonaut/status/1633506700865990657) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-azure-data-activity-7039271471910690816-KqfM)                          |
 | 68 | Find an ADX Partner                       | [Link](https://twitter.com/kustonaut/status/1633869325822984201) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-azuredataexplorer-adx-activity-7039633990059737088-8hlz)               |
 | 69 | Find My Partner Dashboard                 | [Link](https://twitter.com/kustonaut/status/1634203919625646083) | [Link](https://www.linkedin.com/posts/adxkusto_azure-data-explorer-find-my-partner-dashboard-activity-7039969096481845249-JCyG)    |
+| 70 | KQL Quick Reference                       | [Link](https://twitter.com/kustonaut/status/1634619536782532608) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-kql-activity-7040384886150475776-6LLG)                           |
 
 # Assets
 
