@@ -82,6 +82,7 @@ All the day wise content for #365daysofADX
 | 71 | Daily Average Cycle                       | [Link](https://twitter.com/kustonaut/status/1634959493007298560) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-adx-azure-activity-7040722089208594432-D3R8)                           |
 | 72 | Solution Architectures                    | [Link](https://twitter.com/kustonaut/status/1635322823962140672) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-azuredataexplorer-data-activity-7041087864939393025-ooke)              |
 | 73 | What's new in ADX Documentation           | [Link](https://twitter.com/kustonaut/status/1635657241910018048) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-adx-azure-activity-7041422628200275970-jlGr)                           |
+| 74 | Data Analysis with KQL Learning Path      | [Link](https://twitter.com/kustonaut/status/1636012410308902913) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-azuredataexplorer-adx-activity-7041777256901271552-o2Mh)                           |
 
 # Assets
 
