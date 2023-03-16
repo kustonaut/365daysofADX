@@ -83,7 +83,7 @@ All the day wise content for #365daysofADX
 | 72 | Solution Architectures                    | [Link](https://twitter.com/kustonaut/status/1635322823962140672) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-azuredataexplorer-data-activity-7041087864939393025-ooke)              |
 | 73 | What's new in ADX Documentation           | [Link](https://twitter.com/kustonaut/status/1635657241910018048) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-adx-azure-activity-7041422628200275970-jlGr)                           |
 | 74 | Data Analysis with KQL Learning Path      | [Link](https://twitter.com/kustonaut/status/1636012410308902913) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-azuredataexplorer-adx-activity-7041777256901271552-o2Mh)               |
-| 75 | Free Pluralsight Courses                  | [Link](https://twitter.com/kustonaut/status/1636382743448940546) | [Link](https://www.linkedin.com/posts/dixitakshay_10-best-practices-for-logging-ive-been-activity-7042012990983839744-2cDs)        |
+| 75 | Free Pluralsight Courses                  | [Link](https://twitter.com/kustonaut/status/1636382743448940546) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-adx-activity-7042147610538717184-JE2l)                           |
 
 # Assets
 
