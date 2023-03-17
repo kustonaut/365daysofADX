@@ -84,6 +84,7 @@ All the day wise content for #365daysofADX
 | 73 | What's new in ADX Documentation           | [Link](https://twitter.com/kustonaut/status/1635657241910018048) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-adx-azure-activity-7041422628200275970-jlGr)                           |
 | 74 | Data Analysis with KQL Learning Path      | [Link](https://twitter.com/kustonaut/status/1636012410308902913) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-azuredataexplorer-adx-activity-7041777256901271552-o2Mh)               |
 | 75 | Free Pluralsight Courses                  | [Link](https://twitter.com/kustonaut/status/1636382743448940546) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-adx-activity-7042147610538717184-JE2l)                           |
+| 76 | analyse impact of News on BTC Prices      | [Link](https://twitter.com/kustonaut/status/1636724179046203395) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-azuredataexplorer-adx-activity-7042489069108375552-Zvq9)               |
 
 # Assets
 
