@@ -86,6 +86,7 @@ All the day wise content for #365daysofADX
 | 75 | Free Pluralsight Courses                  | [Link](https://twitter.com/kustonaut/status/1636382743448940546) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-adx-activity-7042147610538717184-JE2l)                           |
 | 76 | Analyse impact of News on BTC Prices      | [Link](https://twitter.com/kustonaut/status/1636724179046203395) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-azuredataexplorer-adx-activity-7042489069108375552-Zvq9)               |
 | 77 | Azure Data Share with ADX                 | [Link](https://twitter.com/kustonaut/status/1637084696990433282) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-azuredataexplorer-azuredatashare-activity-7042850015878201344-th4k)    |
+| 78 | VNet Injection for ADX                    | [Link](https://twitter.com/kustonaut/status/1637421867035250694) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-azuredataexplorer-vnet-activity-7043186792883195904--OcA)              |
 
 # Assets
 
