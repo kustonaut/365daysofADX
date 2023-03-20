@@ -87,6 +87,7 @@ All the day wise content for #365daysofADX
 | 76 | Analyse impact of News on BTC Prices      | [Link](https://twitter.com/kustonaut/status/1636724179046203395) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-azuredataexplorer-adx-activity-7042489069108375552-Zvq9)               |
 | 77 | Azure Data Share with ADX                 | [Link](https://twitter.com/kustonaut/status/1637084696990433282) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-azuredataexplorer-azuredatashare-activity-7042850015878201344-th4k)    |
 | 78 | VNet Injection for ADX                    | [Link](https://twitter.com/kustonaut/status/1637423591842099200) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-azuredataexplorer-vnet-activity-7043186792883195904--OcA)              |
+| 79 | Private Endpoint for ADX                  | [Link](https://twitter.com/kustonaut/status/1637760963699982338) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-vnet-vpn-activity-7043522893871296513-MC97)                            |
 
 # Assets
 
