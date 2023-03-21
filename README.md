@@ -88,6 +88,7 @@ All the day wise content for #365daysofADX
 | 77 | Azure Data Share with ADX                 | [Link](https://twitter.com/kustonaut/status/1637084696990433282) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-azuredataexplorer-azuredatashare-activity-7042850015878201344-th4k)    |
 | 78 | VNet Injection for ADX                    | [Link](https://twitter.com/kustonaut/status/1637423591842099200) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-azuredataexplorer-vnet-activity-7043186792883195904--OcA)              |
 | 79 | Private Endpoint for ADX                  | [Link](https://twitter.com/kustonaut/status/1637760963699982338) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-vnet-vpn-activity-7043522893871296513-MC97)                            |
+| 80 | Splunk to KQL Cheat Sheet                 | [Link](https://twitter.com/kustonaut/status/1638196966722097155) | [Link](https://www.linkedin.com/posts/adxkusto_splunk-to-kusto-query-language-map-activity-7043961470417547264-yzbU)               |
 
 # Assets
 
