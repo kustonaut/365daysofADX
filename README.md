@@ -90,6 +90,8 @@ All the day wise content for #365daysofADX
 | 79 | Private Endpoint for ADX                  | [Link](https://twitter.com/kustonaut/status/1637760963699982338) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-vnet-vpn-activity-7043522893871296513-MC97)                            |
 | 80 | Splunk to KQL Cheat Sheet                 | [Link](https://twitter.com/kustonaut/status/1638196966722097155) | [Link](https://www.linkedin.com/posts/adxkusto_splunk-to-kusto-query-language-map-activity-7043961470417547264-yzbU)               |
 | 81 | E2E Blob Ingestion using C#               | [Link](https://twitter.com/kustonaut/status/1638538176217096199) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-adx-azure-activity-7044303241978785792-FS5i)                           |
+| 82 | E2E Blob Ingestion using Python           | [Link](https://twitter.com/kustonaut/status/1638940715290861576) | [Link](https://www.linkedin.com/posts/adxkusto_python-365daysofadx-adx-activity-7044705229656764416-MDKX)                          |
+
 
 # Assets
 
