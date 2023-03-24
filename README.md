@@ -91,6 +91,7 @@ All the day wise content for #365daysofADX
 | 80 | Splunk to KQL Cheat Sheet                 | [Link](https://twitter.com/kustonaut/status/1638196966722097155) | [Link](https://www.linkedin.com/posts/adxkusto_splunk-to-kusto-query-language-map-activity-7043961470417547264-yzbU)               |
 | 81 | E2E Blob Ingestion using C#               | [Link](https://twitter.com/kustonaut/status/1638538176217096199) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-adx-azure-activity-7044303241978785792-FS5i)                           |
 | 82 | E2E Blob Ingestion using Python           | [Link](https://twitter.com/kustonaut/status/1638940715290861576) | [Link](https://www.linkedin.com/posts/adxkusto_python-365daysofadx-adx-activity-7044705229656764416-MDKX)                          |
+| 83 | Historical Data Ingestion using wizard    | [Link](https://twitter.com/kustonaut/status/1639316866777726991) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-azuredataexplorer-lightingest-activity-7045079155759013889-V8A4)       |
 
 
 # Assets
