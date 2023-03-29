@@ -96,6 +96,7 @@ All the day wise content for #365daysofADX
 | 85 | ADX Web UI Keyboard Shortcuts             | [Link](https://twitter.com/kustonaut/status/1640042765982507008) | [Link](https://www.linkedin.com/posts/adxkusto_adx-web-ui-keyboard-shortcuts-activity-7045807360186933248-iUmU)                    |
 | 86 | IoT Reference Architecture with ADX       | [Link](https://twitter.com/kustonaut/status/1640294597237563393) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-azure-iot-activity-7046059639947337728-9IeW)                           |
 | 87 | ADX as key component in MS Data&AI Stack  | [Link](https://twitter.com/kustonaut/status/1640568238697332736) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-dataanalytics-machinelearning-activity-7046332188404912128-XtNC)       |
+| 88 | RabbitMQ to ADX via Event Hubs            | [Link](https://twitter.com/kustonaut/status/1641023984924782595) | [Link](https://www.linkedin.com/posts/adxkusto_importing-data-from-rabbitmq-into-azure-data-activity-7046787883684249602-dTUj)     |
 
 # Assets
 
