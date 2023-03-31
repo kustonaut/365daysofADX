@@ -98,7 +98,7 @@ All the day wise content for #365daysofADX
 | 87 | ADX as key component in MS Data&AI Stack  | [Link](https://twitter.com/kustonaut/status/1640568238697332736) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-dataanalytics-machinelearning-activity-7046332188404912128-XtNC)       |
 | 88 | RabbitMQ to ADX via Event Hubs            | [Link](https://twitter.com/kustonaut/status/1641023984924782595) | [Link](https://www.linkedin.com/posts/adxkusto_importing-data-from-rabbitmq-into-azure-data-activity-7046787883684249602-dTUj)     |
 | 89 | KQL Query Best Practices                  | [Link](https://twitter.com/kustonaut/status/1641311566782922754) | [Link](https://www.linkedin.com/posts/adxkusto_kql-query-best-practices-activity-7047076462905966593--wE0)                         |
-| 90 | KQL Query Best Practices                  | [Link](https://twitter.com/kustonaut/status/1641720726406266880) | [Link](https://www.linkedin.com/posts/adxkusto_unlimited-advanced-hunting-for-microsoft-activity-7047485345537388545-4qCL)                         |
+| 90 | Defender to ADX                           | [Link](https://twitter.com/kustonaut/status/1641720726406266880) | [Link](https://www.linkedin.com/posts/adxkusto_unlimited-advanced-hunting-for-microsoft-activity-7047485345537388545-4qCL)         |
 
 # Assets
 
