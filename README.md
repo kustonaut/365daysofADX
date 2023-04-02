@@ -100,6 +100,7 @@ All the day wise content for #365daysofADX
 | 89 | KQL Query Best Practices                  | [Link](https://twitter.com/kustonaut/status/1641311566782922754) | [Link](https://www.linkedin.com/posts/adxkusto_kql-query-best-practices-activity-7047076462905966593--wE0)                         |
 | 90 | Defender to ADX                           | [Link](https://twitter.com/kustonaut/status/1641720726406266880) | [Link](https://www.linkedin.com/posts/adxkusto_unlimited-advanced-hunting-for-microsoft-activity-7047485345537388545-4qCL)         |
 | 91 | ADX L300: Overview, Ingestion & KQL       | [Link](https://twitter.com/kustonaut/status/1642068702626562050) | [Link](https://www.linkedin.com/posts/adxkusto_azure-data-explorer-l300-workshop-overview-activity-7047833104916389888-Aptf)       |
+| 92 | ADX L300: Hands-On Lab                    | [Link](https://twitter.com/kustonaut/status/1642509719246962689) | [Link](https://www.linkedin.com/posts/adxkusto_azure-data-explorer-l300-workshop-hands-on-activity-7048273709073145856-aURn)       |
 
 # Assets
 
