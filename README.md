@@ -8,7 +8,7 @@ The aim of #365daysofADX is to get started with Azure Data Explorer(ADX) a.k.a. 
 All the day wise content for #365daysofADX
 
 | Day | Topic                                     | Twitter Post | LinkedIn Post |
-| --- | ----------------------------------------- | ------------ | ------------- |
+| --- | ---------------------------------------------------- | ------------ | ------------- |
 | 1  | Free cluster                              | [Link](https://twitter.com/kustonaut/status/1609583295540649984) | [Link](https://www.linkedin.com/posts/dixitakshay_365daysofadx-kusto-365daysofadx-activity-7015347995281879040-Haj7/)              |
 | 2  | Create Database                           | [Link](https://twitter.com/kustonaut/status/1609954828163350528) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-adx-kql-activity-7015718959287005184-JXW3/)                            |
 | 3  | Print Operator                            | [Link](https://twitter.com/kustonaut/status/1610303236111765505) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-adx-azuredataexplorer-activity-7016067183193534464-8eZl/)              |
@@ -101,6 +101,8 @@ All the day wise content for #365daysofADX
 | 90 | Defender to ADX                           | [Link](https://twitter.com/kustonaut/status/1641720726406266880) | [Link](https://www.linkedin.com/posts/adxkusto_unlimited-advanced-hunting-for-microsoft-activity-7047485345537388545-4qCL)         |
 | 91 | ADX L300: Overview, Ingestion & KQL       | [Link](https://twitter.com/kustonaut/status/1642068702626562050) | [Link](https://www.linkedin.com/posts/adxkusto_azure-data-explorer-l300-workshop-overview-activity-7047833104916389888-Aptf)       |
 | 92 | ADX L300: Hands-On Lab                    | [Link](https://twitter.com/kustonaut/status/1642509719246962689) | [Link](https://www.linkedin.com/posts/adxkusto_azure-data-explorer-l300-workshop-hands-on-activity-7048273709073145856-aURn)       |
+| 93 | ADX L300: TS Analytics, High concurrency Apps and Visalization | [Link](https://twitter.com/kustonaut/status/1643067149995393027) | [Link](https://www.linkedin.com/posts/adxkusto_azure-data-explorer-l300-workshop-time-activity-7048832335458230272-r98X)           |
+
 
 # Assets
 
