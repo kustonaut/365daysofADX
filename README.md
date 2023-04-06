@@ -102,7 +102,8 @@ All the day wise content for #365daysofADX
 | 91 | ADX L300: Overview, Ingestion & KQL       | [Link](https://twitter.com/kustonaut/status/1642068702626562050) | [Link](https://www.linkedin.com/posts/adxkusto_azure-data-explorer-l300-workshop-overview-activity-7047833104916389888-Aptf)       |
 | 92 | ADX L300: Hands-On Lab                    | [Link](https://twitter.com/kustonaut/status/1642509719246962689) | [Link](https://www.linkedin.com/posts/adxkusto_azure-data-explorer-l300-workshop-hands-on-activity-7048273709073145856-aURn)       |
 | 93 | ADX L300: TS Analytics, High concurrency Apps and Visalization | [Link](https://twitter.com/kustonaut/status/1643067149995393027) | [Link](https://www.linkedin.com/posts/adxkusto_azure-data-explorer-l300-workshop-time-activity-7048832335458230272-r98X)           |
-| 93 | Leaderboard with Kafka and ADX            | [Link](https://twitter.com/kustonaut/status/1643477600214429699) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-adx-kafka-activity-7049241748778139648-oeYq)                           |
+| 94 | Leaderboard with Kafka and ADX            | [Link](https://twitter.com/kustonaut/status/1643477600214429699) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-adx-kafka-activity-7049241748778139648-oeYq)                           |
+| 95 | Technology behind ADX Engine V3           | [Link](https://twitter.com/kustonaut/status/1643834818755457024) | [Link](https://www.linkedin.com/posts/adxkusto_the-new-technology-behind-adx-performance-activity-7049598946104467458-owfk)        |
 
 
 
