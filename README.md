@@ -104,6 +104,7 @@ All the day wise content for #365daysofADX
 | 93 | ADX L300: TS Analytics, High concurrency Apps and Visalization | [Link](https://twitter.com/kustonaut/status/1643067149995393027) | [Link](https://www.linkedin.com/posts/adxkusto_azure-data-explorer-l300-workshop-time-activity-7048832335458230272-r98X)           |
 | 94 | Leaderboard with Kafka and ADX            | [Link](https://twitter.com/kustonaut/status/1643477600214429699) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-adx-kafka-activity-7049241748778139648-oeYq)                           |
 | 95 | Technology behind ADX Engine V3           | [Link](https://twitter.com/kustonaut/status/1643834818755457024) | [Link](https://www.linkedin.com/posts/adxkusto_the-new-technology-behind-adx-performance-activity-7049598946104467458-owfk)        |
+| 96 | Understanding Extents(Data Shards) in ADX | [Link](https://twitter.com/kustonaut/status/1644227130769694721) | [Link](https://www.linkedin.com/posts/adxkusto_understanding-extents-activity-7049992359224254465-MaBf)                            |
 
 
 
