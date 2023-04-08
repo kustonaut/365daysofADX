@@ -105,6 +105,8 @@ All the day wise content for #365daysofADX
 | 94 | Leaderboard with Kafka and ADX            | [Link](https://twitter.com/kustonaut/status/1643477600214429699) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-adx-kafka-activity-7049241748778139648-oeYq)                           |
 | 95 | Technology behind ADX Engine V3           | [Link](https://twitter.com/kustonaut/status/1643834818755457024) | [Link](https://www.linkedin.com/posts/adxkusto_the-new-technology-behind-adx-performance-activity-7049598946104467458-owfk)        |
 | 96 | Understanding Extents(Data Shards) in ADX | [Link](https://twitter.com/kustonaut/status/1644227130769694721) | [Link](https://www.linkedin.com/posts/adxkusto_understanding-extents-activity-7049992359224254465-MaBf)                            |
+| 97 | Query Performance with Time Filters       | [Link](https://twitter.com/kustonaut/status/1644339259233701888) | [Link](https://www.linkedin.com/posts/adxkusto_query-performance-with-time-filter-activity-7050104941658411008-5yqk)               |
+
 
 
 
