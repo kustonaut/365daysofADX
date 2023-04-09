@@ -107,8 +107,7 @@ All the day wise content for #365daysofADX
 | 96 | Understanding Extents(Data Shards) in ADX | [Link](https://twitter.com/kustonaut/status/1644227130769694721) | [Link](https://www.linkedin.com/posts/adxkusto_understanding-extents-activity-7049992359224254465-MaBf)                            |
 | 97 | Query Performance with Time Filters       | [Link](https://twitter.com/kustonaut/status/1644339259233701888) | [Link](https://www.linkedin.com/posts/adxkusto_query-performance-with-time-filter-activity-7050104941658411008-5yqk)               |
 | 98 | Cache & Retention Policies in ADX         | [Link](https://twitter.com/kustonaut/status/1644550455836508161) | [Link](https://www.linkedin.com/posts/adxkusto_adx-cache-retention-policies-activity-7050315638912819200-4Soc)                     |
-
-
+| 99 | Query Results Cache                       | [Link](https://twitter.com/kustonaut/status/1644905473597112320) | [Link](https://www.linkedin.com/posts/adxkusto_query-performance-results-cache-activity-7050671166822199296-jPtW)                  |
 
 
 # Assets
