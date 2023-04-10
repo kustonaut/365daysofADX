@@ -108,6 +108,7 @@ All the day wise content for #365daysofADX
 | 97 | Query Performance with Time Filters       | [Link](https://twitter.com/kustonaut/status/1644339259233701888) | [Link](https://www.linkedin.com/posts/adxkusto_query-performance-with-time-filter-activity-7050104941658411008-5yqk)               |
 | 98 | Cache & Retention Policies in ADX         | [Link](https://twitter.com/kustonaut/status/1644550455836508161) | [Link](https://www.linkedin.com/posts/adxkusto_adx-cache-retention-policies-activity-7050315638912819200-4Soc)                     |
 | 99 | Query Results Cache                       | [Link](https://twitter.com/kustonaut/status/1644905473597112320) | [Link](https://www.linkedin.com/posts/adxkusto_query-performance-results-cache-activity-7050671166822199296-jPtW)                  |
+| 100 | Managed Ingestion                       | [Link](https://twitter.com/kustonaut/status/1645267860393189376) | [Link](https://www.linkedin.com/posts/adxkusto_managed-ingestion-activity-7051033555425984512-fgy1)                  |
 
 
 # Assets
