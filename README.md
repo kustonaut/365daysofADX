@@ -110,6 +110,7 @@ All the day wise content for #365daysofADX
 | 99 | Query Results Cache                       | [Link](https://twitter.com/kustonaut/status/1644905473597112320) | [Link](https://www.linkedin.com/posts/adxkusto_query-performance-results-cache-activity-7050671166822199296-jPtW)                  |
 | 100 | Managed Ingestion                        | [Link](https://twitter.com/kustonaut/status/1645267860393189376) | [Link](https://www.linkedin.com/posts/adxkusto_managed-ingestion-activity-7051033555425984512-fgy1)                                |
 | 101 | ADX Ingestion Insights                   | [Link](https://twitter.com/kustonaut/status/1645630248271372289) | [Link](https://www.linkedin.com/posts/adxkusto_azure-data-explorer-ingestion-insights-activity-7051395945011261440-MJ9B)           |
+| 102 | One-Click Ingestion for Event Hub        | [Link](https://twitter.com/kustonaut/status/1645992638028431365) | [Link](https://www.linkedin.com/posts/adxkusto_azure-data-explorer-one-click-ingestion-for-activity-7051758330444230656-gjFp)      |
 
 
 # Assets
