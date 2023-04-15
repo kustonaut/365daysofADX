@@ -113,6 +113,7 @@ All the day wise content for #365daysofADX
 | 102 | One-Click Ingestion for Event Hub        | [Link](https://twitter.com/kustonaut/status/1645992638028431365) | [Link](https://www.linkedin.com/posts/adxkusto_azure-data-explorer-one-click-ingestion-for-activity-7051758330444230656-gjFp)      |
 | 103 | One-Click Ingestion Tutorial             | [Link](https://twitter.com/kustonaut/status/1646355024061054980) | [Link](https://www.linkedin.com/posts/adxkusto_easy-ingestion-activity-7052120717995180033-OqRv)      |
 | 104 | Transforming IoT data in ADX using KQL   | [Link](https://twitter.com/kustonaut/status/1646717413201960961) | [Link](https://www.linkedin.com/posts/adxkusto_transforming-iot-data-with-kql-activity-7052483115830652931-oFvH)      |
+| 105 | Update Policy                            | [Link](https://twitter.com/kustonaut/status/1647079800337756162) | [Link](https://www.linkedin.com/posts/adxkusto_update-policy-activity-7052845494867271680-gQj2)      |
 
 # Assets
 
