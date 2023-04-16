@@ -114,6 +114,7 @@ All the day wise content for #365daysofADX
 | 103 | One-Click Ingestion Tutorial             | [Link](https://twitter.com/kustonaut/status/1646355024061054980) | [Link](https://www.linkedin.com/posts/adxkusto_easy-ingestion-activity-7052120717995180033-OqRv)      |
 | 104 | Transforming IoT data in ADX using KQL   | [Link](https://twitter.com/kustonaut/status/1646717413201960961) | [Link](https://www.linkedin.com/posts/adxkusto_transforming-iot-data-with-kql-activity-7052483115830652931-oFvH)      |
 | 105 | Update Policy                            | [Link](https://twitter.com/kustonaut/status/1647079800337756162) | [Link](https://www.linkedin.com/posts/adxkusto_update-policy-activity-7052845494867271680-gQj2)      |
+| 106 | Update Policy Pattern                    | [Link](https://twitter.com/kustonaut/status/1647442189268443138) | [Link](https://www.linkedin.com/posts/adxkusto_update-policy-patterns-activity-7053207880891604992-YcnG)      |
 
 # Assets
 
