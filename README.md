@@ -191,7 +191,8 @@ All the day wise content for #365daysofADX
 
 | Day | Topic                                     | Twitter Post | LinkedIn Post |
 | --- | ---------------------------------------------------- | ------------ | ------------- |
-| 106 | Update Policy Pattern                    | [Link](https://twitter.com/kustonaut/status/1647442189268443138) | [Link](https://www.linkedin.com/posts/adxkusto_update-policy-patterns-activity-7053207880891604992-YcnG)      |
+| 106 | Update Policy Patterns                   | [Link](https://twitter.com/kustonaut/status/1647442189268443138) | [Link](https://www.linkedin.com/posts/adxkusto_update-policy-patterns-activity-7053207880891604992-YcnG)      |
+| 107 | E2E Deployment with Arm Template         | [Link](https://twitter.com/kustonaut/status/1647804576538427394) | [Link](https://www.linkedin.com/posts/adxkusto_adx-end-to-end-deployment-with-arm-template-activity-7053570273991606273-iUYt)      |
 
 # Assets
 
