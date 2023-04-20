@@ -195,6 +195,7 @@ All the day wise content for #365daysofADX
 | 107 | E2E Deployment with Arm Template         | [Link](https://twitter.com/kustonaut/status/1647804576538427394) | [Link](https://www.linkedin.com/posts/adxkusto_adx-end-to-end-deployment-with-arm-template-activity-7053570273991606273-iUYt)      |
 | 108 | F1 Telemetry Analysis with ADX           | [Link](https://twitter.com/kustonaut/status/1648166965582897153) | [Link](https://www.linkedin.com/posts/adxkusto_formula-1-telemetry-analytics-with-adx-activity-7053932656769560576-inXB)      |
 | 109 | Kusto Emulator Installation              | [Link](https://twitter.com/kustonaut/status/1648529355625181185) | [Link](https://www.linkedin.com/posts/adxkusto_kusto-emulator-activity-7054295046451343360-4ygT)      |
+| 110 | ADX Detailed Overview by John Savill     | [Link](https://twitter.com/kustonaut/status/1648891739644600323) | [Link](https://www.linkedin.com/posts/adxkusto_azure-data-explorer-adx-overview-activity-7054657436875403264-zLN3)      |
 
 # Assets
 
