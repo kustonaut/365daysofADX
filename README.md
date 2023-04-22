@@ -196,6 +196,7 @@ All the day wise content for #365daysofADX
 | 108 | F1 Telemetry Analysis with ADX           | [Link](https://twitter.com/kustonaut/status/1648166965582897153) | [Link](https://www.linkedin.com/posts/adxkusto_formula-1-telemetry-analytics-with-adx-activity-7053932656769560576-inXB)      |
 | 109 | Kusto Emulator Installation              | [Link](https://twitter.com/kustonaut/status/1648529355625181185) | [Link](https://www.linkedin.com/posts/adxkusto_kusto-emulator-activity-7054295046451343360-4ygT)      |
 | 110 | ADX Detailed Overview by John Savill     | [Link](https://twitter.com/kustonaut/status/1648891739644600323) | [Link](https://www.linkedin.com/posts/adxkusto_azure-data-explorer-adx-overview-activity-7054657436875403264-zLN3)      |
+| 111 | ADX for Data Scientists                  | [Link](https://twitter.com/kustonaut/status/1649254129754165249) | [Link](https://www.linkedin.com/posts/adxkusto_azure-data-explorer-for-data-scientists-activity-7055019823931564032-2lG8)      |
 
 # Assets
 
