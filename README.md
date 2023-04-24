@@ -204,6 +204,7 @@ All the day wise content for #365daysofADX
 | Day | Topic                                     | Twitter Post | LinkedIn Post |
 | --- | ---------------------------------------------------- | ------------ | ------------- |
 | 113 | Azure Friday: In-Place Data Share         | [Link](https://twitter.com/kustonaut/status/1649978903589539842) | [Link](https://www.linkedin.com/posts/adxkusto_how-to-share-data-in-place-from-azure-data-activity-7055744597439782912-zjvS)      |
+| 114 | Top 3 Scenarios to use ADX                | [Link](https://twitter.com/kustonaut/status/1650341292516458497) | [Link](https://www.linkedin.com/posts/adxkusto_azure-data-explorer-top-3-scenarios-where-activity-7056106988673339392-zea0)      |
 
 # Assets
 
