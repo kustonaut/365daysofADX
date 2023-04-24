@@ -197,7 +197,13 @@ All the day wise content for #365daysofADX
 | 109 | Kusto Emulator Installation              | [Link](https://twitter.com/kustonaut/status/1648529355625181185) | [Link](https://www.linkedin.com/posts/adxkusto_kusto-emulator-activity-7054295046451343360-4ygT)      |
 | 110 | ADX Detailed Overview by John Savill     | [Link](https://twitter.com/kustonaut/status/1648891739644600323) | [Link](https://www.linkedin.com/posts/adxkusto_azure-data-explorer-adx-overview-activity-7054657436875403264-zLN3)      |
 | 111 | ADX for Data Scientists                  | [Link](https://twitter.com/kustonaut/status/1649254129754165249) | [Link](https://www.linkedin.com/posts/adxkusto_azure-data-explorer-for-data-scientists-activity-7055019823931564032-2lG8)      |
-| 111 | KQL Overview by John Savill              | [Link](https://twitter.com/kustonaut/status/1649616514918543369) | [Link](https://www.linkedin.com/posts/adxkusto_kusto-query-language-kql-overview-activity-7055382219854348288-0Vjd)      |
+| 112 | KQL Overview by John Savill              | [Link](https://twitter.com/kustonaut/status/1649616514918543369) | [Link](https://www.linkedin.com/posts/adxkusto_kusto-query-language-kql-overview-activity-7055382219854348288-0Vjd)      |
+
+## Week 17
+
+| Day | Topic                                     | Twitter Post | LinkedIn Post |
+| --- | ---------------------------------------------------- | ------------ | ------------- |
+| 113 | Azure Friday: In-Place Data Share         | [Link](https://twitter.com/kustonaut/status/1649978903589539842) | [Link](https://www.linkedin.com/posts/adxkusto_how-to-share-data-in-place-from-azure-data-activity-7055744597439782912-zjvS)      |
 
 # Assets
 
