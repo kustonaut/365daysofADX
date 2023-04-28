@@ -203,11 +203,12 @@ All the day wise content for #365daysofADX
 
 | Day | Topic                                     | Twitter Post | LinkedIn Post |
 | --- | ---------------------------------------------------- | ------------ | ------------- |
-| 113 | Azure Friday: In-Place Data Share         | [Link](https://twitter.com/kustonaut/status/1649978903589539842) | [Link](https://www.linkedin.com/posts/adxkusto_how-to-share-data-in-place-from-azure-data-activity-7055744597439782912-zjvS)      |
-| 114 | Top 3 Scenarios to use ADX                | [Link](https://twitter.com/kustonaut/status/1650341292516458497) | [Link](https://www.linkedin.com/posts/adxkusto_azure-data-explorer-top-3-scenarios-where-activity-7056106988673339392-zea0)       |
-| 115 | High Performance Data Stack using ADX     | [Link](https://twitter.com/kustonaut/status/1650703678465245186) | [Link](https://www.linkedin.com/posts/adxkusto_building-an-advanced-practice-using-azure-activity-7056469375129632768-pqPO)       |
-| 116 | Use trained Azure ML Model in ADX         | [Link](https://twitter.com/kustonaut/status/1651066067857424384) | [Link](https://www.linkedin.com/posts/adxkusto_how-to-use-trained-azure-machine-learning-activity-7056831767751593984-0FFA)       |
-| 117 | CosmosDB to ADX through Synapse Link      | [Link](https://twitter.com/kustonaut/status/1651428456612364291) | [Link](https://www.linkedin.com/posts/adxkusto_azure-cosmos-db-to-azure-data-explorer-synapse-activity-7057194148235218944-Zf-J)  |
+| 113 | Azure Friday: In-Place Data Share           | [Link](https://twitter.com/kustonaut/status/1649978903589539842) | [Link](https://www.linkedin.com/posts/adxkusto_how-to-share-data-in-place-from-azure-data-activity-7055744597439782912-zjvS)      |
+| 114 | Top 3 Scenarios to use ADX                  | [Link](https://twitter.com/kustonaut/status/1650341292516458497) | [Link](https://www.linkedin.com/posts/adxkusto_azure-data-explorer-top-3-scenarios-where-activity-7056106988673339392-zea0)       |
+| 115 | High Performance Data Stack using ADX       | [Link](https://twitter.com/kustonaut/status/1650703678465245186) | [Link](https://www.linkedin.com/posts/adxkusto_building-an-advanced-practice-using-azure-activity-7056469375129632768-pqPO)       |
+| 116 | Use trained Azure ML Model in ADX           | [Link](https://twitter.com/kustonaut/status/1651066067857424384) | [Link](https://www.linkedin.com/posts/adxkusto_how-to-use-trained-azure-machine-learning-activity-7056831767751593984-0FFA)       |
+| 117 | CosmosDB to ADX through Synapse Link        | [Link](https://twitter.com/kustonaut/status/1651428456612364291) | [Link](https://www.linkedin.com/posts/adxkusto_azure-cosmos-db-to-azure-data-explorer-synapse-activity-7057194148235218944-Zf-J)  |
+| 118 | Data Analytics with ADX (BI Consulting Pro) | [Link](https://twitter.com/kustonaut/status/1651790843085242370) | [Link](https://www.linkedin.com/posts/adxkusto_what-is-azure-data-explorer-how-to-perform-activity-7057556548943757312-XKDv)      |
 
 # Assets
 
