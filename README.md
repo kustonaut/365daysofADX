@@ -215,7 +215,7 @@ All the day wise content for #365daysofADX
 
 | Day | Topic                                     | Twitter Post | LinkedIn Post |
 | --- | ---------------------------------------------------- | ------------ | ------------- |
-| 120 | ADX Customer Success Story: Husky| [Link](https://twitter.com/kustonaut/status/1652515618648727553) | [Link](https://www.linkedin.com/posts/adxkusto_husky-technologies-remote-monitoring-solution-activity-7058281312041734144-08UF)      |
+| 120 | ADX Customer Success Story: Husky| [Link](https://twitter.com/kustonaut/status/1652515618648727553) | [Link](https://www.linkedin.com/posts/adxkusto_husky-technologies-remote-monitoring-solution-activity-7058281312041734144-08UF)|
 
 # Assets
 
