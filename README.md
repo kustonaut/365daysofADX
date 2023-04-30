@@ -209,6 +209,8 @@ All the day wise content for #365daysofADX
 | 116 | Use trained Azure ML Model in ADX           | [Link](https://twitter.com/kustonaut/status/1651066067857424384) | [Link](https://www.linkedin.com/posts/adxkusto_how-to-use-trained-azure-machine-learning-activity-7056831767751593984-0FFA)       |
 | 117 | CosmosDB to ADX through Synapse Link        | [Link](https://twitter.com/kustonaut/status/1651428456612364291) | [Link](https://www.linkedin.com/posts/adxkusto_azure-cosmos-db-to-azure-data-explorer-synapse-activity-7057194148235218944-Zf-J)  |
 | 118 | Data Analytics with ADX (BI Consulting Pro) | [Link](https://twitter.com/kustonaut/status/1651790843085242370) | [Link](https://www.linkedin.com/posts/adxkusto_what-is-azure-data-explorer-how-to-perform-activity-7057556548943757312-XKDv)      |
+| 119 | Data Analytics for Automotive test fleets   | [Link](https://twitter.com/kustonaut/status/1652153231269826561) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-kql-activity-7057918923098251264-mILU)      |
+
 
 # Assets
 
