@@ -211,6 +211,11 @@ All the day wise content for #365daysofADX
 | 118 | Data Analytics with ADX (BI Consulting Pro) | [Link](https://twitter.com/kustonaut/status/1651790843085242370) | [Link](https://www.linkedin.com/posts/adxkusto_what-is-azure-data-explorer-how-to-perform-activity-7057556548943757312-XKDv)      |
 | 119 | Data Analytics for Automotive test fleets   | [Link](https://twitter.com/kustonaut/status/1652153231269826561) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-kql-activity-7057918923098251264-mILU)      |
 
+## Week 18
+
+| Day | Topic                                     | Twitter Post | LinkedIn Post |
+| --- | ---------------------------------------------------- | ------------ | ------------- |
+| 120 | ADX Customer Success Story: Husky| [Link](https://twitter.com/kustonaut/status/1652515618648727553) | [Link](https://www.linkedin.com/posts/adxkusto_husky-technologies-remote-monitoring-solution-activity-7058281312041734144-08UF)      |
 
 # Assets
 
