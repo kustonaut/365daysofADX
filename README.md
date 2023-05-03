@@ -217,6 +217,7 @@ All the day wise content for #365daysofADX
 | --- | ---------------------------------------------------- | ------------ | ------------- |
 | 120 | ADX Customer Success Story: Husky| [Link](https://twitter.com/kustonaut/status/1652515618648727553) | [Link](https://www.linkedin.com/posts/adxkusto_husky-technologies-remote-monitoring-solution-activity-7058281312041734144-08UF)|
 | 121 | Log Clustering in ADX | [Link](https://twitter.com/kustonaut/status/1652920713286922241) | [Link](https://www.linkedin.com/posts/adxkusto_log-clustering-in-azure-data-explorer-activity-7058685555877830656-jCCU)|
+| 122 | 5 Reasons to use CosmosDB to ADX Integration | [Link](https://twitter.com/kustonaut/status/1653258280351969280) | [Link](https://www.linkedin.com/posts/adxkusto_5-reasons-to-use-cosmos-db-to-azure-data-activity-7059022584712937473-dV1Y)|
 
 # Assets
 
