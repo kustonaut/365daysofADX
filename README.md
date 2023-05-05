@@ -220,6 +220,7 @@ All the day wise content for #365daysofADX
 | 122 | 5 Reasons to use CosmosDB to ADX Integration | [Link](https://twitter.com/kustonaut/status/1653258280351969280) | [Link](https://www.linkedin.com/posts/adxkusto_5-reasons-to-use-cosmos-db-to-azure-data-activity-7059022584712937473-dV1Y)|
 | 123 | ADX + Uptake Success Stories | [Link](https://twitter.com/kustonaut/status/1653626776155983874) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-data-azure-activity-7059391314366275584-NoKo)|
 | 124 | Automotive demos | [Link](https://twitter.com/kustonaut/status/1653993812606459904) | [Link](https://www.linkedin.com/posts/adxkusto_github-microsoftadx-automotive-demos-activity-7059758778757373953-xypv)|
+| 125 | Setup dev environment to use Kusto client libraries | [Link](https://twitter.com/kustonaut/status/1654377945849548801) | [Link](https://www.linkedin.com/posts/adxkusto_set-up-your-development-environment-to-use-activity-7060142716101308416-K4uM)|
 
 
 # Assets
