@@ -223,10 +223,12 @@ All the day wise content for #365daysofADX
 | 125 | Setup dev environment to use Kusto client libraries | [Link](https://twitter.com/kustonaut/status/1654377945849548801) | [Link](https://www.linkedin.com/posts/adxkusto_set-up-your-development-environment-to-use-activity-7060142716101308416-K4uM)|
 | 126 | Content Delivery Network Analytics  | [Link](https://twitter.com/kustonaut/status/1654689947201474562) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-cdn-kusto-activity-7060455643291299840-8lKe)|
 
+## Week 19
+
 | Day | Topic                                     | Twitter Post | LinkedIn Post |
 | --- | ---------------------------------------------------- | ------------ | ------------- |
-| 127 | ADX Customer Success Story: ZF Planks| [Link](https://twitter.com/kustonaut/status/1655052333443842049) | [Link]
-(https://www.linkedin.com/posts/adxkusto_digital-manufacturing-platform-zf-plants-activity-7060818027197403136-avPc)|
+| 127 | ADX Customer Success Story: ZF Plants| [Link](https://twitter.com/kustonaut/status/1655052333443842049) | [Link](https://www.linkedin.com/posts/adxkusto_digital-manufacturing-platform-zf-plants-activity-7060818027197403136-avPc)|
+
 # Assets
 
 This folder contains the assets used to create the social posts.
