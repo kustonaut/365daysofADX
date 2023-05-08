@@ -228,6 +228,7 @@ All the day wise content for #365daysofADX
 | Day | Topic                                     | Twitter Post | LinkedIn Post |
 | --- | ---------------------------------------------------- | ------------ | ------------- |
 | 127 | ADX Customer Success Story: ZF Plants| [Link](https://twitter.com/kustonaut/status/1655052333443842049) | [Link](https://www.linkedin.com/posts/adxkusto_digital-manufacturing-platform-zf-plants-activity-7060818027197403136-avPc)|
+| 128 | ADX + Data Mastery: Partner Blogs | [Link](https://twitter.com/kustonaut/status/1655451457716641793) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-data-azure-activity-7061216291524591616-GrdA)|
 
 # Assets
 
