@@ -230,6 +230,7 @@ All the day wise content for #365daysofADX
 | 127 | ADX Customer Success Story: ZF Plants| [Link](https://twitter.com/kustonaut/status/1655052333443842049) | [Link](https://www.linkedin.com/posts/adxkusto_digital-manufacturing-platform-zf-plants-activity-7060818027197403136-avPc)|
 | 128 | ADX + Data Mastery: Partner Blogs | [Link](https://twitter.com/kustonaut/status/1655451457716641793) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-data-azure-activity-7061216291524591616-GrdA)|
 | 129 | Connecting PowerBI to ADX on private endpoint | [Link](https://twitter.com/kustonaut/status/1655918596902768640) | [Link](https://www.linkedin.com/posts/adxkusto_connecting-from-power-bi-to-adx-on-a-private-activity-7061683286279897090-JzeB)|
+| 130 | Observability using ADX | [Link](https://twitter.com/kustonaut/status/1656136443360845824) | [Link](https://www.linkedin.com/posts/adxkusto_observability-using-adx-activity-7061901075963928576-xxL9)|
 
 # Assets
 
