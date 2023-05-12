@@ -232,6 +232,7 @@ All the day wise content for #365daysofADX
 | 129 | Connecting PowerBI to ADX on private endpoint | [Link](https://twitter.com/kustonaut/status/1655918596902768640) | [Link](https://www.linkedin.com/posts/adxkusto_connecting-from-power-bi-to-adx-on-a-private-activity-7061683286279897090-JzeB)|
 | 130 | Observability using ADX | [Link](https://twitter.com/kustonaut/status/1656136443360845824) | [Link](https://www.linkedin.com/posts/adxkusto_observability-using-adx-activity-7061901075963928576-xxL9)|
 | 131 | #HelloKusto: Create your first ADX client app | [Link](https://twitter.com/kustonaut/status/1656527032292102144) | [Link](https://www.linkedin.com/posts/adxkusto_hello-kusto-create-your-first-app-azure-activity-7062291263730913280-tJ_S)|
+| 132 | KQL Cheat Sheets | [Link](https://twitter.com/kustonaut/status/1656869433825173506) | [Link](https://www.linkedin.com/posts/adxkusto_azure-data-explorer-kql-cheat-sheets-activity-7062634419496398848-r8no)|
 
 # Assets
 
