@@ -233,7 +233,7 @@ All the day wise content for #365daysofADX
 | 130 | Observability using ADX | [Link](https://twitter.com/kustonaut/status/1656136443360845824) | [Link](https://www.linkedin.com/posts/adxkusto_observability-using-adx-activity-7061901075963928576-xxL9)|
 | 131 | #HelloKusto: Create your first ADX client app | [Link](https://twitter.com/kustonaut/status/1656527032292102144) | [Link](https://www.linkedin.com/posts/adxkusto_hello-kusto-create-your-first-app-azure-activity-7062291263730913280-tJ_S)|
 | 132 | KQL Cheat Sheets | [Link](https://twitter.com/kustonaut/status/1656869433825173506) | [Link](https://www.linkedin.com/posts/adxkusto_azure-data-explorer-kql-cheat-sheets-activity-7062634419496398848-r8no)|
-| 133 | Long Term Security Log Retention | [Link](https://twitter.com/kustonaut/status/1657226661354512388) | [Link](hhttps://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-kql-activity-7062992355317940224-15gL)|
+| 133 | Long Term Security Log Retention | [Link](https://twitter.com/kustonaut/status/1657226661354512388) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-kql-activity-7062992355317940224-15gL)|
 
 # Assets
 
