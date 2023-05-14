@@ -239,6 +239,8 @@ All the day wise content for #365daysofADX
 
 | Day | Topic                                     | Twitter Post | LinkedIn Post |
 | --- | ---------------------------------------------------- | ------------ | ------------- |
+| 134 | Customer Success Story: Mobirix | [Link](https://twitter.com/kustonaut/status/1657631829812207622) | [Link](https://www.linkedin.com/posts/adxkusto_the-global-mobile-game-developer-and-publisher-activity-7063354741992431616-8OiA)|
+
 
 # Assets
 
