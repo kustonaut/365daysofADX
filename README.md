@@ -235,6 +235,11 @@ All the day wise content for #365daysofADX
 | 132 | KQL Cheat Sheets | [Link](https://twitter.com/kustonaut/status/1656869433825173506) | [Link](https://www.linkedin.com/posts/adxkusto_azure-data-explorer-kql-cheat-sheets-activity-7062634419496398848-r8no)|
 | 133 | Long Term Security Log Retention | [Link](https://twitter.com/kustonaut/status/1657226661354512388) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-kql-activity-7062992355317940224-15gL)|
 
+## Week 20
+
+| Day | Topic                                     | Twitter Post | LinkedIn Post |
+| --- | ---------------------------------------------------- | ------------ | ------------- |
+
 # Assets
 
 This folder contains the assets used to create the social posts.
