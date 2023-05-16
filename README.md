@@ -241,6 +241,7 @@ All the day wise content for #365daysofADX
 | --- | ---------------------------------------------------- | ------------ | ------------- |
 | 134 | Customer Success Story: Mobirix | [Link](https://twitter.com/kustonaut/status/1657631829812207622) | [Link](https://www.linkedin.com/posts/adxkusto_the-global-mobile-game-developer-and-publisher-activity-7063354741992431616-8OiA)|
 | 135 | ADX + MAQ Software: Partner Blogs | [Link](https://twitter.com/kustonaut/status/1657963035091410947) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-data-azure-activity-7063728125263699968-S6-C)|
+| 136 | Stream Analytics to ADX | [Link](https://twitter.com/kustonaut/status/1658356485699563521) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-azuredataexplorer-azurestreamanalytics-activity-7064120489325002752-prvj)|
 
 
 # Assets
