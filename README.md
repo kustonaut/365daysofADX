@@ -245,6 +245,7 @@ All the day wise content for #365daysofADX
 | 137 | Serilog to ADX | [Link](https://twitter.com/kustonaut/status/1658704433688240128) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-serilog-adx-activity-7064467702542741506-BlNM)|
 | 138 | Create an app to run basic queries | [Link](https://twitter.com/kustonaut/status/1659069195139555328) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-data-azure-activity-7064833939001028608-KrD6)|
 | 139 | Share Queries from ADX Web UI | [Link](https://twitter.com/kustonaut/status/1659522008743391235) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-azure-data-activity-7065286944796160000-J_ZA)|
+| 140 | Geospatial Data Processing and Analytics using ADX | [Link](https://twitter.com/kustonaut/status/1659763376002863104) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-kql-activity-7065529069152387072-CQdh)|
 
 # Assets
 
