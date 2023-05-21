@@ -247,6 +247,12 @@ All the day wise content for #365daysofADX
 | 139 | Share Queries from ADX Web UI | [Link](https://twitter.com/kustonaut/status/1659522008743391235) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-azure-data-activity-7065286944796160000-J_ZA)|
 | 140 | Geospatial Data Processing and Analytics using ADX | [Link](https://twitter.com/kustonaut/status/1659763376002863104) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-kql-activity-7065529069152387072-CQdh)|
 
+## Week 21
+
+| Day | Topic                                     | Twitter Post | LinkedIn Post |
+| --- | ---------------------------------------------------- | ------------ | ------------- |
+| 141 | Customer Success Story: financial Fabric| [Link](https://twitter.com/kustonaut/status/1660125763734228994) | [Link](https://www.linkedin.com/posts/adxkusto_ny-fintech-streamlines-buy-side-data-analysis-activity-7065891457852710912-vZFW)|
+
 # Assets
 
 This folder contains the assets used to create the social posts.
