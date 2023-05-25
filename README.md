@@ -254,7 +254,8 @@ All the day wise content for #365daysofADX
 | 141 | Customer Success Story: financial Fabric| [Link](https://twitter.com/kustonaut/status/1660125763734228994) | [Link](https://www.linkedin.com/posts/adxkusto_ny-fintech-streamlines-buy-side-data-analysis-activity-7065891457852710912-vZFW)|
 | 142 | ADX + Option 4.0: Customer Success Story - Buhler Insights| [Link](https://twitter.com/kustonaut/status/1660537033977393153) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-microsoft-azure-activity-7066302163982913537-VerE)|
 | 143 | Architecting Multi-Tenant Solution with ADX | [Link](https://twitter.com/kustonaut/status/1661067216211804161) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-azure-data-activity-7066830865623920640-6ltD)|
-| 144 | .Net Applications to ADX via NLog| [Link](https://twitter.com/kustonaut/status/1661410597257515009) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-adx-activity-7067174665974079488-CuCX)|
+| 144 | .Net Applications to ADX via NLog | [Link](https://twitter.com/kustonaut/status/1661410597257515009) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-adx-activity-7067174665974079488-CuCX)|
+| 145 | Real-Time Analytics in Fabric | [Link](https://twitter.com/kustonaut/status/1661583840757047296) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-microsoft-data-activity-7067348955637907456-_Qel)|
 
 # Assets
 
