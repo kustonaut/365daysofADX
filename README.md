@@ -259,6 +259,11 @@ All the day wise content for #365daysofADX
 | 146 | Fluent-Bit to ADX | [Link](https://twitter.com/kustonaut/status/1661989263809064960) | [Link](https://www.linkedin.com/posts/adxkusto_getting-started-with-fluent-bit-and-azure-activity-7067754198477455360-JCxq)|
 | 147 | IoT Analytics with ADX | [Link](https://twitter.com/kustonaut/status/1662300090189647873) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-kql-activity-7068065787789361152-Jw_A)|
 
+## Week 22
+
+| Day | Topic                                     | Twitter Post | LinkedIn Post |
+| --- | ---------------------------------------------------- | ------------ | ------------- |
+| 148 | Real-Time Analytics in Fabric: Intro Blog| [Link](https://twitter.com/kustonaut/status/1662909991421120512) | [Link](https://www.linkedin.com/posts/adxkusto_sense-analyze-and-generate-insights-with-activity-7068674618479304704-oR9v)|
 
 # Assets
 
