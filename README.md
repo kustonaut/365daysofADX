@@ -257,6 +257,7 @@ All the day wise content for #365daysofADX
 | 144 | .Net Applications to ADX via NLog | [Link](https://twitter.com/kustonaut/status/1661410597257515009) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-adx-activity-7067174665974079488-CuCX)|
 | 145 | Real-Time Analytics in Fabric | [Link](https://twitter.com/kustonaut/status/1661583840757047296) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-microsoft-data-activity-7067348955637907456-_Qel)|
 | 146 | Fluent-Bit to ADX | [Link](https://twitter.com/kustonaut/status/1661989263809064960) | [Link](https://www.linkedin.com/posts/adxkusto_getting-started-with-fluent-bit-and-azure-activity-7067754198477455360-JCxq)|
+| 147 | IoT Analytics with ADX | [Link](https://twitter.com/kustonaut/status/1662300090189647873) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-kql-activity-7068065787789361152-Jw_A)|
 
 
 # Assets
