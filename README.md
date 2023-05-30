@@ -264,7 +264,9 @@ All the day wise content for #365daysofADX
 | Day | Topic                                     | Twitter Post | LinkedIn Post |
 | --- | ---------------------------------------------------- | ------------ | ------------- |
 | 148 | Real-Time Analytics in Fabric: Intro Blog| [Link](https://twitter.com/kustonaut/status/1662909991421120512) | [Link](https://www.linkedin.com/posts/adxkusto_sense-analyze-and-generate-insights-with-activity-7068674618479304704-oR9v)|
-| 149 | Get Data from OneLake into Real-Time Analytics| [Link](https://twitter.com/kustonaut/status/1663024464832131072) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-onelake-microsoftfabric-activity-7068788687391592448-6y5j)|
+| 149 | Get Data from OneLake into Real-Time Analytics | [Link](https://twitter.com/kustonaut/status/1663024464832131072) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-onelake-microsoftfabric-activity-7068788687391592448-6y5j)|
+| 150 | Kusto Detective Agency - Season 2 | [Link](https://twitter.com/kustonaut/status/1663423192197894145) | [Link](https://www.linkedin.com/posts/adxkusto_kusto-detective-agency-season-2-activity-7069187721142894592-lsT4)|
+
 
 # Assets
 
