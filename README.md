@@ -268,7 +268,7 @@ All the day wise content for #365daysofADX
 | 150 | Kusto Detective Agency - Season 2 | [Link](https://twitter.com/kustonaut/status/1663423192197894145) | [Link](https://www.linkedin.com/posts/adxkusto_kusto-detective-agency-season-2-activity-7069187721142894592-lsT4)|
 | 151 | ADX Export - Techniques and Strategies | [Link](https://twitter.com/kustonaut/status/1663024464832131072) | [Link](https://www.linkedin.com/posts/adxkusto_techniques-and-strategies-for-optimal-performance-activity-7069582282516238337-mD6S)|
 | 152 | ADX Build 2023 Announcements | [Link](https://twitter.com/kustonaut/status/1664165237879365635) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-adx-kustofreeclusters-activity-7069930210292285441-mKWN)|
-
+| 153 | ADX Web UI "Quick FIx" Capabilities | [Link](https://twitter.com/kustonaut/status/1664533729203855361) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kql-kusto-activity-7070298096437477377-YPn9)|
 
 # Assets
 
