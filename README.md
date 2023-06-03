@@ -269,6 +269,7 @@ All the day wise content for #365daysofADX
 | 151 | ADX Export - Techniques and Strategies | [Link](https://twitter.com/kustonaut/status/1663024464832131072) | [Link](https://www.linkedin.com/posts/adxkusto_techniques-and-strategies-for-optimal-performance-activity-7069582282516238337-mD6S)|
 | 152 | ADX Build 2023 Announcements | [Link](https://twitter.com/kustonaut/status/1664165237879365635) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-adx-kustofreeclusters-activity-7069930210292285441-mKWN)|
 | 153 | ADX Web UI "Quick FIx" Capabilities | [Link](https://twitter.com/kustonaut/status/1664533729203855361) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kql-kusto-activity-7070298096437477377-YPn9)|
+| 154 | Interactive Analytics with ADX | [Link](https://twitter.com/kustonaut/status/1664836805328351232) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-kql-activity-7070602505591676928-5Bvo)|
 
 # Assets
 
