@@ -271,6 +271,12 @@ All the day wise content for #365daysofADX
 | 153 | ADX Web UI "Quick FIx" Capabilities | [Link](https://twitter.com/kustonaut/status/1664533729203855361) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kql-kusto-activity-7070298096437477377-YPn9)|
 | 154 | Interactive Analytics with ADX | [Link](https://twitter.com/kustonaut/status/1664836805328351232) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-kql-activity-7070602505591676928-5Bvo)|
 
+## Week 23
+
+| Day | Topic                                     | Twitter Post | LinkedIn Post |
+| --- | ---------------------------------------------------- | ------------ | ------------- |
+| 148 | ADX Web UI Query Overview | [Link](https://twitter.com/kustonaut/status/1665363967517298688) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kql-kusto-activity-7071129222756376576-jQDV)|
+
 # Assets
 
 This folder contains the assets used to create the social posts.
