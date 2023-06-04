@@ -275,7 +275,7 @@ All the day wise content for #365daysofADX
 
 | Day | Topic                                     | Twitter Post | LinkedIn Post |
 | --- | ---------------------------------------------------- | ------------ | ------------- |
-| 148 | ADX Web UI Query Overview | [Link](https://twitter.com/kustonaut/status/1665363967517298688) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kql-kusto-activity-7071129222756376576-jQDV)|
+| 155 | ADX Web UI Query Overview | [Link](https://twitter.com/kustonaut/status/1665363967517298688) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kql-kusto-activity-7071129222756376576-jQDV)|
 
 # Assets
 
