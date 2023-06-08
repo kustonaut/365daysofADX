@@ -279,6 +279,7 @@ All the day wise content for #365daysofADX
 | 156 | Real Time Analytics Guidebook by Brian Bonk | [Link](https://twitter.com/kustonaut/status/1665757522358337536) | [Link](https://www.linkedin.com/posts/adxkusto_microsoft-fabric-real-time-analytics-guidebook-activity-7071521333192310785-y_OE)|
 | 157 | Real Time Analytics Guidebook by Brian Bonk | [Link](https://twitter.com/kustonaut/status/1666140171463696386) | [Link](https://www.linkedin.com/posts/adxkusto_simplifying-data-streamingfrom-event-hubs-activity-7071904588722749440-GbBq)|
 | 158 | KQL funtion to get info from IP Address | [Link](https://twitter.com/kustonaut/status/1666375712864108544) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kql-kusto-activity-7072140727140458496-VIT1)|
+| 159 | bag_zip() to merge 2 dynamic arrays into key value pairs | [Link](https://twitter.com/kustonaut/status/1666677775854632962) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kql-kusto-activity-7072440613761105920-1tWG)|
 
 # Assets
 
