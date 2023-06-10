@@ -281,6 +281,7 @@ All the day wise content for #365daysofADX
 | 158 | KQL funtion to get info from IP Address | [Link](https://twitter.com/kustonaut/status/1666375712864108544) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kql-kusto-activity-7072140727140458496-VIT1)|
 | 159 | bag_zip() to merge 2 dynamic arrays into key value pairs | [Link](https://twitter.com/kustonaut/status/1666677775854632962) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kql-kusto-activity-7072440613761105920-1tWG)|
 | 160 | bag_zip() to merge 2 dynamic arrays into key value pairs | [Link](https://twitter.com/kustonaut/status/1667150366256005121) | [Link](https://www.linkedin.com/posts/adxkusto_microsoftfabric-realtimeanalytics-365daysofadx-activity-7072905432175976448-Cxws)|
+| 161 | Big Data Analytics with Azure Data Explorer | [Link](https://twitter.com/kustonaut/status/1667373521574477825) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-kql-activity-7073139216364257280-XSTO)|
 
 # Assets
 
