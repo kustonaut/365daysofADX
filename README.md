@@ -288,6 +288,7 @@ All the day wise content for #365daysofADX
 | Day | Topic                                     | Twitter Post | LinkedIn Post |
 | --- | ---------------------------------------------------- | ------------ | ------------- |
 | 162 | ADX Customer Success Story: LinkedIn | [Link](https://twitter.com/kustonaut/status/1667735909448695813) | [Link](https://www.linkedin.com/posts/adxkusto_linkedin-simplifies-log-management-with-azure-activity-7073501601801379840-AWtE)|
+| 163 | ADX User Analytics Plugins | [Link](https://twitter.com/kustonaut/status/1668124172206358528) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-funnels-activity-7073889198952300544-Nn7f?utm_source=share)|
 
 
 # Assets
