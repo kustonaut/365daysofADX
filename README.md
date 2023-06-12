@@ -283,6 +283,13 @@ All the day wise content for #365daysofADX
 | 160 | Get Data in Microsoft Fabric Real Time Analytics | [Link](https://twitter.com/kustonaut/status/1667150366256005121) | [Link](https://www.linkedin.com/posts/adxkusto_microsoftfabric-realtimeanalytics-365daysofadx-activity-7072905432175976448-Cxws)|
 | 161 | Big Data Analytics with Azure Data Explorer | [Link](https://twitter.com/kustonaut/status/1667373521574477825) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-kql-activity-7073139216364257280-XSTO)|
 
+## Week 24
+
+| Day | Topic                                     | Twitter Post | LinkedIn Post |
+| --- | ---------------------------------------------------- | ------------ | ------------- |
+| 162 | ADX Customer Success Story: LinkedIn | [Link](https://twitter.com/kustonaut/status/1667735909448695813) | [Link](https://www.linkedin.com/posts/adxkusto_linkedin-simplifies-log-management-with-azure-activity-7073501601801379840-AWtE)|
+
+
 # Assets
 
 This folder contains the assets used to create the social posts.
