@@ -293,6 +293,7 @@ All the day wise content for #365daysofADX
 | 165 | Difference b/w Real-Time Analytics in Fabric and ADX | [Link](https://twitter.com/kustonaut/status/1668983321848696834) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-realtimeanalytics-saas-activity-7074747641313603584-sfBA)|
 | 166 | Kusto Emulator on Linux | [Link](https://twitter.com/kustonaut/status/1669386925487292418) | [Link](https://www.linkedin.com/posts/adxkusto_kusto-emulator-on-linux-activity-7075152103618285568-ST6h)|
 | 167 | ADX Function Types | [Link](https://twitter.com/kustonaut/status/1669767253578100738) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kql-kusto-activity-7075532521874030593-Vc8C)|
+| 167 | ADX + Azure Monitor + Azure Sentinel | [Link](https://twitter.com/kustonaut/status/1669910236482744320) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-kql-activity-7075675928726577152-eIol)|
 
 
 # Assets
