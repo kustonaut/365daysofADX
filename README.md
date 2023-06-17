@@ -290,10 +290,10 @@ All the day wise content for #365daysofADX
 | 162 | ADX Customer Success Story: LinkedIn | [Link](https://twitter.com/kustonaut/status/1667735909448695813) | [Link](https://www.linkedin.com/posts/adxkusto_linkedin-simplifies-log-management-with-azure-activity-7073501601801379840-AWtE)|
 | 163 | ADX User Analytics Plugins | [Link](https://twitter.com/kustonaut/status/1668124172206358528) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-funnels-activity-7073889198952300544-Nn7f?utm_source=share)|
 | 164 | View and Optimize KQL queries from PowerBI to ADX | [Link](https://twitter.com/kustonaut/status/1668556219408330752) | [Link](https://www.linkedin.com/posts/adxkusto_using-show-queries-to-understand-and-optimize-activity-7074320928142204928-09WD)|
-| 165 | Difference b/w Real-Time Analytics in Fabric and ADX | [Link](https://twitter.com/kustonaut/status/1668983321848696834) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-realtimeanalytics-saas-activity-7074747641313603584-sfBA)|
+| 165 | TeachJing's KQL Tutorial Series | [Link](https://twitter.com/kustonaut/status/1670118733057265664) | [Link](https://www.linkedin.com/posts/adxkusto_kql-365daysofadx-adx-activity-7075883762013659136-AQ4U)|
 | 166 | Kusto Emulator on Linux | [Link](https://twitter.com/kustonaut/status/1669386925487292418) | [Link](https://www.linkedin.com/posts/adxkusto_kusto-emulator-on-linux-activity-7075152103618285568-ST6h)|
 | 167 | ADX Function Types | [Link](https://twitter.com/kustonaut/status/1669767253578100738) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kql-kusto-activity-7075532521874030593-Vc8C)|
-| 167 | ADX + Azure Monitor + Azure Sentinel | [Link](https://twitter.com/kustonaut/status/1669910236482744320) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-kql-activity-7075675928726577152-eIol)|
+| 168 | ADX + Azure Monitor + Azure Sentinel | [Link](https://twitter.com/kustonaut/status/1669910236482744320) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-kql-activity-7075675928726577152-eIol)|
 
 
 # Assets
