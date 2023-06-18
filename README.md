@@ -295,6 +295,11 @@ All the day wise content for #365daysofADX
 | 167 | ADX Function Types | [Link](https://twitter.com/kustonaut/status/1669767253578100738) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kql-kusto-activity-7075532521874030593-Vc8C)|
 | 168 | ADX + Azure Monitor + Azure Sentinel | [Link](https://twitter.com/kustonaut/status/1669910236482744320) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-kql-activity-7075675928726577152-eIol)|
 
+## Week 25
+
+| Day | Topic                                     | Twitter Post | LinkedIn Post |
+| --- | ---------------------------------------------------- | ------------ | ------------- |
+| 169 | ADX Customer Success Story: Microsoft 365 Defender | [Link](https://twitter.com/kustonaut/status/1670272624268541954) | [Link](https://www.linkedin.com/posts/adxkusto_azure-data-explorer-analyzes-petabytes-of-activity-7076038324217331712-45Hd)|
 
 # Assets
 
