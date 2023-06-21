@@ -301,6 +301,7 @@ All the day wise content for #365daysofADX
 | --- | ---------------------------------------------------- | ------------ | ------------- |
 | 169 | ADX Customer Success Story: Microsoft 365 Defender | [Link](https://twitter.com/kustonaut/status/1670272624268541954) | [Link](https://www.linkedin.com/posts/adxkusto_azure-data-explorer-analyzes-petabytes-of-activity-7076038324217331712-45Hd)|
 | 170 | How to choose b/w materialized views & update policies| [Link](https://twitter.com/kustonaut/status/1670646919713161217) | [Link](https://www.linkedin.com/posts/adxkusto_materializedviews-updatepolicies-365daysofadx-activity-7076410716307566593-_aJN)|
+| 171 | Optimise ADX for High Concurrency | [Link](https://twitter.com/kustonaut/status/1671157521598517252) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-adx-kusto-activity-7076921219727466496-st9v)|
 
 # Assets
 
