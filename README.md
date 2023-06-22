@@ -303,6 +303,7 @@ All the day wise content for #365daysofADX
 | 170 | How to choose b/w materialized views & update policies| [Link](https://twitter.com/kustonaut/status/1670646919713161217) | [Link](https://www.linkedin.com/posts/adxkusto_materializedviews-updatepolicies-365daysofadx-activity-7076410716307566593-_aJN)|
 | 171 | Optimise ADX for High Concurrency | [Link](https://twitter.com/kustonaut/status/1671157521598517252) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-adx-kusto-activity-7076921219727466496-st9v)|
 | 172 | Visualize data from ADX in Grafana | [Link](https://twitter.com/kustonaut/status/1671457574972186624) | [Link](https://www.linkedin.com/posts/adxkusto_visualize-data-from-azure-data-explorer-in-activity-7077220798398107648-SQXo)|
+| 173 | MustLearnKQL Video Series by David Hall | [Link](https://twitter.com/kustonaut/status/1671925621637935104) | [Link](https://www.linkedin.com/posts/adxkusto_mustlearnkql-365daysofadx-kql-activity-7077690707741687808-5smD)|
 
 # Assets
 
