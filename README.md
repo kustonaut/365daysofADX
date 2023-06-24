@@ -305,6 +305,7 @@ All the day wise content for #365daysofADX
 | 172 | Visualize data from ADX in Grafana | [Link](https://twitter.com/kustonaut/status/1671457574972186624) | [Link](https://www.linkedin.com/posts/adxkusto_visualize-data-from-azure-data-explorer-in-activity-7077220798398107648-SQXo)|
 | 173 | MustLearnKQL Video Series by David Hall | [Link](https://twitter.com/kustonaut/status/1671925621637935104) | [Link](https://www.linkedin.com/posts/adxkusto_mustlearnkql-365daysofadx-kql-activity-7077690707741687808-5smD)|
 | 174 | ADX: Storage authentication methods| [Link](https://twitter.com/kustonaut/status/1672282213004505088) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kql-kusto-activity-7078047473746739201-7NjZ)|
+| 175 | ADX: SKU Options | [Link](https://twitter.com/kustonaut/status/1672554772681957377) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-adx-kusto-activity-7078320157747552256-fT6Z)|
 
 # Assets
 
