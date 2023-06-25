@@ -307,6 +307,12 @@ All the day wise content for #365daysofADX
 | 174 | ADX: Storage authentication methods| [Link](https://twitter.com/kustonaut/status/1672282213004505088) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kql-kusto-activity-7078047473746739201-7NjZ)|
 | 175 | ADX: SKU Options | [Link](https://twitter.com/kustonaut/status/1672554772681957377) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-adx-kusto-activity-7078320157747552256-fT6Z)|
 
+## Week 26
+
+| Day | Topic                                     | Twitter Post | LinkedIn Post |
+| --- | ---------------------------------------------------- | ------------ | ------------- |
+| 176 | ADX External Table using Web UI Wizard | [Link](https://twitter.com/kustonaut/status/1672984274671378432) | [Link](https://www.linkedin.com/posts/adxkusto_externaltable-webui-365daysofadx-activity-7078749391565578240-8LkI)|
+
 # Assets
 
 This folder contains the assets used to create the social posts.
