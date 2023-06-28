@@ -314,6 +314,7 @@ All the day wise content for #365daysofADX
 | 176 | ADX External Table using Web UI Wizard | [Link](https://twitter.com/kustonaut/status/1672984274671378432) | [Link](https://www.linkedin.com/posts/adxkusto_externaltable-webui-365daysofadx-activity-7078749391565578240-8LkI)|
 | 177 | ADX Table Batching Policy using Web UI Wizard | [Link](https://twitter.com/kustonaut/status/1673245111550111744) | [Link](https://www.linkedin.com/posts/adxkusto_ingestion-batchingpolicy-webui-activity-7079010267241603072-O_TU)|
 | 178 | ADX for Vector Similarity search | [Link](https://twitter.com/kustonaut/status/1673756039055810581) | [Link](https://www.linkedin.com/posts/adxkusto_azure-data-explorer-for-vector-similarity-activity-7079520948948746240-qRp2)|
+| 179 | Ingest streaming data into ADX EventHub & Databricks | [Link](https://twitter.com/kustonaut/status/1673962107245850627) | [Link](https://www.linkedin.com/posts/adxkusto_ingest-streaming-data-using-azure-event-hub-activity-7079727243509342209-331W)|
 
 # Assets
 
