@@ -315,6 +315,7 @@ All the day wise content for #365daysofADX
 | 177 | ADX Table Batching Policy using Web UI Wizard | [Link](https://twitter.com/kustonaut/status/1673245111550111744) | [Link](https://www.linkedin.com/posts/adxkusto_ingestion-batchingpolicy-webui-activity-7079010267241603072-O_TU)|
 | 178 | ADX for Vector Similarity search | [Link](https://twitter.com/kustonaut/status/1673756039055810581) | [Link](https://www.linkedin.com/posts/adxkusto_azure-data-explorer-for-vector-similarity-activity-7079520948948746240-qRp2)|
 | 179 | Ingest streaming data into ADX EventHub & Databricks | [Link](https://twitter.com/kustonaut/status/1673962107245850627) | [Link](https://www.linkedin.com/posts/adxkusto_ingest-streaming-data-using-azure-event-hub-activity-7079727243509342209-331W)|
+| 180 | KQL Conversion Functions | [Link](https://twitter.com/kustonaut/status/1674487437215817728) | [Link](https://www.linkedin.com/posts/adxkusto_introducing-conversion-functions-in-kql-activity-7080251884363554816-QiIH)|
 
 # Assets
 
