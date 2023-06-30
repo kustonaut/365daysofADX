@@ -316,6 +316,7 @@ All the day wise content for #365daysofADX
 | 178 | ADX for Vector Similarity search | [Link](https://twitter.com/kustonaut/status/1673756039055810581) | [Link](https://www.linkedin.com/posts/adxkusto_azure-data-explorer-for-vector-similarity-activity-7079520948948746240-qRp2)|
 | 179 | Ingest streaming data into ADX EventHub & Databricks | [Link](https://twitter.com/kustonaut/status/1673962107245850627) | [Link](https://www.linkedin.com/posts/adxkusto_ingest-streaming-data-using-azure-event-hub-activity-7079727243509342209-331W)|
 | 180 | KQL Conversion Functions | [Link](https://twitter.com/kustonaut/status/1674487437215817728) | [Link](https://www.linkedin.com/posts/adxkusto_introducing-conversion-functions-in-kql-activity-7080251884363554816-QiIH)|
+| 181 | Entity Types in ADX | [Link](https://twitter.com/kustonaut/status/1674773713701728259) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-azuredataexplorer-kusto-activity-7080538432854196225-_jCV)|
 
 # Assets
 
