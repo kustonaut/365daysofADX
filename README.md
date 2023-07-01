@@ -317,6 +317,7 @@ All the day wise content for #365daysofADX
 | 179 | Ingest streaming data into ADX EventHub & Databricks | [Link](https://twitter.com/kustonaut/status/1673962107245850627) | [Link](https://www.linkedin.com/posts/adxkusto_ingest-streaming-data-using-azure-event-hub-activity-7079727243509342209-331W)|
 | 180 | KQL Conversion Functions | [Link](https://twitter.com/kustonaut/status/1674487437215817728) | [Link](https://www.linkedin.com/posts/adxkusto_introducing-conversion-functions-in-kql-activity-7080251884363554816-QiIH)|
 | 181 | Entity Types in ADX | [Link](https://twitter.com/kustonaut/status/1674773713701728259) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-azuredataexplorer-kusto-activity-7080538432854196225-_jCV)|
+| 182 | Fun with KQLDB in Fabric Real-Time Analytics | [Link](https://twitter.com/kustonaut/status/1675132794106966017) | [Link](https://www.linkedin.com/posts/adxkusto_microsoftfabric-kql-365daysofadx-activity-7080897650371272704-An9U)|
 
 # Assets
 
