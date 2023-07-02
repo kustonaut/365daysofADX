@@ -319,6 +319,12 @@ All the day wise content for #365daysofADX
 | 181 | Entity Types in ADX | [Link](https://twitter.com/kustonaut/status/1674773713701728259) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-azuredataexplorer-kusto-activity-7080538432854196225-_jCV)|
 | 182 | Fun with KQLDB in Fabric Real-Time Analytics | [Link](https://twitter.com/kustonaut/status/1675132794106966017) | [Link](https://www.linkedin.com/posts/adxkusto_microsoftfabric-kql-365daysofadx-activity-7080897650371272704-An9U)|
 
+## Week 27
+
+| Day | Topic                                     | Twitter Post | LinkedIn Post |
+| --- | ---------------------------------------------------- | ------------ | ------------- |
+| 183 | New Generation Cachec Recommendations for ADX | [Link](https://twitter.com/kustonaut/status/1675437076236615681) | [Link](https://www.linkedin.com/posts/adxkusto_new-generation-of-cache-recommendations-for-activity-7081201933381701632-XemB)|
+
 # Assets
 
 This folder contains the assets used to create the social posts.
