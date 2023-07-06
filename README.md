@@ -327,6 +327,7 @@ All the day wise content for #365daysofADX
 | 184 | MustLearnKQL e-book by Rod Trent | [Link](https://twitter.com/kustonaut/status/1675716388344983552) | [Link](https://www.linkedin.com/posts/adxkusto_mustlearnkqlpdf-activity-7081480925724782592-pWJX)|
 | 185 | KQL Threat Hunting Hub by Kijo | [Link](https://twitter.com/kustonaut/status/1676105179018698752) | [Link](https://www.linkedin.com/posts/adxkusto_github-learningkijokql-threat-hunting-activity-7081864590111686656--Fqn)|
 | 186 | KQL External Data Operator | [Link](https://twitter.com/kustonaut/status/1676577532408381440) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-azuredataexplorer-azuremonitor-activity-7082342364404416512-Y91s)|
+| 187 | Plotly Visualizations in ADX | [Link](https://twitter.com/kustonaut/status/1676921144509706251) | [Link](https://www.linkedin.com/posts/adxkusto_plotly-visualizations-in-azure-data-explorer-activity-7082686222267015169-xxgr)|
 
 # Assets
 
