@@ -329,6 +329,7 @@ All the day wise content for #365daysofADX
 | 186 | KQL External Data Operator | [Link](https://twitter.com/kustonaut/status/1676577532408381440) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-azuredataexplorer-azuremonitor-activity-7082342364404416512-Y91s)|
 | 187 | Plotly Visualizations in ADX | [Link](https://twitter.com/kustonaut/status/1676921144509706251) | [Link](https://www.linkedin.com/posts/adxkusto_plotly-visualizations-in-azure-data-explorer-activity-7082686222267015169-xxgr)|
 | 188 | Parse queries & commands with Kusto.Language | [Link](https://twitter.com/kustonaut/status/1677189543378976774) | [Link](https://www.linkedin.com/posts/adxkusto_parse-queries-and-commands-with-kustolanguage-activity-7082954388478074880-VrLU)|
+| 189 | replace_string() function | [Link](https://twitter.com/kustonaut/status/1677688684811005953) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kql-azuredataexplorer-activity-7083453423374745601-k0dU)|
 
 # Assets
 
