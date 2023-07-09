@@ -331,6 +331,12 @@ All the day wise content for #365daysofADX
 | 188 | Parse queries & commands with Kusto.Language | [Link](https://twitter.com/kustonaut/status/1677189543378976774) | [Link](https://www.linkedin.com/posts/adxkusto_parse-queries-and-commands-with-kustolanguage-activity-7082954388478074880-VrLU)|
 | 189 | replace_string() function | [Link](https://twitter.com/kustonaut/status/1677688684811005953) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kql-azuredataexplorer-activity-7083453423374745601-k0dU)|
 
+## Week 28
+
+| Day | Topic                                     | Twitter Post | LinkedIn Post |
+| --- | ---------------------------------------------------- | ------------ | ------------- |
+| 190 | Cache Policy vs Retention Policy | [Link](https://twitter.com/kustonaut/status/1678111845440425984) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-azuredataexplorer-kusto-activity-7083877068047794176-rKOx)|
+
 # Assets
 
 This folder contains the assets used to create the social posts.
