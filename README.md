@@ -336,6 +336,7 @@ All the day wise content for #365daysofADX
 | Day | Topic                                     | Twitter Post | LinkedIn Post |
 | --- | ---------------------------------------------------- | ------------ | ------------- |
 | 190 | Cache Policy vs Retention Policy | [Link](https://twitter.com/kustonaut/status/1678111845440425984) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-azuredataexplorer-kusto-activity-7083877068047794176-rKOx)|
+| 191 | Pivot Plugiin| [Link](https://twitter.com/kustonaut/status/1678287684673114112) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kql-kusto-activity-7084053022271488001-vbOo)|
 
 # Assets
 
