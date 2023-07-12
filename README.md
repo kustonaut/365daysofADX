@@ -338,6 +338,7 @@ All the day wise content for #365daysofADX
 | 190 | Cache Policy vs Retention Policy | [Link](https://twitter.com/kustonaut/status/1678111845440425984) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-azuredataexplorer-kusto-activity-7083877068047794176-rKOx)|
 | 191 | Pivot Plugiin| [Link](https://twitter.com/kustonaut/status/1678287684673114112) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kql-kusto-activity-7084053022271488001-vbOo)|
 | 192 | KQL Materialize Function| [Link](https://twitter.com/kustonaut/status/1678635397276921856) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kql-azuredataexplorer-activity-7084400517128368128-cjfg)|
+| 193 | Postgresql_request plugin| [Link](https://twitter.com/kustonaut/status/1678965971661504512) | [Link](https://www.linkedin.com/posts/adxkusto_postgresql-365daysofadx-kql-activity-7084731195124531201-YAjL)|
 
 # Assets
 
