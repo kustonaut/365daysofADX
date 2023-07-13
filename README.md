@@ -339,6 +339,7 @@ All the day wise content for #365daysofADX
 | 191 | Pivot Plugiin| [Link](https://twitter.com/kustonaut/status/1678287684673114112) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kql-kusto-activity-7084053022271488001-vbOo)|
 | 192 | KQL Materialize Function| [Link](https://twitter.com/kustonaut/status/1678635397276921856) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kql-azuredataexplorer-activity-7084400517128368128-cjfg)|
 | 193 | Postgresql_request plugin| [Link](https://twitter.com/kustonaut/status/1678965971661504512) | [Link](https://www.linkedin.com/posts/adxkusto_postgresql-365daysofadx-kql-activity-7084731195124531201-YAjL)|
+| 194 | KQL Auto Delete Policy| [Link](https://twitter.com/kustonaut/status/1679363447988060160) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kql-kusto-activity-7085128398141829121-XYS4)|
 
 # Assets
 
