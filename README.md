@@ -341,6 +341,8 @@ All the day wise content for #365daysofADX
 | 193 | Postgresql_request plugin| [Link](https://twitter.com/kustonaut/status/1678965971661504512) | [Link](https://www.linkedin.com/posts/adxkusto_postgresql-365daysofadx-kql-activity-7084731195124531201-YAjL)|
 | 194 | KQL Auto Delete Policy | [Link](https://twitter.com/kustonaut/status/1679363447988060160) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kql-kusto-activity-7085128398141829121-XYS4)|
 | 195 | ADX Geolocation functions for Hunting Insights | [Link](https://twitter.com/kustonaut/status/1679693815186182145) | [Link](https://www.linkedin.com/posts/adxkusto_geospatial-365daysofadx-azuredataexplorer-activity-7085458132197343232-MlwR)|
+| 196 | ADX Database cursors | [Link](https://twitter.com/kustonaut/status/1680470585216847872) | [Link](https://www.linkedin.com/posts/adxkusto_database-cursors-activity-7086235927651454976-NV1c)|
+
 
 # Assets
 
