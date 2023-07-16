@@ -343,6 +343,12 @@ All the day wise content for #365daysofADX
 | 195 | ADX Geolocation functions for Hunting Insights | [Link](https://twitter.com/kustonaut/status/1679693815186182145) | [Link](https://www.linkedin.com/posts/adxkusto_geospatial-365daysofadx-azuredataexplorer-activity-7085458132197343232-MlwR)|
 | 196 | ADX Database cursors | [Link](https://twitter.com/kustonaut/status/1680470585216847872) | [Link](https://www.linkedin.com/posts/adxkusto_database-cursors-activity-7086235927651454976-NV1c)|
 
+## Week 29
+
+| Day | Topic                                     | Twitter Post | LinkedIn Post |
+| --- | ---------------------------------------------------- | ------------ | ------------- |
+| 197  | Comments in KQL                          | [Link](https://twitter.com/kustonaut/status/1680645158319325184) | [Link](https://www.linkedin.com/posts/adxkusto_kql-365daysofadx-syntax-activity-7086410260336275456-BAhA)              |
+
 
 # Assets
 
