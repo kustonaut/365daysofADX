@@ -348,7 +348,7 @@ All the day wise content for #365daysofADX
 | Day | Topic                                     | Twitter Post | LinkedIn Post |
 | --- | ---------------------------------------------------- | ------------ | ------------- |
 | 197  | Comments in KQL                          | [Link](https://twitter.com/kustonaut/status/1680645158319325184) | [Link](https://www.linkedin.com/posts/adxkusto_kql-365daysofadx-syntax-activity-7086410260336275456-BAhA)              |
-
+| 198  | Fundamentals of Data Analysis using KQL | [Link](https://twitter.com/kustonaut/status/1680799285921857537) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-mslearn-learningobjectives-activity-7086564591702319106-ILx_)              |
 
 # Assets
 
