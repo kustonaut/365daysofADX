@@ -349,7 +349,7 @@ All the day wise content for #365daysofADX
 | --- | ---------------------------------------------------- | ------------ | ------------- |
 | 197  | Comments in KQL                          | [Link](https://twitter.com/kustonaut/status/1680645158319325184) | [Link](https://www.linkedin.com/posts/adxkusto_kql-365daysofadx-syntax-activity-7086410260336275456-BAhA)              |
 | 198  | Fundamentals of Data Analysis using KQL | [Link](https://twitter.com/kustonaut/status/1680799285921857537) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-mslearn-learningobjectives-activity-7086564591702319106-ILx_)              |
-| 199  | Tutorial: Ingest & query #monitoring data in ADX | [Link](https://twitter.com/kustonaut/status/1681238457539231744) | [Link](https://www.linkedin.com/posts/adxkusto_tutorial-monitoring-data-activity-7087003630121156609-Yaf_)              |
+| 199  | Tutorial: Ingest & query monitoring data in ADX | [Link](https://twitter.com/kustonaut/status/1681238457539231744) | [Link](https://www.linkedin.com/posts/adxkusto_tutorial-monitoring-data-activity-7087003630121156609-Yaf_)              |
 
 
 # Assets
