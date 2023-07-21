@@ -352,6 +352,7 @@ All the day wise content for #365daysofADX
 | 199  | Tutorial: Ingest & query monitoring data in ADX | [Link](https://twitter.com/kustonaut/status/1681238457539231744) | [Link](https://www.linkedin.com/posts/adxkusto_tutorial-monitoring-data-activity-7087003630121156609-Yaf_)              |
 | 200  | Query exported data from Azure Monitor in ADX | [Link](https://twitter.com/kustonaut/status/1681606889690517508) | [Link](https://www.linkedin.com/posts/adxkusto_azuremonitor-365daysofadx-loganalytics-activity-7087371862912974849-HxcA)              |
 | 201  | Use LightIngest to ingest data into ADX | [Link](https://twitter.com/kustonaut/status/1682019244802981889) | [Link](https://www.linkedin.com/posts/adxkusto_lightingest-365daysofadx-azuredataexplorer-activity-7087784374368165889-4Qbb)              |
+| 201  | Double Encryption in ADX | [Link](https://twitter.com/kustonaut/status/1682456206122835969) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-kql-activity-7088221461668069376-h3Iv)              |
 
 
 # Assets
