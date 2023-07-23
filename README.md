@@ -359,7 +359,7 @@ All the day wise content for #365daysofADX
 
 | Day | Topic                                     | Twitter Post | LinkedIn Post |
 | --- | ---------------------------------------------------- | ------------ | ------------- |
-| 204 | Create an Event Grid data connection to ADX | [Link](https://twitter.com/kustonaut/status/1683090353862377472) | [Link](https://www.linkedin.com/posts/adxkusto_eventgrid-365daysofadx-kql-activity-7088855603225272320-OsX5)|
+| 204 | Enable ADX to listen to Azure Storage via Event Grid | [Link](https://twitter.com/kustonaut/status/1683112365418758144) | [Link](https://www.linkedin.com/posts/adxkusto_azurestorage-eventgrid-365daysofadx-activity-7088877500826566658-eOfM)|
 
 
 
