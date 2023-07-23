@@ -355,6 +355,14 @@ All the day wise content for #365daysofADX
 | 202  | Double Encryption in ADX | [Link](https://twitter.com/kustonaut/status/1682456206122835969) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-kql-activity-7088221461668069376-h3Iv)              |
 | 203  | Query data from ADX in Matlab | [Link](https://twitter.com/kustonaut/status/1682740698574131203) | [Link](https://www.linkedin.com/posts/adxkusto_matlab-365daysofadx-azuredataexplorer-activity-7088505676020219904-K9aq)              |
 
+## Week 30
+
+| Day | Topic                                     | Twitter Post | LinkedIn Post |
+| --- | ---------------------------------------------------- | ------------ | ------------- |
+| 204 | Create an Event Grid data connection to ADX | [Link](https://twitter.com/kustonaut/status/1683090353862377472) | [Link](https://www.linkedin.com/posts/adxkusto_eventgrid-365daysofadx-kql-activity-7088855603225272320-OsX5)|
+
+
+
 # Assets
 
 This folder contains the assets used to create the social posts.
