@@ -361,6 +361,7 @@ All the day wise content for #365daysofADX
 | --- | ---------------------------------------------------- | ------------ | ------------- |
 | 204 | Enable ADX to listen to Azure Storage via Event Grid | [Link](https://twitter.com/kustonaut/status/1683112365418758144) | [Link](https://www.linkedin.com/posts/adxkusto_azurestorage-eventgrid-365daysofadx-activity-7088877500826566658-eOfM)|
 | 205 | Optimizing Vector Similarity Seaarches at Scale in ADX | [Link](https://twitter.com/kustonaut/status/1683345164885172225) | [Link](https://www.linkedin.com/posts/adxkusto_optimizing-vector-similarity-searches-at-activity-7089110084911345664-ICLN)|
+| 206 | Orchestrating ADX queries using managed Apache Airflow | [Link](https://twitter.com/kustonaut/status/1683802358726402048) | [Link](https://www.linkedin.com/posts/adxkusto_airflow-365daysofadx-apacheairflow-activity-7089567415444881408-l4lt)|
 
 # Assets
 
