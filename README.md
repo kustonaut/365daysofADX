@@ -364,7 +364,8 @@ All the day wise content for #365daysofADX
 | 206 | Orchestrating ADX queries using managed Apache Airflow | [Link](https://twitter.com/kustonaut/status/1683802358726402048) | [Link](https://www.linkedin.com/posts/adxkusto_airflow-365daysofadx-apacheairflow-activity-7089567415444881408-l4lt)|
 | 207 | Building Self serve analytics with ADX and OpenAI | [Link](https://twitter.com/kustonaut/status/1684047713971884034) | [Link](https://www.linkedin.com/posts/adxkusto_startups-at-microsoft-activity-7089812632743886848-sz6j)|
 | 208 | Kusto.Explorer | [Link](https://twitter.com/kustonaut/status/1684429303658971136) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-ke-kql-activity-7090194436323721216-pTzA)|
-| 208 | Connnect ADX with ODBC | [Link](https://twitter.com/kustonaut/status/1684971997317808128) | [Link](https://www.linkedin.com/posts/adxkusto_creating-odbc-connection-with-azure-data-activity-7090736975120322560-4LRB)|
+| 209 | Connnect ADX with ODBC | [Link](https://twitter.com/kustonaut/status/1684971997317808128) | [Link](https://www.linkedin.com/posts/adxkusto_creating-odbc-connection-with-azure-data-activity-7090736975120322560-4LRB)|
+| 210 | ADX Network Isolation | [Link](https://twitter.com/kustonaut/status/1685228731454111744) | [Link](https://www.linkedin.com/posts/adxkusto_adx-network-isolation-activity-7090993747278090240-0CG_)|
 
 # Assets
 
