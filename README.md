@@ -367,6 +367,12 @@ All the day wise content for #365daysofADX
 | 209 | Connnect ADX with ODBC | [Link](https://twitter.com/kustonaut/status/1684971997317808128) | [Link](https://www.linkedin.com/posts/adxkusto_creating-odbc-connection-with-azure-data-activity-7090736975120322560-4LRB)|
 | 210 | ADX Network Isolation | [Link](https://twitter.com/kustonaut/status/1685228731454111744) | [Link](https://www.linkedin.com/posts/adxkusto_adx-network-isolation-activity-7090993747278090240-0CG_)|
 
+## Week 31
+
+| Day | Topic                                     | Twitter Post | LinkedIn Post |
+| --- | ---------------------------------------------------- | ------------ | ------------- |
+| 211 | Real-Time reports with PowerBI + Kusto | [Link](https://twitter.com/kustonaut/status/1685844662656122880) | [Link](https://www.linkedin.com/posts/adxkusto_near-real-time-reports-in-pbi-kusto-activity-7091609835481235456-vPoC)|
+
 # Assets
 
 This folder contains the assets used to create the social posts.
