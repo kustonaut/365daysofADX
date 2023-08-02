@@ -373,6 +373,7 @@ All the day wise content for #365daysofADX
 | --- | ---------------------------------------------------- | ------------ | ------------- |
 | 211 | Real-Time reports with PowerBI + Kusto | [Link](https://twitter.com/kustonaut/status/1685844662656122880) | [Link](https://www.linkedin.com/posts/adxkusto_near-real-time-reports-in-pbi-kusto-activity-7091609835481235456-vPoC)|
 | 212 | AiTM and BEC threat hunting with KQL | [Link](https://twitter.com/kustonaut/status/1686252284269985792) | [Link](https://www.linkedin.com/posts/adxkusto_aitm-bec-threat-hunting-with-kql-activity-7092017172301963264-eW4l)|
+| 213 | IoT Ingestion Patterns | [Link](https://twitter.com/kustonaut/status/1686625267979317248) | [Link](https://www.linkedin.com/posts/adxkusto_iot-ingestion-patterns-activity-7092390407027761153-kjGc)|
 
 # Assets
 
