@@ -376,6 +376,7 @@ All the day wise content for #365daysofADX
 | 213 | IoT Ingestion Patterns | [Link](https://twitter.com/kustonaut/status/1686625267979317248) | [Link](https://www.linkedin.com/posts/adxkusto_iot-ingestion-patterns-activity-7092390407027761153-kjGc)|
 | 214 | Connecting Power BI to ADX | [Link](https://twitter.com/kustonaut/status/1687012371272011776) | [Link](https://www.linkedin.com/posts/adxkusto_connecting-power-bi-to-adx-activity-7092777492406575104-640F)|
 | 215 | Anomaly Detection and Forecasting in ADX | [Link](https://twitter.com/kustonaut/status/1687470242371633152) | [Link](https://www.linkedin.com/posts/adxkusto_anomaly-detection-and-forecasting-activity-7093235577780600834-DtmG)|
+| 216 | External Tables | [Link](https://twitter.com/kustonaut/status/1687879062780583937) | [Link](https://www.linkedin.com/posts/adxkusto_external-tables-activity-7093644399368114176-luMZ)|
 
 # Assets
 
