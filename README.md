@@ -377,7 +377,7 @@ All the day wise content for #365daysofADX
 | 214 | Connecting Power BI to ADX | [Link](https://twitter.com/kustonaut/status/1687012371272011776) | [Link](https://www.linkedin.com/posts/adxkusto_connecting-power-bi-to-adx-activity-7092777492406575104-640F)|
 | 215 | Anomaly Detection and Forecasting in ADX | [Link](https://twitter.com/kustonaut/status/1687470242371633152) | [Link](https://www.linkedin.com/posts/adxkusto_anomaly-detection-and-forecasting-activity-7093235577780600834-DtmG)|
 | 216 | External Tables | [Link](https://twitter.com/kustonaut/status/1687879062780583937) | [Link](https://www.linkedin.com/posts/adxkusto_external-tables-activity-7093644399368114176-luMZ)|
-| 216 | E2E Flow for ADX WebUI| [Link](https://twitter.com/kustonaut/status/1688238145840791552) | [Link](https://www.linkedin.com/posts/adxkusto_kusto-web-interface-end-to-end-flow-activity-7094003428636397568-1FP6)|
+| 217 | E2E Flow for ADX WebUI| [Link](https://twitter.com/kustonaut/status/1688238145840791552) | [Link](https://www.linkedin.com/posts/adxkusto_kusto-web-interface-end-to-end-flow-activity-7094003428636397568-1FP6)|
 
 # Assets
 
