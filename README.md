@@ -379,6 +379,13 @@ All the day wise content for #365daysofADX
 | 216 | External Tables | [Link](https://twitter.com/kustonaut/status/1687879062780583937) | [Link](https://www.linkedin.com/posts/adxkusto_external-tables-activity-7093644399368114176-luMZ)|
 | 217 | E2E Flow for ADX WebUI| [Link](https://twitter.com/kustonaut/status/1688238145840791552) | [Link](https://www.linkedin.com/posts/adxkusto_kusto-web-interface-end-to-end-flow-activity-7094003428636397568-1FP6)|
 
+## Week 32
+
+| Day | Topic                                     | Twitter Post | LinkedIn Post |
+| --- | ---------------------------------------------------- | ------------ | ------------- |
+| 218 | ADX Dashboard Walkthrough by Gabi Lehnar | [Link](https://twitter.com/kustonaut/status/1688427105565147136) | [Link](https://www.linkedin.com/posts/adxkusto_adx-dashboards-activity-7094192001817935873-2GIh)|
+
+
 # Assets
 
 This folder contains the assets used to create the social posts.
