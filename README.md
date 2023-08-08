@@ -384,6 +384,7 @@ All the day wise content for #365daysofADX
 | Day | Topic                                     | Twitter Post | LinkedIn Post |
 | --- | ---------------------------------------------------- | ------------ | ------------- |
 | 218 | ADX Dashboard Walkthrough by Gabi Lehnar | [Link](https://twitter.com/kustonaut/status/1688427105565147136) | [Link](https://www.linkedin.com/posts/adxkusto_adx-dashboards-activity-7094192001817935873-2GIh)|
+| 219 | ADX Ingestion Hub Overview by Anshul Sharma | [Link](https://twitter.com/kustonaut/status/1688923660135120896) | [Link](https://www.linkedin.com/posts/adxkusto_ingestion-hub-ingesting-data-in-azure-data-activity-7094689029870297089-h1Js)|
 
 
 # Assets
