@@ -386,6 +386,7 @@ All the day wise content for #365daysofADX
 | 218 | ADX Dashboard Walkthrough by Gabi Lehnar | [Link](https://twitter.com/kustonaut/status/1688427105565147136) | [Link](https://www.linkedin.com/posts/adxkusto_adx-dashboards-activity-7094192001817935873-2GIh)|
 | 219 | ADX Ingestion Hub Overview by Anshul Sharma | [Link](https://twitter.com/kustonaut/status/1688923660135120896) | [Link](https://www.linkedin.com/posts/adxkusto_ingestion-hub-ingesting-data-in-azure-data-activity-7094689029870297089-h1Js)|
 | 220 | Provisioning an Azure Cosmos DB connection to ADX| [Link](https://twitter.com/kustonaut/status/1689232532162916352) | [Link](https://www.linkedin.com/posts/adxkusto_provisioning-a-cosmos-db-connection-activity-7094997691562127360-Gzx6)|
+| 221 | Provisioning an Azure Cosmos DB connection to ADX| [Link](https://twitter.com/kustonaut/status/1689476367006535684) | [Link](https://www.linkedin.com/posts/adxkusto_data-ingestion-into-azure-data-explorer-using-activity-7095240837860630528-s-YH)|
 
 
 # Assets
