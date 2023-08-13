@@ -389,6 +389,7 @@ All the day wise content for #365daysofADX
 | 221 | Provisioning an Azure Cosmos DB connection to ADX | [Link](https://twitter.com/kustonaut/status/1689476367006535684) | [Link](https://www.linkedin.com/posts/adxkusto_data-ingestion-into-azure-data-explorer-using-activity-7095240837860630528-s-YH)|
 | 222 | KQL Visualizations | [Link](https://twitter.com/kustonaut/status/1689897653507874816) | [Link](https://www.linkedin.com/posts/adxkusto_kql-visualizations-activity-7095662966301241344-QWPe)|
 | 223 | KQL Joins for Power BI | [Link](https://twitter.com/kustonaut/status/1690572701025624064) | [Link](https://www.linkedin.com/posts/adxkusto_kql-joins-in-power-bi-and-not-only-activity-7096337958013722624--_R-)|
+| 224 | Set timeout limits in ADX Web UI | [Link](https://twitter.com/kustonaut/status/1690774414651207680) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-azuredataexplorer-kusto-activity-7096539588076171264-EAeF)|
 
 
 # Assets
