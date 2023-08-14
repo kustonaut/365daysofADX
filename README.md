@@ -391,6 +391,12 @@ All the day wise content for #365daysofADX
 | 223 | KQL Joins for Power BI | [Link](https://twitter.com/kustonaut/status/1690572701025624064) | [Link](https://www.linkedin.com/posts/adxkusto_kql-joins-in-power-bi-and-not-only-activity-7096337958013722624--_R-)|
 | 224 | Set timeout limits in ADX Web UI | [Link](https://twitter.com/kustonaut/status/1690774414651207680) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-azuredataexplorer-kusto-activity-7096539588076171264-EAeF)|
 
+## Week 33
+
+| Day | Topic                                     | Twitter Post | LinkedIn Post |
+| --- | ---------------------------------------------------- | ------------ | ------------- |
+| 225 | SQL external table connection strings | [Link](https://twitter.com/kustonaut/status/1690989281542803457) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-externaltable-sql-activity-7096754549859786752-9Ao8)|
+
 
 # Assets
 
