@@ -396,6 +396,7 @@ All the day wise content for #365daysofADX
 | Day | Topic                                     | Twitter Post | LinkedIn Post |
 | --- | ---------------------------------------------------- | ------------ | ------------- |
 | 225 | SQL external table connection strings | [Link](https://twitter.com/kustonaut/status/1690989281542803457) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-externaltable-sql-activity-7096754549859786752-9Ao8)|
+| 226 | ADX as a linked server from SQL Server | [Link](https://twitter.com/kustonaut/status/1691505866326036480) | [Link](https://www.linkedin.com/posts/adxkusto_azure-data-explorer-as-linked-server-from-activity-7097271218487140352-Q5Wg)|
 
 
 # Assets
