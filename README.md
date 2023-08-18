@@ -399,7 +399,7 @@ All the day wise content for #365daysofADX
 | 226 | ADX as a linked server from SQL Server | [Link](https://twitter.com/kustonaut/status/1691505866326036480) | [Link](https://www.linkedin.com/posts/adxkusto_azure-data-explorer-as-linked-server-from-activity-7097271218487140352-Q5Wg)|
 | 227 | Sense, analyze, & generate insights with RealTimeAnalytics | [Link](https://twitter.com/kustonaut/status/1691818102080630809) | [Link](https://www.linkedin.com/posts/adxkusto_sense-analyze-and-generate-insights-with-activity-7097582510380888064-Ezh5)|
 | 228 | MS Fabric Real-Time Analytics Free Trial | [Link](https://twitter.com/kustonaut/status/1692195258464092188) | [Link](https://www.linkedin.com/posts/adxkusto_microsoft-fabric-activity-7097960323747332096-rmtE)|
-
+| 229 | What makes MS Fabric Real-Time Analytics unique? | [Link](https://twitter.com/kustonaut/status/1692417364128924016) | [Link](https://www.linkedin.com/posts/adxkusto_overview-of-real-time-analytics-in-microsoft-activity-7098182448416460800-krCH)|
 
 # Assets
 
