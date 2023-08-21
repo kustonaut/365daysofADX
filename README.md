@@ -401,6 +401,7 @@ All the day wise content for #365daysofADX
 | 228 | MS Fabric Real-Time Analytics Free Trial | [Link](https://twitter.com/kustonaut/status/1692195258464092188) | [Link](https://www.linkedin.com/posts/adxkusto_microsoft-fabric-activity-7097960323747332096-rmtE)|
 | 229 | What makes MS Fabric Real-Time Analytics unique? | [Link](https://twitter.com/kustonaut/status/1692417364128924016) | [Link](https://www.linkedin.com/posts/adxkusto_overview-of-real-time-analytics-in-microsoft-activity-7098182448416460800-krCH)|
 | 230 | Microsoft Fabric Real Time Analytics: How to Get Data into a KQL Database | [Link](https://twitter.com/kustonaut/status/1692919205258231968) | [Link](https://www.linkedin.com/posts/adxkusto_synapse-real-time-analytics-how-to-get-data-activity-7098684187372605440-KyIV)|
+| 231 | When to use MS Fabric Real Time Analytics | [Link](https://twitter.com/kustonaut/status/1693485189941305768) | [Link](https://www.linkedin.com/posts/adxkusto_overview-of-real-time-analytics-in-microsoft-activity-7099249995165409280-FAs-)|
 
 # Assets
 
