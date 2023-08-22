@@ -408,6 +408,8 @@ All the day wise content for #365daysofADX
 | Day | Topic                                     | Twitter Post | LinkedIn Post |
 | --- | ---------------------------------------------------- | ------------ | ------------- |
 | 232 |  Stream data from Eventstream into a KQL database | [Link](https://twitter.com/kustonaut/status/1693818978211156058) | [Link](https://www.linkedin.com/posts/adxkusto_synapse-real-time-analyticsstream-data-activity-7099584502590582784-yvaA)|
+| 233 |  Real-Time Analytics Integration with other experiences | [Link](https://twitter.com/kustonaut/status/1693961041502425254) | [Link](https://www.linkedin.com/posts/adxkusto_overview-of-real-time-analytics-in-microsoft-activity-7099726353452679168-ZUFl)|
+
 
 # Assets
 
