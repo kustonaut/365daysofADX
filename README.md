@@ -403,6 +403,12 @@ All the day wise content for #365daysofADX
 | 230 | Microsoft Fabric Real Time Analytics: How to Get Data into a KQL Database | [Link](https://twitter.com/kustonaut/status/1692919205258231968) | [Link](https://www.linkedin.com/posts/adxkusto_synapse-real-time-analytics-how-to-get-data-activity-7098684187372605440-KyIV)|
 | 231 | When to use MS Fabric Real Time Analytics | [Link](https://twitter.com/kustonaut/status/1693485189941305768) | [Link](https://www.linkedin.com/posts/adxkusto_overview-of-real-time-analytics-in-microsoft-activity-7099249995165409280-FAs-)|
 
+## Week 34
+
+| Day | Topic                                     | Twitter Post | LinkedIn Post |
+| --- | ---------------------------------------------------- | ------------ | ------------- |
+| 232 |  Stream data from Eventstream into a KQL database | [Link](https://twitter.com/kustonaut/status/1693818978211156058) | [Link](https://www.linkedin.com/posts/adxkusto_synapse-real-time-analyticsstream-data-activity-7099584502590582784-yvaA)|
+
 # Assets
 
 This folder contains the assets used to create the social posts.
