@@ -411,6 +411,7 @@ All the day wise content for #365daysofADX
 | 233 |  Real-Time Analytics Integration with other experiences | [Link](https://twitter.com/kustonaut/status/1693961041502425254) | [Link](https://www.linkedin.com/posts/adxkusto_overview-of-real-time-analytics-in-microsoft-activity-7099726353452679168-ZUFl)|
 | 234 |   Real-Time Analytics - Get started with KQL | [Link](https://twitter.com/kustonaut/status/1694566058898964916) | [Link](https://www.linkedin.com/posts/adxkusto_synapse-real-time-analytics-get-started-activity-7100331194621259776-Wnv1)|
 | 235 |   Real-Time Analytics Tutorial | [Link](https://twitter.com/kustonaut/status/1694957138458599574) | [Link](https://www.linkedin.com/posts/adxkusto_real-time-analytics-tutorial-introduction-activity-7100722099299729408-az6j)|
+| 236 |   ADX + Hilo: Customer Success Story | [Link](https://twitter.com/kustonaut/status/1694997656446144953) | [Link](https://www.linkedin.com/posts/adxkusto_hilo-helps-quebecers-optimize-energy-use-activity-7100762330682056704-e3pB)|
 
 
 # Assets
