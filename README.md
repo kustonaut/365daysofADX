@@ -413,6 +413,7 @@ All the day wise content for #365daysofADX
 | 235 |   Real-Time Analytics Tutorial | [Link](https://twitter.com/kustonaut/status/1694957138458599574) | [Link](https://www.linkedin.com/posts/adxkusto_real-time-analytics-tutorial-introduction-activity-7100722099299729408-az6j)|
 | 236 |   ADX + Hilo: Customer Success Story | [Link](https://twitter.com/kustonaut/status/1694997656446144953) | [Link](https://www.linkedin.com/posts/adxkusto_hilo-helps-quebecers-optimize-energy-use-activity-7100762330682056704-e3pB)|
 | 237 |   Real-Time Analytics: Stream data from eventhubs into KQL Database | [Link](https://twitter.com/kustonaut/status/1695636236700926306) | [Link](https://www.linkedin.com/posts/adxkusto_synapse-real-time-analytics-stream-data-activity-7101401714204798976-Q2Mv)|
+| 238 |   ADX + ABN AMRO: Customer Success Story | [Link](https://twitter.com/kustonaut/status/1695840345391808920) | [Link](https://www.linkedin.com/posts/adxkusto_abn-amro-bank-optimizes-financial-crime-detection-activity-7101605666892525568-yyvm)|
 
 
 # Assets
