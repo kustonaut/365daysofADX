@@ -415,6 +415,12 @@ All the day wise content for #365daysofADX
 | 237 |   Real-Time Analytics: Stream data from eventhubs into KQL Database | [Link](https://twitter.com/kustonaut/status/1695636236700926306) | [Link](https://www.linkedin.com/posts/adxkusto_synapse-real-time-analytics-stream-data-activity-7101401714204798976-Q2Mv)|
 | 238 |   ADX + ABN AMRO: Customer Success Story | [Link](https://twitter.com/kustonaut/status/1695840345391808920) | [Link](https://www.linkedin.com/posts/adxkusto_abn-amro-bank-optimizes-financial-crime-detection-activity-7101605666892525568-yyvm)|
 
+## Week 35
+
+| Day | Topic                                     | Twitter Post | LinkedIn Post |
+| --- | ---------------------------------------------------- | ------------ | ------------- |
+| 239 |  Create a KQL database in MS Fabric Real-Time Analytics | [Link](https://twitter.com/kustonaut/status/1696082064989475222) | [Link](https://www.linkedin.com/posts/adxkusto_real-time-analytics-tutorial-part-1-create-activity-7101847235256053760-Wlpr)|
+
 
 # Assets
 
