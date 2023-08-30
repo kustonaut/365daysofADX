@@ -421,7 +421,7 @@ All the day wise content for #365daysofADX
 | --- | ---------------------------------------------------- | ------------ | ------------- |
 | 239 |  Create a KQL database in MS Fabric Real-Time Analytics | [Link](https://twitter.com/kustonaut/status/1696082064989475222) | [Link](https://www.linkedin.com/posts/adxkusto_real-time-analytics-tutorial-part-1-create-activity-7101847235256053760-Wlpr)|
 | 240 |  Enable MS Fabric Real-Time Analytics in OneLake | [Link](https://twitter.com/kustonaut/status/1696571320316658014) | [Link](https://www.linkedin.com/posts/adxkusto_real-time-analytics-tutorial-part-1-create-activity-7102336430177198081-RupB)|
-
+| 241 |  Create Event Stream in Fabric Real-Time Analytics | [Link](https://twitter.com/kustonaut/status/1696744736164569170) | [Link](https://www.linkedin.com/posts/adxkusto_real-time-analytics-tutorial-part-2-get-activity-7102509991416205312-LIur)|
 
 # Assets
 
