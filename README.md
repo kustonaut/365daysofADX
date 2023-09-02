@@ -424,6 +424,7 @@ All the day wise content for #365daysofADX
 | 241 |  Create Event Stream in Fabric Real-Time Analytics | [Link](https://twitter.com/kustonaut/status/1696744736164569170) | [Link](https://www.linkedin.com/posts/adxkusto_real-time-analytics-tutorial-part-2-get-activity-7102509991416205312-LIur)|
 | 242 |  Stream data from EventStream to KQL database | [Link](https://twitter.com/kustonaut/status/1697276952544235775) | [Link](https://www.linkedin.com/posts/adxkusto_real-time-analytics-tutorial-part-2-get-activity-7103042222207492096-VH4b)|
 | 243 | 4 steps to configure data loading from Event Stream to KQL database | [Link](https://twitter.com/kustonaut/status/1697657681245508021) | [Link](https://www.linkedin.com/posts/adxkusto_real-time-analytics-tutorial-part-2-get-activity-7103423044211159040-Mj12)|
+| 243 | Step by Step: Get historical data to your #KQL database | [Link](https://twitter.com/kustonaut/status/1698030635607318914) | [Link](https://www.linkedin.com/posts/adxkusto_real-time-analytics-tutorial-part-3-get-activity-7103792740940836864-lkdQ)|
 
 # Assets
 
