@@ -427,6 +427,12 @@ All the day wise content for #365daysofADX
 | 244 | Step by Step: Get historical data to your #KQL database | [Link](https://twitter.com/kustonaut/status/1698030635607318914) | [Link](https://www.linkedin.com/posts/adxkusto_real-time-analytics-tutorial-part-3-get-activity-7103792740940836864-lkdQ)|
 | 245 | Explore your data with KQL and SQL | [Link](https://twitter.com/kustonaut/status/1698345483989827841) | [Link](https://www.linkedin.com/posts/adxkusto_real-time-analytics-tutorial-part-4-explore-activity-7104110474916446208-VD7s)|
 
+## Week 36
+
+| Day | Topic                                     | Twitter Post | LinkedIn Post |
+| --- | ---------------------------------------------------- | ------------ | ------------- |
+| 246 |  Use advanced KQL queries in MS Fabric Real-Time Analytics | [Link](https://twitter.com/kustonaut/status/1699044113373610196) | [Link](https://www.linkedin.com/posts/adxkusto_real-time-analytics-tutorial-part-5-use-activity-7104809280477814785-ohx_)|
+
 # Assets
 
 This folder contains the assets used to create the social posts.
