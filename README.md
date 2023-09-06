@@ -432,6 +432,7 @@ All the day wise content for #365daysofADX
 | Day | Topic                                     | Twitter Post | LinkedIn Post |
 | --- | ---------------------------------------------------- | ------------ | ------------- |
 | 246 |  Use advanced KQL queries in MS Fabric Real-Time Analytics | [Link](https://twitter.com/kustonaut/status/1699044113373610196) | [Link](https://www.linkedin.com/posts/adxkusto_real-time-analytics-tutorial-part-5-use-activity-7104809280477814785-ohx_)|
+| 247 |  Build a Power BI report in MS Fabric Real-Time Analytics | [Link](https://twitter.com/kustonaut/status/1699480678172352942) | [Link](https://www.linkedin.com/posts/adxkusto_real-time-analytics-tutorial-part-6-build-activity-7105245970510065667-c266)|
 
 # Assets
 
