@@ -435,6 +435,7 @@ All the day wise content for #365daysofADX
 | 247 |  Build a Power BI report in MS Fabric Real-Time Analytics | [Link](https://twitter.com/kustonaut/status/1699480678172352942) | [Link](https://www.linkedin.com/posts/adxkusto_real-time-analytics-tutorial-part-6-build-activity-7105245970510065667-c266)|
 | 248 |  Get data from Amazon S3 in MS Fabric Real-Time Analytics | [Link](https://twitter.com/kustonaut/status/1699815372218876335) | [Link](https://www.linkedin.com/posts/adxkusto_get-data-from-amazon-s3-in-real-time-analytics-activity-7105580694357078017-p7Nm)|
 | 249 | Get data from OneLake in MSFabric Real-Time Analytics | [Link](https://twitter.com/kustonaut/status/1700072269601771890) | [Link](https://www.linkedin.com/posts/adxkusto_get-data-from-onelake-in-real-time-analytics-activity-7105837638447734784-2_W9)|
+| 250 | Get data from Azure Event Hubs in MSFabric Real-Time Analytics | [Link](https://twitter.com/kustonaut/status/1700441853202743379) | [Link](https://www.linkedin.com/posts/adxkusto_get-data-from-azure-event-hubs-in-real-time-activity-7106207208815702016-BY-k)|
 
 # Assets
 
