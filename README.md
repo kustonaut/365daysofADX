@@ -437,6 +437,7 @@ All the day wise content for #365daysofADX
 | 249 | Get data from OneLake in MSFabric Real-Time Analytics | [Link](https://twitter.com/kustonaut/status/1700072269601771890) | [Link](https://www.linkedin.com/posts/adxkusto_get-data-from-onelake-in-real-time-analytics-activity-7105837638447734784-2_W9)|
 | 250 | Get data from Azure Event Hubs in MSFabric Real-Time Analytics | [Link](https://twitter.com/kustonaut/status/1700441853202743379) | [Link](https://www.linkedin.com/posts/adxkusto_get-data-from-azure-event-hubs-in-real-time-activity-7106207208815702016-BY-k)|
 | 251 | Get data from blob container in MSFabric Real-Time Analytics | [Link](https://twitter.com/kustonaut/status/1700935865802125623) | [Link](https://www.linkedin.com/posts/adxkusto_get-data-from-a-blob-container-in-real-time-activity-7106701388767752192-EAQA)|
+| 252 | How to configure KQL Database in a copy activity? | [Link](https://twitter.com/kustonaut/status/1701118585928823113) | [Link](https://www.linkedin.com/posts/adxkusto_how-to-configure-kql-database-in-a-copy-activity-activity-7106883747962118144-4Sx6)|
 
 # Assets
 
