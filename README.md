@@ -444,6 +444,7 @@ All the day wise content for #365daysofADX
 | Day | Topic                                     | Twitter Post | LinkedIn Post |
 | --- | ---------------------------------------------------- | ------------ | ------------- |
 | 253 | Copy Data to/from KQL Databases using Data Pipelines | [Link](https://twitter.com/kustonaut/status/1701878410052772148) | [Link](https://www.linkedin.com/posts/adxkusto_using-data-pipelines-for-copying-data-to-activity-7107642780251791361-qdq-)|
+| 254 | Migration Guide: ElasticSearch to ADX | [Link](https://twitter.com/kustonaut/status/1701981506644926489) | [Link](https://www.linkedin.com/posts/adxkusto_elasticsearch-to-azure-data-explorer-migration-activity-7107746372195356672-C3Am)|
 
 # Assets
 
