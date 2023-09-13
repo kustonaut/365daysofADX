@@ -439,6 +439,12 @@ All the day wise content for #365daysofADX
 | 251 | Get data from blob container in MSFabric Real-Time Analytics | [Link](https://twitter.com/kustonaut/status/1700935865802125623) | [Link](https://www.linkedin.com/posts/adxkusto_get-data-from-a-blob-container-in-real-time-activity-7106701388767752192-EAQA)|
 | 252 | How to configure KQL Database in a copy activity? | [Link](https://twitter.com/kustonaut/status/1701118585928823113) | [Link](https://www.linkedin.com/posts/adxkusto_how-to-configure-kql-database-in-a-copy-activity-activity-7106883747962118144-4Sx6)|
 
+## Week 37
+
+| Day | Topic                                     | Twitter Post | LinkedIn Post |
+| --- | ---------------------------------------------------- | ------------ | ------------- |
+| 253 | Copy Data to/from KQL Databases using Data Pipelines | [Link](https://twitter.com/kustonaut/status/1701878410052772148) | [Link](https://www.linkedin.com/posts/adxkusto_using-data-pipelines-for-copying-data-to-activity-7107642780251791361-qdq-)|
+
 # Assets
 
 This folder contains the assets used to create the social posts.
