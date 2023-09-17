@@ -446,6 +446,7 @@ All the day wise content for #365daysofADX
 | 253 | Copy Data to/from KQL Databases using Data Pipelines | [Link](https://twitter.com/kustonaut/status/1701878410052772148) | [Link](https://www.linkedin.com/posts/adxkusto_using-data-pipelines-for-copying-data-to-activity-7107642780251791361-qdq-)|
 | 254 | Migration Guide: ElasticSearch to ADX | [Link](https://twitter.com/kustonaut/status/1701981506644926489) | [Link](https://www.linkedin.com/posts/adxkusto_elasticsearch-to-azure-data-explorer-migration-activity-7107746372195356672-C3Am)|
 | 255 | Clean anomalous points in a series using series_clean_anomalies_fl() | [Link](https://twitter.com/kustonaut/status/1702638884340092944) | [Link](https://www.linkedin.com/posts/adxkusto_seriescleananomaliesfl-azure-data-activity-7108404023795302400-mKJq)|
+| 256 | Use a managed identity to run an update policy | [Link](https://twitter.com/kustonaut/status/1703467424195219635) | [Link](https://www.linkedin.com/posts/adxkusto_run-an-update-policy-with-a-managed-identity-activity-7109232803275243520-Cq-a)|
 
 # Assets
 
