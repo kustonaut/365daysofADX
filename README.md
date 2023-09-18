@@ -451,6 +451,12 @@ All the day wise content for #365daysofADX
 | 258 | .show database extents partitioning statistics | [Link](https://twitter.com/kustonaut/status/1703714974080831968) | [Link](https://www.linkedin.com/posts/adxkusto_show-database-extents-partitioning-statistics-activity-7109480232008491010-blXX)|
 | 259 | Delete an Azure Data Explorer cluster | [Link](https://twitter.com/kustonaut/status/1703745862286082485) | [Link](https://www.linkedin.com/posts/adxkusto_delete-an-azure-data-explorer-cluster-azure-activity-7109510897135497216-8Kj5)|
 
+## Week 38
+
+| Day | Topic                                     | Twitter Post | LinkedIn Post |
+| --- | ---------------------------------------------------- | ------------ | ------------- |
+| 260 | Build a real-time dashboard by streaming events from Azure IoT Hub to Microsoft Fabric | [Link](https://twitter.com/kustonaut/status/1703834528387854709) | [Link](https://www.linkedin.com/posts/adxkusto_build-a-real-time-dashboard-by-streaming-activity-7109599739666415617-8SOk)|
+
 # Assets
 
 This folder contains the assets used to create the social posts.
