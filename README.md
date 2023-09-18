@@ -447,6 +447,7 @@ All the day wise content for #365daysofADX
 | 254 | Migration Guide: ElasticSearch to ADX | [Link](https://twitter.com/kustonaut/status/1701981506644926489) | [Link](https://www.linkedin.com/posts/adxkusto_elasticsearch-to-azure-data-explorer-migration-activity-7107746372195356672-C3Am)|
 | 255 | Clean anomalous points in a series using series_clean_anomalies_fl() | [Link](https://twitter.com/kustonaut/status/1702638884340092944) | [Link](https://www.linkedin.com/posts/adxkusto_seriescleananomaliesfl-azure-data-activity-7108404023795302400-mKJq)|
 | 256 | Use a managed identity to run an update policy | [Link](https://twitter.com/kustonaut/status/1703467424195219635) | [Link](https://www.linkedin.com/posts/adxkusto_run-an-update-policy-with-a-managed-identity-activity-7109232803275243520-Cq-a)|
+| 257 | .show databases entities command | [Link](https://twitter.com/kustonaut/status/1703645351591477466) | [Link](https://www.linkedin.com/posts/adxkusto_show-databases-entities-command-azure-activity-7109410622752067584-Amwr)|
 
 # Assets
 
