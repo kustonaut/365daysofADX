@@ -456,6 +456,7 @@ All the day wise content for #365daysofADX
 | Day | Topic                                     | Twitter Post | LinkedIn Post |
 | --- | ---------------------------------------------------- | ------------ | ------------- |
 | 260 | Build a real-time dashboard by streaming events from Azure IoT Hub to Microsoft Fabric | [Link](https://twitter.com/kustonaut/status/1703834528387854709) | [Link](https://www.linkedin.com/posts/adxkusto_build-a-real-time-dashboard-by-streaming-activity-7109599739666415617-8SOk)|
+| 261 | Real-Time Data Sharing in Microsoft Fabric | [Link](https://twitter.com/kustonaut/status/1704018465596858870) | [Link](https://www.linkedin.com/posts/adxkusto_real-time-data-sharing-in-microsoft-fabric-activity-7109781313934536704-juaw)|
 
 # Assets
 
