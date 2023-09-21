@@ -458,6 +458,7 @@ All the day wise content for #365daysofADX
 | 260 | Build a real-time dashboard by streaming events from Azure IoT Hub to Microsoft Fabric | [Link](https://twitter.com/kustonaut/status/1703834528387854709) | [Link](https://www.linkedin.com/posts/adxkusto_build-a-real-time-dashboard-by-streaming-activity-7109599739666415617-8SOk)|
 | 261 | Real-Time Data Sharing in Microsoft Fabric | [Link](https://twitter.com/kustonaut/status/1704018465596858870) | [Link](https://www.linkedin.com/posts/adxkusto_real-time-data-sharing-in-microsoft-fabric-activity-7109781313934536704-juaw)|
 | 262 | Sending Azure Cost Management Data to Azure Data Explorer/ MS Fabric KQLDB | [Link](https://twitter.com/kustonaut/status/1704356990099857682) | [Link](https://www.linkedin.com/posts/adxkusto_sending-azure-cost-management-to-azure-data-activity-7110122303459356672-ZXMc)|
+| 263 | ADX: New Get Data Experience | [Link](https://twitter.com/kustonaut/status/1704809548907946272) | [Link](https://www.linkedin.com/posts/adxkusto_introducing-the-new-get-data-experience-activity-7110573712667475969-joFa)|
 
 # Assets
 
