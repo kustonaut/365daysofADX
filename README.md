@@ -460,6 +460,7 @@ All the day wise content for #365daysofADX
 | 262 | Sending Azure Cost Management Data to Azure Data Explorer/ MS Fabric KQLDB | [Link](https://twitter.com/kustonaut/status/1704356990099857682) | [Link](https://www.linkedin.com/posts/adxkusto_sending-azure-cost-management-to-azure-data-activity-7110122303459356672-ZXMc)|
 | 263 | ADX: New Get Data Experience | [Link](https://twitter.com/kustonaut/status/1704809548907946272) | [Link](https://www.linkedin.com/posts/adxkusto_introducing-the-new-get-data-experience-activity-7110573712667475969-joFa)|
 | 264 | Create an app to get data using batching ingestion | [Link](https://twitter.com/kustonaut/status/1705108378899636689) | [Link](https://www.linkedin.com/posts/adxkusto_create-an-app-to-get-data-using-batching-activity-7110873143975501824-kyoy)|
+| 265 | Heatmap visuals in ADX Dashboards| [Link](https://twitter.com/kustonaut/status/1705537080565408188) | [Link](https://www.linkedin.com/posts/adxkusto_dashboard-specific-visuals-azure-data-explorer-activity-7111302390531657728-SsBb)|
 
 # Assets
 
