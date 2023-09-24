@@ -461,6 +461,7 @@ All the day wise content for #365daysofADX
 | 263 | ADX: New Get Data Experience | [Link](https://twitter.com/kustonaut/status/1704809548907946272) | [Link](https://www.linkedin.com/posts/adxkusto_introducing-the-new-get-data-experience-activity-7110573712667475969-joFa)|
 | 264 | Create an app to get data using batching ingestion | [Link](https://twitter.com/kustonaut/status/1705108378899636689) | [Link](https://www.linkedin.com/posts/adxkusto_create-an-app-to-get-data-using-batching-activity-7110873143975501824-kyoy)|
 | 265 | Heatmap visuals in ADX Dashboards| [Link](https://twitter.com/kustonaut/status/1705537080565408188) | [Link](https://www.linkedin.com/posts/adxkusto_dashboard-specific-visuals-azure-data-explorer-activity-7111302390531657728-SsBb)|
+| 266 | ADX and MS Fabric Real-Time Analytics support data ingestion from Apache Kafka | [Link](https://twitter.com/kustonaut/status/1705905510292357421) | [Link](https://www.linkedin.com/posts/adxkusto_kafka-ingestion-into-azure-data-explorer-activity-7111670263330594816-dzK9)|
 
 # Assets
 
