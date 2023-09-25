@@ -463,6 +463,12 @@ All the day wise content for #365daysofADX
 | 265 | Heatmap visuals in ADX Dashboards| [Link](https://twitter.com/kustonaut/status/1705537080565408188) | [Link](https://www.linkedin.com/posts/adxkusto_dashboard-specific-visuals-azure-data-explorer-activity-7111302390531657728-SsBb)|
 | 266 | ADX and MS Fabric Real-Time Analytics support data ingestion from Apache Kafka | [Link](https://twitter.com/kustonaut/status/1705905510292357421) | [Link](https://www.linkedin.com/posts/adxkusto_kafka-ingestion-into-azure-data-explorer-activity-7111670263330594816-dzK9)|
 
+## Week 39
+
+| Day | Topic                                     | Twitter Post | LinkedIn Post |
+| --- | ---------------------------------------------------- | ------------ | ------------- |
+| 267 | Ingest data into ADX & MS Fabric RTA using #OpenTelemetry exporter | [Link](https://twitter.com/kustonaut/status/1706269503796195444) | [Link](https://www.linkedin.com/posts/adxkusto_getting-started-with-open-telemetry-and-azure-activity-7112034448681934849-9pJ_)|
+
 # Assets
 
 This folder contains the assets used to create the social posts.
