@@ -471,6 +471,7 @@ All the day wise content for #365daysofADX
 | 268 | Send Data from Apache Kafka to Real-Time Analytics in MS Fabric using Eventstream| [Link](https://twitter.com/kustonaut/status/1706629989817590095) | [Link](https://www.linkedin.com/posts/adxkusto_kafka-microsoftfabric-realtimeanalytics-activity-7112395145546756096-Bxks)|
 | 269 | Scan Operator in KQL| [Link](https://twitter.com/kustonaut/status/1707012739905020407) | [Link](https://www.linkedin.com/posts/adxkusto_scan-operator-azure-data-explorer-activity-7112777478816825344-EwyK)|
 | 270 | Monitor Azure Data Explorer performance, health, and usage with metrics| [Link](https://twitter.com/kustonaut/status/1707663099640398010) | [Link](https://www.linkedin.com/posts/adxkusto_monitor-azure-data-explorer-performance-activity-7113428299011244032-J1iY)|
+| 271 | Using KQLMagic in Jupyter notebooks - A demo by Brian Bønk Rueløkke at KQLCafe| [Link](https://twitter.com/kustonaut/status/1707720249406345496) | [Link](https://www.linkedin.com/posts/adxkusto_kql-cafe-session-17-guest-brian-b%C3%B8nk-activity-7113485223111094272-CJHx)|
 
 # Assets
 
