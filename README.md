@@ -475,6 +475,12 @@ All the day wise content for #365daysofADX
 | 272 | KQL Graph Operators| [Link](https://twitter.com/kustonaut/status/1708010452826091528) | [Link](https://www.linkedin.com/posts/adxkusto_graph-operators-preview-azure-data-explorer-activity-7113775536962727940-4HOf)|
 | 273 | OSS Connectors to get data into MSFabric Real-Time Analytics| [Link](https://twitter.com/kustonaut/status/1708395121161703916) | [Link](https://www.linkedin.com/posts/adxkusto_overview-of-data-connectors-and-their-capabilities-activity-7114159788631994368-htcZ)|
 
+## Week 40
+
+| Day | Topic                                     | Twitter Post | LinkedIn Post |
+| --- | ---------------------------------------------------- | ------------ | ------------- |
+| 274 | Create an #EventHubs data connection for Azure Data Eplorer | [Link](https://twitter.com/kustonaut/status/1708777434899005716) | [Link](https://www.linkedin.com/posts/adxkusto_create-an-event-hubs-data-connection-azure-activity-7114542360927059968-cA5D)|
+
 # Assets
 
 This folder contains the assets used to create the social posts.
