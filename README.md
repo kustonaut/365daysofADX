@@ -480,6 +480,7 @@ All the day wise content for #365daysofADX
 | Day | Topic                                     | Twitter Post | LinkedIn Post |
 | --- | ---------------------------------------------------- | ------------ | ------------- |
 | 274 | Create an #EventHubs data connection for Azure Data Eplorer | [Link](https://twitter.com/kustonaut/status/1708777434899005716) | [Link](https://www.linkedin.com/posts/adxkusto_create-an-event-hubs-data-connection-azure-activity-7114542360927059968-cA5D)|
+| 275 | Continuous data export in Azure Data Eplorer | [Link](https://twitter.com/kustonaut/status/1709069723470815240) | [Link](https://www.linkedin.com/posts/adxkusto_continuous-data-export-activity-7114834449694928896-GeQ3)|
 
 # Assets
 
