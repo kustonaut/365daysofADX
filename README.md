@@ -481,6 +481,7 @@ All the day wise content for #365daysofADX
 | --- | ---------------------------------------------------- | ------------ | ------------- |
 | 274 | Create an #EventHubs data connection for Azure Data Eplorer | [Link](https://twitter.com/kustonaut/status/1708777434899005716) | [Link](https://www.linkedin.com/posts/adxkusto_create-an-event-hubs-data-connection-azure-activity-7114542360927059968-cA5D)|
 | 275 | Continuous data export in Azure Data Eplorer | [Link](https://twitter.com/kustonaut/status/1709069723470815240) | [Link](https://www.linkedin.com/posts/adxkusto_continuous-data-export-activity-7114834449694928896-GeQ3)|
+| 276 | Ingest data from Splunk to AzDataExplorer using ADX-Splunk Add-On | [Link](https://twitter.com/kustonaut/status/1709541411769430085) | [Link](https://www.linkedin.com/posts/adxkusto_getting-started-with-microsoft-azure-data-activity-7115306163935547392-uZ1c)|
 
 # Assets
 
