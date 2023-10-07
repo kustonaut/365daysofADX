@@ -4,6 +4,7 @@ The aim of #365daysofADX is to get started with Azure Data Explorer(ADX) a.k.a. 
 
 # Week-wise Jumplist
 
+| --- |--- |--- |--- |--- |--- |--- |
 | [Week 1](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-1) |[Week 2](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-2) |
 [Week 3](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-3) |
 [Week 4](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-4) |
