@@ -5,20 +5,12 @@ The aim of #365daysofADX is to get started with Azure Data Explorer(ADX) a.k.a. 
 # Week-wise Jumplist
 
 
-| 1   | 2  | 3   | 4   | 5  | 6   | 7   |
+# Week-wise Jumplist
+
 | --- |--- |--- |--- |--- |--- |--- |
-| [Week 1](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-1) |[Week 2](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-2) |
-[Week 3](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-3) |
-[Week 4](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-4) |
-[Week 5](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-5) |
-[Week 6](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-6) |
-[Week 7](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-7) |
-| [Week 8](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-8) |[Week 9](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-9) |
-[Week 10](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-10) |
-[Week 11](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-11) |
-[Week 12](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-12) |
-[Week 13](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-13) |
-[Week 14](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-14) |
+|[Week 1](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-1)|[Week 2](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-2)|[Week 3](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-3)|[Week 4](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-4)|[Week 5](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-5)|[Week 6](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-6)|[Week 7](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-7)|
+|[Week 8](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-8)|[Week 9](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-9)|[Week 10](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-10)|[Week 11](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-11)|[Week 12](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-12)|[Week 13](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-13)|
+[Week 14](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-14)|
 
 # Content
 
