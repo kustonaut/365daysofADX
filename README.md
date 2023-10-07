@@ -484,6 +484,7 @@ All the day wise content for #365daysofADX
 | 276 | Ingest data from Splunk to AzDataExplorer using ADX-Splunk Add-On | [Link](https://twitter.com/kustonaut/status/1709541411769430085) | [Link](https://www.linkedin.com/posts/adxkusto_getting-started-with-microsoft-azure-data-activity-7115306163935547392-uZ1c)|
 | 277 | Understanding Fabric KQL DB Capacity | [Link](https://twitter.com/kustonaut/status/1709900246023811280) | [Link](https://www.linkedin.com/posts/adxkusto_understanding-fabric-kql-db-capacity-microsoft-activity-7115665490848419840-zE4b)|
 | 278 | Visualize Graphs in Kusto using Plotly and #Python | [Link](https://twitter.com/kustonaut/status/1710506248851042426) | [Link](https://www.linkedin.com/posts/adxkusto_how-to-visualize-graphs-in-kusto-using-plotly-activity-7116271370027593728-DHQW?utm_source=share&utm_medium=member_desktop)|
+| 279 | Calculating distinct counts in Power BI with data in Kusto | [Link](https://twitter.com/kustonaut/status/1710705352269062588) | [Link](https://www.linkedin.com/posts/adxkusto_calculating-distinct-counts-in-power-bi-with-activity-7116470248488251392-poCZ)|
 
 # Assets
 
