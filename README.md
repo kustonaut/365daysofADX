@@ -495,6 +495,7 @@ All the day wise content for #365daysofADX
 | 277 | Understanding Fabric KQL DB Capacity | [Link](https://twitter.com/kustonaut/status/1709900246023811280) | [Link](https://www.linkedin.com/posts/adxkusto_understanding-fabric-kql-db-capacity-microsoft-activity-7115665490848419840-zE4b)|
 | 278 | Visualize Graphs in Kusto using Plotly and #Python | [Link](https://twitter.com/kustonaut/status/1710506248851042426) | [Link](https://www.linkedin.com/posts/adxkusto_how-to-visualize-graphs-in-kusto-using-plotly-activity-7116271370027593728-DHQW?utm_source=share&utm_medium=member_desktop)|
 | 279 | Calculating distinct counts in Power BI with data in Kusto | [Link](https://twitter.com/kustonaut/status/1710705352269062588) | [Link](https://www.linkedin.com/posts/adxkusto_calculating-distinct-counts-in-power-bi-with-activity-7116470248488251392-poCZ)|
+| 280 | Connect to and manage ADX in Microsoft Purview | [Link](https://twitter.com/kustonaut/status/1711262576712306763) | [Link](https://www.linkedin.com/posts/adxkusto_connect-to-and-manage-azure-data-explorer-activity-7117026667851608064-f9k8)|
 
 # Assets
 
