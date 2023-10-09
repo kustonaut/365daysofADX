@@ -5,12 +5,12 @@ The aim of #365daysofADX is to get started with Azure Data Explorer(ADX) a.k.a. 
 # Week-wise Jumplist
 
 |[Week 1](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-1)|[Week 2](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-2)|[Week 3](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-3)|[Week 4](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-4)|[Week 5](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-5)|[Week 6](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-6)|[Week 7](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-7)|
-| --- |--- |--- |--- |--- |--- |--- |
 |[Week 8](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-8)|[Week 9](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-9)|[Week 10](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-10)|[Week 11](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-11)|[Week 12](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-12)|[Week 13](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-13)|[Week 14](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-14)|
 |[Week 15](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-15)|[Week 16](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-16)|[Week 17](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-17)|[Week 18](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-18)|[Week 19](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-19)|[Week 20](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-20)|[Week 21](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-21)|
 |[Week 22](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-22)|[Week 23](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-23)|[Week 24](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-24)|[Week 25](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-25)|[Week 26](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-26)|[Week 27](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-27)|[Week 28](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-28)|
 |[Week 29](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-29)|[Week 30](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-30)|[Week 31](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-31)|[Week 32](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-32)|[Week 33](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-33)|[Week 34](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-34)|[Week 35](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-35)|
 |[Week 36](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-36)|[Week 37](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-37)|[Week 38](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-38)|[Week 39](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-39)|[Week 40](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-40)|[Week 41](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-41)|[Week 42](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-42)|
+| --- |--- |--- |--- |--- |--- |--- |
 
 
 # Content
@@ -496,6 +496,12 @@ All the day wise content for #365daysofADX
 | 278 | Visualize Graphs in Kusto using Plotly and #Python | [Link](https://twitter.com/kustonaut/status/1710506248851042426) | [Link](https://www.linkedin.com/posts/adxkusto_how-to-visualize-graphs-in-kusto-using-plotly-activity-7116271370027593728-DHQW?utm_source=share&utm_medium=member_desktop)|
 | 279 | Calculating distinct counts in Power BI with data in Kusto | [Link](https://twitter.com/kustonaut/status/1710705352269062588) | [Link](https://www.linkedin.com/posts/adxkusto_calculating-distinct-counts-in-power-bi-with-activity-7116470248488251392-poCZ)|
 | 280 | Connect to and manage ADX in Microsoft Purview | [Link](https://twitter.com/kustonaut/status/1711262576712306763) | [Link](https://www.linkedin.com/posts/adxkusto_connect-to-and-manage-azure-data-explorer-activity-7117026667851608064-f9k8)|
+
+## Week 41
+
+| Day | Topic                                     | Twitter Post | LinkedIn Post |
+| --- | ---------------------------------------------------- | ------------ | ------------- |
+| 281 | Unlock Transformative Data Value with Microsoft Fabric Real-Time Analytics| [Link](https://twitter.com/kustonaut/status/1711349945239015796) | [Link](https://www.linkedin.com/posts/adxkusto_modernize-your-analytics-microsoft-fabric-activity-7117114839512051714-CbR_)|
 
 # Assets
 
