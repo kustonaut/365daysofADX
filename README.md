@@ -513,6 +513,7 @@ All the day wise content for #365daysofADX
 | --- | ---------------------------------------------------- | ------------ | ------------- |
 | 281 | Unlock Transformative Data Value with Microsoft Fabric Real-Time Analytics| [Link](https://twitter.com/kustonaut/status/1711349945239015796) | [Link](https://www.linkedin.com/posts/adxkusto_modernize-your-analytics-microsoft-fabric-activity-7117114839512051714-CbR_)|
 | 282 | Visualize data from Azure Data Explorer in Grafana | [Link](https://twitter.com/kustonaut/status/1711609479417209133) | [Link](https://www.linkedin.com/posts/adxkusto_visualize-data-from-azure-data-explorer-by-activity-7117374560387133441-v3w_)|
+| 283 | Automotive connected fleets reference architecture using ADX for Analytics | [Link](https://twitter.com/kustonaut/status/1712137214283641312) | [Link](https://www.linkedin.com/posts/adxkusto_automotive-connected-fleets-azure-architecture-activity-7117901813286076416-wq4o)|
 
 # Assets
 
