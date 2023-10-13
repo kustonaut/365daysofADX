@@ -515,6 +515,7 @@ All the day wise content for #365daysofADX
 | 282 | Visualize data from Azure Data Explorer in Grafana | [Link](https://twitter.com/kustonaut/status/1711609479417209133) | [Link](https://www.linkedin.com/posts/adxkusto_visualize-data-from-azure-data-explorer-by-activity-7117374560387133441-v3w_)|
 | 283 | Automotive connected fleets reference architecture using ADX for Analytics | [Link](https://twitter.com/kustonaut/status/1712137214283641312) | [Link](https://www.linkedin.com/posts/adxkusto_automotive-connected-fleets-azure-architecture-activity-7117901813286076416-wq4o)|
 | 284 | Kusto Detective Agency LinkedIn Community | [Link](https://twitter.com/kustonaut/status/1712525920094007370) | [Link](https://www.linkedin.com/posts/adxkusto_kustodetectiveagency-365daysofadx-kusto-activity-7118290583625854976-l10r)|
+| 285 | Integrating ADX with Cosmos DB to analyze data in near real-time | [Link](https://twitter.com/kustonaut/status/1712874291271028748) | [Link](https://www.linkedin.com/posts/adxkusto_integrating-azure-data-explorer-with-cosmos-activity-7118639522749255680-DeHO)|
 
 # Assets
 
