@@ -516,6 +516,7 @@ All the day wise content for #365daysofADX
 | 283 | Automotive connected fleets reference architecture using ADX for Analytics | [Link](https://twitter.com/kustonaut/status/1712137214283641312) | [Link](https://www.linkedin.com/posts/adxkusto_automotive-connected-fleets-azure-architecture-activity-7117901813286076416-wq4o)|
 | 284 | Kusto Detective Agency LinkedIn Community | [Link](https://twitter.com/kustonaut/status/1712525920094007370) | [Link](https://www.linkedin.com/posts/adxkusto_kustodetectiveagency-365daysofadx-kusto-activity-7118290583625854976-l10r)|
 | 285 | Integrating ADX with Cosmos DB to analyze data in near real-time | [Link](https://twitter.com/kustonaut/status/1712874291271028748) | [Link](https://www.linkedin.com/posts/adxkusto_integrating-azure-data-explorer-with-cosmos-activity-7118639522749255680-DeHO)|
+| 286 | Kusto NLog connector now supports Azure Data Explorer free clusters | [Link](https://twitter.com/kustonaut/status/1713206623379034439) | [Link](https://www.linkedin.com/posts/adxkusto_kusto-nlog-connector-now-supports-azure-data-activity-7118971642227101696-FOau)|
 
 # Assets
 
