@@ -517,6 +517,8 @@ All the day wise content for #365daysofADX
 | 284 | Kusto Detective Agency LinkedIn Community | [Link](https://twitter.com/kustonaut/status/1712525920094007370) | [Link](https://www.linkedin.com/posts/adxkusto_kustodetectiveagency-365daysofadx-kusto-activity-7118290583625854976-l10r)|
 | 285 | Integrating ADX with Cosmos DB to analyze data in near real-time | [Link](https://twitter.com/kustonaut/status/1712874291271028748) | [Link](https://www.linkedin.com/posts/adxkusto_integrating-azure-data-explorer-with-cosmos-activity-7118639522749255680-DeHO)|
 | 286 | Kusto NLog connector now supports Azure Data Explorer free clusters | [Link](https://twitter.com/kustonaut/status/1713206623379034439) | [Link](https://www.linkedin.com/posts/adxkusto_kusto-nlog-connector-now-supports-azure-data-activity-7118971642227101696-FOau)|
+| 287 | Azure #Playfab Data connections now supports game data export to free ADX clusters| [Link](https://twitter.com/kustonaut/status/1713521186788061515) | [Link](https://www.linkedin.com/posts/adxkusto_azure-playfabs-data-connections-just-leveled-activity-7119286448024883201-lztf)|
+
 
 # Assets
 
