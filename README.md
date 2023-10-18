@@ -519,6 +519,11 @@ All the day wise content for #365daysofADX
 | 286 | Kusto NLog connector now supports Azure Data Explorer free clusters | [Link](https://twitter.com/kustonaut/status/1713206623379034439) | [Link](https://www.linkedin.com/posts/adxkusto_kusto-nlog-connector-now-supports-azure-data-activity-7118971642227101696-FOau)|
 | 287 | Azure Playfab Data connections now supports game data export to free ADX clusters| [Link](https://twitter.com/kustonaut/status/1713521186788061515) | [Link](https://www.linkedin.com/posts/adxkusto_azure-playfabs-data-connections-just-leveled-activity-7119286448024883201-lztf)|
 
+## Week 42
+
+| Day | Topic                                     | Twitter Post | LinkedIn Post |
+| --- | ---------------------------------------------------- | ------------ | ------------- |
+| 288 | Ingest data from Telegraf into RealTimeAnalytics in MSFabric using Telegraf Kusto Output Plugin | [Link](https://twitter.com/kustonaut/status/1714610035974910031) | [Link](https://www.linkedin.com/posts/adxkusto_ingest-data-from-telegraf-into-azure-data-activity-7120375182900252672-Soei)|
 
 # Assets
 
