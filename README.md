@@ -487,7 +487,7 @@ All the day wise content for #365daysofADX
 
 | Day | Topic                                     | Twitter Post | LinkedIn Post |
 | --- | ---------------------------------------------------- | ------------ | ------------- |
-| 267 | Ingest data into ADX & MS Fabric RTA using #OpenTelemetry exporter | [Link](https://twitter.com/kustonaut/status/1706269503796195444) | [Link](https://www.linkedin.com/posts/adxkusto_getting-started-with-open-telemetry-and-azure-activity-7112034448681934849-9pJ_)|
+| 267 | Ingest data into ADX & MS Fabric RTA using OpenTelemetry exporter | [Link](https://twitter.com/kustonaut/status/1706269503796195444) | [Link](https://www.linkedin.com/posts/adxkusto_getting-started-with-open-telemetry-and-azure-activity-7112034448681934849-9pJ_)|
 | 268 | Send Data from Apache Kafka to Real-Time Analytics in MS Fabric using Eventstream| [Link](https://twitter.com/kustonaut/status/1706629989817590095) | [Link](https://www.linkedin.com/posts/adxkusto_kafka-microsoftfabric-realtimeanalytics-activity-7112395145546756096-Bxks)|
 | 269 | Scan Operator in KQL| [Link](https://twitter.com/kustonaut/status/1707012739905020407) | [Link](https://www.linkedin.com/posts/adxkusto_scan-operator-azure-data-explorer-activity-7112777478816825344-EwyK)|
 | 270 | Monitor Azure Data Explorer performance, health, and usage with metrics| [Link](https://twitter.com/kustonaut/status/1707663099640398010) | [Link](https://www.linkedin.com/posts/adxkusto_monitor-azure-data-explorer-performance-activity-7113428299011244032-J1iY)|
