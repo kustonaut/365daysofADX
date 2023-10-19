@@ -524,6 +524,7 @@ All the day wise content for #365daysofADX
 | Day | Topic                                     | Twitter Post | LinkedIn Post |
 | --- | ---------------------------------------------------- | ------------ | ------------- |
 | 288 | Ingest data from Telegraf into RealTimeAnalytics in MSFabric using Telegraf Kusto Output Plugin | [Link](https://twitter.com/kustonaut/status/1714610035974910031) | [Link](https://www.linkedin.com/posts/adxkusto_ingest-data-from-telegraf-into-azure-data-activity-7120375182900252672-Soei)|
+| 289 | What are common scenarios for using KQL graph semantics? | [Link](https://twitter.com/kustonaut/status/1714864455954399732) | [Link](https://www.linkedin.com/posts/adxkusto_scenarios-for-using-kusto-query-language-activity-7120629450685202432-pYFF)|
 
 # Assets
 
