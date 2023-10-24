@@ -529,6 +529,7 @@ All the day wise content for #365daysofADX
 | 291 | How to ingest historical data into kusto / Azure Data Explorer | [Link](https://twitter.com/kustonaut/status/1715791569930891327) | [Link](https://www.linkedin.com/posts/adxkusto_ingest-historical-data-into-kusto-activity-7121556115456192512-y_Ik)|
 | 292 | Kusto Query Language learning resources | [Link](https://twitter.com/kustonaut/status/1716073338895061099) | [Link](https://www.linkedin.com/posts/adxkusto_kusto-query-language-learning-resources-activity-7121838851249123328-fWtD)|
 | 293 | Create an ADX dashboard base query| [Link](https://twitter.com/kustonaut/status/1716349546627047916) | [Link](https://www.linkedin.com/posts/adxkusto_create-a-dashboard-base-query-azure-data-activity-7122114868081500160-4nAj)|
+| 294 | From RabbitMQ to PowerBI reports with Microsoft Fabric Real-Time Analytics| [Link](https://twitter.com/kustonaut/status/1716670594409001004) | [Link](https://www.linkedin.com/posts/adxkusto_from-rabbitmq-to-powerbi-reports-with-microsoft-activity-7122435118299815938-mkPk)|
 
 # Assets
 
