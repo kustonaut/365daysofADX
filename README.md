@@ -531,6 +531,12 @@ All the day wise content for #365daysofADX
 | 293 | Create an ADX dashboard base query| [Link](https://twitter.com/kustonaut/status/1716349546627047916) | [Link](https://www.linkedin.com/posts/adxkusto_create-a-dashboard-base-query-azure-data-activity-7122114868081500160-4nAj)|
 | 294 | From RabbitMQ to PowerBI reports with Microsoft Fabric Real-Time Analytics| [Link](https://twitter.com/kustonaut/status/1716670594409001004) | [Link](https://www.linkedin.com/posts/adxkusto_from-rabbitmq-to-powerbi-reports-with-microsoft-activity-7122435118299815938-mkPk)|
 
+## Week 43
+
+| Day | Topic                                     | Twitter Post | LinkedIn Post |
+| --- | ---------------------------------------------------- | ------------ | ------------- |
+| 295 | KQL Graph Semantics - Best Practices | [Link](https://twitter.com/kustonaut/status/1717066464514220528) | [Link](https://www.linkedin.com/posts/adxkusto_best-practices-for-kusto-query-language-activity-7122831697619881984-GhFL)|
+
 # Assets
 
 This folder contains the assets used to create the social posts.
