@@ -539,6 +539,7 @@ All the day wise content for #365daysofADX
 | Day | Topic                                     | Twitter Post | LinkedIn Post |
 | --- | ---------------------------------------------------- | ------------ | ------------- |
 | 295 | KQL Graph Semantics - Best Practices | [Link](https://twitter.com/kustonaut/status/1717066464514220528) | [Link](https://www.linkedin.com/posts/adxkusto_best-practices-for-kusto-query-language-activity-7122831697619881984-GhFL)|
+| 296 | ADX Web UI - Dashboard specific visuals | [Link](https://twitter.com/kustonaut/status/1717463599806124511) | [Link](https://www.linkedin.com/posts/adxkusto_dashboard-specific-visuals-azure-data-explorer-activity-7123228300075778048-mb1H)|
 
 # Assets
 
