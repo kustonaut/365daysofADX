@@ -541,6 +541,7 @@ All the day wise content for #365daysofADX
 | 295 | KQL Graph Semantics - Best Practices | [Link](https://twitter.com/kustonaut/status/1717066464514220528) | [Link](https://www.linkedin.com/posts/adxkusto_best-practices-for-kusto-query-language-activity-7122831697619881984-GhFL)|
 | 296 | ADX Web UI - Dashboard specific visuals | [Link](https://twitter.com/kustonaut/status/1717463599806124511) | [Link](https://www.linkedin.com/posts/adxkusto_dashboard-specific-visuals-azure-data-explorer-activity-7123228300075778048-mb1H)|
 | 297 | Kusto .alter-merge database policy ingestionbatching command | [Link](https://twitter.com/kustonaut/status/1717808318201446445) | [Link](https://www.linkedin.com/posts/adxkusto_alter-merge-database-policy-ingestionbatching-activity-7123573265133912064-jddA)|
+| 298 | Manage language extensions in your ADX cluster | [Link](https://twitter.com/kustonaut/status/1718501676209033466) | [Link](https://www.linkedin.com/posts/adxkusto_manage-language-extensions-in-your-azure-activity-7124242868361150464-ReYj)|
 
 # Assets
 
