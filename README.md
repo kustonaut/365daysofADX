@@ -543,6 +543,7 @@ All the day wise content for #365daysofADX
 | 297 | Kusto .alter-merge database policy ingestionbatching command | [Link](https://twitter.com/kustonaut/status/1717808318201446445) | [Link](https://www.linkedin.com/posts/adxkusto_alter-merge-database-policy-ingestionbatching-activity-7123573265133912064-jddA)|
 | 298 | Manage language extensions in your ADX cluster | [Link](https://twitter.com/kustonaut/status/1718501676209033466) | [Link](https://www.linkedin.com/posts/adxkusto_manage-language-extensions-in-your-azure-activity-7124242868361150464-ReYj)|
 | 299 | Enable Python plugin in MS Fabric Real-Time Analytics | [Link](https://twitter.com/kustonaut/status/1718636607019049442) | [Link](https://www.linkedin.com/posts/adxkusto_enable-python-plugin-in-real-time-analytics-activity-7124401746939895808-odIm)|
+| 300 | Use example queries in MS Fabric Real-Time Analytics | [Link](https://twitter.com/kustonaut/status/1719043240492777696) | [Link](https://www.linkedin.com/posts/adxkusto_use-example-queries-in-real-time-analytics-activity-7124808090960412673-XJE1)|
 
 # Assets
 
