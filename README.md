@@ -546,6 +546,12 @@ All the day wise content for #365daysofADX
 | 300 | Use example queries in MS Fabric Real-Time Analytics | [Link](https://twitter.com/kustonaut/status/1719043240492777696) | [Link](https://www.linkedin.com/posts/adxkusto_use-example-queries-in-real-time-analytics-activity-7124808090960412673-XJE1)|
 | 301 | Series processing functions in Kusto | [Link](https://twitter.com/kustonaut/status/1719247014687641951) | [Link](https://www.linkedin.com/posts/adxkusto_functions-library-azure-data-explorer-activity-7125012300792520704-Uq6K)|
 
+## Week 44
+
+| Day | Topic                                     | Twitter Post | LinkedIn Post |
+| --- | ---------------------------------------------------- | ------------ | ------------- |
+| 302 | Working with CDC Data in Kusto | [Link](https://twitter.com/kustonaut/status/1719692633243803726) | [Link](https://www.linkedin.com/posts/adxkusto_how-to-deal-with-change-data-capture-in-azure-activity-7125457487192895488-IwPt)|
+
 # Assets
 
 This folder contains the assets used to create the social posts.
