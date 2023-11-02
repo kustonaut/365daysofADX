@@ -551,6 +551,7 @@ All the day wise content for #365daysofADX
 | Day | Topic                                     | Twitter Post | LinkedIn Post |
 | --- | ---------------------------------------------------- | ------------ | ------------- |
 | 302 | Working with CDC Data in Kusto | [Link](https://twitter.com/kustonaut/status/1719692633243803726) | [Link](https://www.linkedin.com/posts/adxkusto_how-to-deal-with-change-data-capture-in-azure-activity-7125457487192895488-IwPt)|
+| 303 | Perform hierarchical aggregation & value selection in Kusto using top-nested operator| [Link](https://twitter.com/kustonaut/status/1720017024490029285) | [Link](https://www.linkedin.com/posts/adxkusto_top-nested-operator-azure-data-explorer-activity-7125781947548676096-QktO)|
 
 # Assets
 
