@@ -556,6 +556,7 @@ All the day wise content for #365daysofADX
 | 305 | Real-Time Analytics KQL DB now supports Delta Lake | [Link](https://twitter.com/kustonaut/status/1727581774815916158) | [Link](https://www.linkedin.com/posts/adxkusto_announcing-delta-lake-support-in-real-time-activity-7133346771765706752-loJ_)|
 | 306 | Discover database schema violations in Kusto | [Link](https://twitter.com/kustonaut/status/1728037148576845862) | [Link](https://www.linkedin.com/posts/adxkusto_kusto-schema-validation-activity-7133802042216656896-2m-9)|
 | 307 | Azure PlayFab integration with Microsoft Fabric Real-Time Analytics | [Link](https://twitter.com/kustonaut/status/1728409664940052676) | [Link](https://www.linkedin.com/posts/adxkusto_playfab-and-synapse-real-time-analytics-activity-7134174886679166976-2eDz)|
+| 308 | Real-Time analytics with open-source connectors in MS Fabric | [Link](https://twitter.com/kustonaut/status/1728832074533269773) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-100daysofrta-microsoft-activity-7134596948140961792-3EH3)|
 
 
 # Assets
