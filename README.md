@@ -558,6 +558,12 @@ All the day wise content for #365daysofADX
 | 307 | Azure PlayFab integration with Microsoft Fabric Real-Time Analytics | [Link](https://twitter.com/kustonaut/status/1728409664940052676) | [Link](https://www.linkedin.com/posts/adxkusto_playfab-and-synapse-real-time-analytics-activity-7134174886679166976-2eDz)|
 | 308 | Real-Time analytics with open-source connectors in MS Fabric | [Link](https://twitter.com/kustonaut/status/1728832074533269773) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-100daysofrta-microsoft-activity-7134596948140961792-3EH3)|
 
+## Week 45
+
+| Day | Topic                                     | Twitter Post | LinkedIn Post |
+| --- | ---------------------------------------------------- | ------------ | ------------- |
+| 309 | Data Export from Kusto | [Link](https://twitter.com/kustonaut/status/1729144946744271284) | [Link](https://www.linkedin.com/posts/adxkusto_data-export-azure-data-explorer-real-time-activity-7134910061864206336-bNus)|
+
 
 # Assets
 
