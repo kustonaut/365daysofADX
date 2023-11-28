@@ -563,6 +563,8 @@ All the day wise content for #365daysofADX
 | Day | Topic                                     | Twitter Post | LinkedIn Post |
 | --- | ---------------------------------------------------- | ------------ | ------------- |
 | 309 | Data Export from Kusto | [Link](https://twitter.com/kustonaut/status/1729144946744271284) | [Link](https://www.linkedin.com/posts/adxkusto_data-export-azure-data-explorer-real-time-activity-7134910061864206336-bNus)|
+| 310 | Characterize an unfamiliar dataset with Kusto | [Link](https://twitter.com/kustonaut/status/1729465497107018219) | [Link](https://www.linkedin.com/posts/adxkusto_characterize-an-unfamiliar-dataset-with-azure-activity-7135230704942014464-61rd)|
+
 
 
 # Assets
