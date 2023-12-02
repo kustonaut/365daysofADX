@@ -567,6 +567,7 @@ All the day wise content for #365daysofADX
 | 311 | Integrate Azure Functions with Kusto using input and output bindings | [Link](https://twitter.com/kustonaut/status/1729908176034918821) | [Link](https://www.linkedin.com/posts/adxkusto_kusto-bindings-for-azure-functions-overview-activity-7135672967467851776-AUIC)|
 | 312 | What is #KQLDB in Microsoft Fabric?: Article by Koen Verbeeck | [Link](https://twitter.com/kustonaut/status/1730147033552703618) | [Link](https://www.linkedin.com/posts/adxkusto_kqldb-365daysofadx-100daysofrta-activity-7135912090870951937-8xKP)|
 | 313 | Change data policies in MS Fabric Real Time Analytics | [Link](https://twitter.com/kustonaut/status/1730906824264823286) | [Link](https://www.linkedin.com/posts/adxkusto_msfabric-realtimeanalytics-365daysofadx-activity-7136671751211528192-Dbj7)|
+| 314 | Create a table update policy in MS Fabric Real Time Analytics | [Link](https://twitter.com/kustonaut/status/1730909508912988606) | [Link](https://www.linkedin.com/posts/adxkusto_msfabric-realtimeanalytics-365daysofadx-activity-7136674728169078784-68Ca)|
 
 
 
