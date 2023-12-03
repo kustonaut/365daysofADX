@@ -568,6 +568,7 @@ All the day wise content for #365daysofADX
 | 312 | What is #KQLDB in Microsoft Fabric?: Article by Koen Verbeeck | [Link](https://twitter.com/kustonaut/status/1730147033552703618) | [Link](https://www.linkedin.com/posts/adxkusto_kqldb-365daysofadx-100daysofrta-activity-7135912090870951937-8xKP)|
 | 313 | Change data policies in MS Fabric Real Time Analytics | [Link](https://twitter.com/kustonaut/status/1730906824264823286) | [Link](https://www.linkedin.com/posts/adxkusto_msfabric-realtimeanalytics-365daysofadx-activity-7136671751211528192-Dbj7)|
 | 314 | Create a table update policy in MS Fabric Real Time Analytics | [Link](https://twitter.com/kustonaut/status/1730909508912988606) | [Link](https://www.linkedin.com/posts/adxkusto_msfabric-realtimeanalytics-365daysofadx-activity-7136674728169078784-68Ca)|
+| 315 | Write multi-table queries in KQL | [Link](https://twitter.com/kustonaut/status/1731373578157695167) | [Link](https://www.linkedin.com/posts/adxkusto_multi-table-queries-with-kusto-query-language-activity-7137138727952203776-wD6j)|
 
 
 
