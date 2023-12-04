@@ -570,6 +570,11 @@ All the day wise content for #365daysofADX
 | 314 | Create a table update policy in MS Fabric Real Time Analytics | [Link](https://twitter.com/kustonaut/status/1730909508912988606) | [Link](https://www.linkedin.com/posts/adxkusto_msfabric-realtimeanalytics-365daysofadx-activity-7136674728169078784-68Ca)|
 | 315 | Write multi-table queries in KQL | [Link](https://twitter.com/kustonaut/status/1731373578157695167) | [Link](https://www.linkedin.com/posts/adxkusto_multi-table-queries-with-kusto-query-language-activity-7137138727952203776-wD6j)|
 
+## Week 46
+
+| Day | Topic                                     | Twitter Post | LinkedIn Post |
+| --- | ---------------------------------------------------- | ------------ | ------------- |
+| 316 | Gain insights from your data using KQL | [Link](https://twitter.com/kustonaut/status/1731563907276300369) | [Link](https://www.linkedin.com/posts/adxkusto_gain-insights-from-your-data-by-using-kusto-activity-7137329152130531328-Y8Ko)|
 
 
 # Assets
