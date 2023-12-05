@@ -575,6 +575,7 @@ All the day wise content for #365daysofADX
 | Day | Topic                                     | Twitter Post | LinkedIn Post |
 | --- | ---------------------------------------------------- | ------------ | ------------- |
 | 316 | Gain insights from your data using KQL | [Link](https://twitter.com/kustonaut/status/1731563907276300369) | [Link](https://www.linkedin.com/posts/adxkusto_gain-insights-from-your-data-by-using-kusto-activity-7137329152130531328-Y8Ko)|
+| 317 | Fabric Change the Game: Real-Time Analytics Blog by Liliam Leme | [Link](https://twitter.com/kustonaut/status/1731940486527545610) | [Link](https://www.linkedin.com/posts/adxkusto_fabric-change-the-game-real-time-analytics-activity-7137705304628051968-vtsY)|
 
 
 # Assets
