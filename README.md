@@ -578,6 +578,7 @@ All the day wise content for #365daysofADX
 | 317 | Fabric Change the Game: Real-Time Analytics Blog by Liliam Leme | [Link](https://twitter.com/kustonaut/status/1731940486527545610) | [Link](https://www.linkedin.com/posts/adxkusto_fabric-change-the-game-real-time-analytics-activity-7137705304628051968-vtsY)|
 | 318 | Kusto Insights - monthly Kusto Newsletter | [Link](https://twitter.com/kustonaut/status/1732323672126333191) | [Link](https://www.linkedin.com/posts/adxkusto_kusto-insights-november-update-activity-7138088112789819395-4ted)|
 | 319 | Real-Time Analytics on data with Service Bus Azure Data Explorer | [Link](https://twitter.com/kustonaut/status/1732704242232872991) | [Link](https://www.linkedin.com/posts/adxkusto_realtimeanalytics-365daysofadx-100daysofrta-activity-7138469100460163072-1oRg)|
+| 320 | 9 Free Kusto trainings to take your skills to the next level | [Link](https://twitter.com/kustonaut/status/1734452210296369343) | [Link](https://www.linkedin.com/posts/adxkusto_kusto-365daysofadx-100daysofrta-activity-7140214613572333569-9Uhz)|
 
 
 # Assets
