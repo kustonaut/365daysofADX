@@ -579,6 +579,7 @@ All the day wise content for #365daysofADX
 | 318 | Kusto Insights - monthly Kusto Newsletter | [Link](https://twitter.com/kustonaut/status/1732323672126333191) | [Link](https://www.linkedin.com/posts/adxkusto_kusto-insights-november-update-activity-7138088112789819395-4ted)|
 | 319 | Real-Time Analytics on data with Service Bus Azure Data Explorer | [Link](https://twitter.com/kustonaut/status/1732704242232872991) | [Link](https://www.linkedin.com/posts/adxkusto_realtimeanalytics-365daysofadx-100daysofrta-activity-7138469100460163072-1oRg)|
 | 320 | 9 Free Kusto trainings to take your skills to the next level | [Link](https://twitter.com/kustonaut/status/1734452210296369343) | [Link](https://www.linkedin.com/posts/adxkusto_kusto-365daysofadx-100daysofrta-activity-7140214613572333569-9Uhz)|
+| 321 | Kusto Detective Agency SANS Holiday Hack 2023 | [Link](https://twitter.com/kustonaut/status/1734856628225425474) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-100daysofrta-kql-activity-7140622215544307712-VPD8)|
 
 
 # Assets
