@@ -582,6 +582,12 @@ All the day wise content for #365daysofADX
 | 321 | Kusto Detective Agency SANS Holiday Hack 2023 | [Link](https://twitter.com/kustonaut/status/1734856628225425474) | [Link](https://www.linkedin.com/posts/adxkusto_365daysofadx-100daysofrta-kql-activity-7140622215544307712-VPD8)|
 | 322 | Create materialized views in MS Fabric Real-Time Analytics | [Link](https://twitter.com/kustonaut/status/1735225735806333236) | [Link](https://www.linkedin.com/posts/adxkusto_msfabric-realtimeanalytics-365daysofadx-activity-7140990959571431426-9pCw)|
 
+## Week 47
+
+| Day | Topic                                     | Twitter Post | LinkedIn Post |
+| --- | ---------------------------------------------------- | ------------ | ------------- |
+| 323 | Stored Query Results in Kusto | [Link](https://twitter.com/kustonaut/status/1735611008142705062) | [Link](https://www.linkedin.com/posts/adxkusto_kusto-365daysofadx-100daysofrta-activity-7141375792164319232-grIr)|
+
 
 # Assets
 
