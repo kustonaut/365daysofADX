@@ -588,6 +588,7 @@ All the day wise content for #365daysofADX
 | --- | ---------------------------------------------------- | ------------ | ------------- |
 | 323 | Stored Query Results in Kusto | [Link](https://twitter.com/kustonaut/status/1735611008142705062) | [Link](https://www.linkedin.com/posts/adxkusto_kusto-365daysofadx-100daysofrta-activity-7141375792164319232-grIr)|
 | 324 | Infographics - Evolution of Kusto over the years | [Link](https://twitter.com/kustonaut/status/1736755561457463572) | [Link](https://www.linkedin.com/posts/adxkusto_kusto-365daysofadx-100daysofrta-activity-7142519666370854914-JjHm)|
+| 325 | Text Analytics functions in Kusto | [Link](https://twitter.com/kustonaut/status/1740352225661296881) | [Link](https://www.linkedin.com/posts/adxkusto_functions-library-azure-data-explorer-activity-7146117200246898688-JjRM)|
 
 
 # Assets
