@@ -589,6 +589,17 @@ All the day wise content for #365daysofADX
 | 323 | Stored Query Results in Kusto | [Link](https://twitter.com/kustonaut/status/1735611008142705062) | [Link](https://www.linkedin.com/posts/adxkusto_kusto-365daysofadx-100daysofrta-activity-7141375792164319232-grIr)|
 | 324 | Infographics - Evolution of Kusto over the years | [Link](https://twitter.com/kustonaut/status/1736755561457463572) | [Link](https://www.linkedin.com/posts/adxkusto_kusto-365daysofadx-100daysofrta-activity-7142519666370854914-JjHm)|
 | 325 | Text Analytics functions in Kusto | [Link](https://twitter.com/kustonaut/status/1740352225661296881) | [Link](https://www.linkedin.com/posts/adxkusto_functions-library-azure-data-explorer-activity-7146117200246898688-JjRM)|
+| 326 | MachineLearning Functions in Kusto  | [Link](https://twitter.com/kustonaut/status/1740379578722316375) | [Link](https://www.linkedin.com/feed/update/urn:li:activity:7146145271373021184)|
+| 327 | Cluster a dataset in Kusto using the k-means algorithm | [Link](https://twitter.com/kustonaut/status/1740417328649490843) | [Link](https://www.linkedin.com/feed/update/urn:li:activity:7146183039298023424)|
+| 328 | #Plotly functions in Kusto | [Link](https://twitter.com/kustonaut/status/1740606068181369137) | [Link](https://www.linkedin.com/feed/update/urn:li:activity:7146371762048368640)|
+| 329 | Create an interactive #anomaly chart using Plotly functions in Kusto | [Link](https://twitter.com/kustonaut/status/1740631036172636262) | [Link](https://www.linkedin.com/feed/update/urn:li:activity:7146396125560750080)|
+
+## Week 48
+
+| Day | Topic                                     | Twitter Post | LinkedIn Post |
+| --- | ---------------------------------------------------- | ------------ | ------------- |
+| 330 | Create an interactive 3D scatter chart using Plotly functions in Kusto | [Link](https://twitter.com/kustonaut/status/1740651366953934911) | [Link](https://www.linkedin.com/feed/update/urn:li:activity:7146417072908951552)|
+| 331 | Create a Microsoft Entra application registration in ADX | [Link](https://twitter.com/kustonaut/status/1742095353380278433) | [Link](https://www.linkedin.com/feed/update/urn:li:activity:7147859652095934465)|
 
 
 # Assets
