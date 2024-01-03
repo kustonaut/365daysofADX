@@ -600,6 +600,7 @@ All the day wise content for #365daysofADX
 | --- | ---------------------------------------------------- | ------------ | ------------- |
 | 330 | Create an interactive 3D scatter chart using Plotly functions in Kusto | [Link](https://twitter.com/kustonaut/status/1740651366953934911) | [Link](https://www.linkedin.com/feed/update/urn:li:activity:7146417072908951552)|
 | 331 | Create a Microsoft Entra application registration in ADX | [Link](https://twitter.com/kustonaut/status/1742095353380278433) | [Link](https://www.linkedin.com/feed/update/urn:li:activity:7147859652095934465)|
+| 332 | Ingest data with Apache Flink into Kusto | [Link](https://twitter.com/kustonaut/status/1742430144516526176) | [Link](https://www.linkedin.com/posts/adxkusto_ingest-data-with-apache-flink-into-azure-activity-7148195197707857920-KWxn)|
 
 
 # Assets
