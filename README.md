@@ -603,6 +603,7 @@ All the day wise content for #365daysofADX
 | 332 | Ingest data with Apache Flink into Kusto | [Link](https://twitter.com/kustonaut/status/1742430144516526176) | [Link](https://www.linkedin.com/posts/adxkusto_ingest-data-with-apache-flink-into-azure-activity-7148195197707857920-KWxn)|
 | 333 | Ingest data from Splunk Universal Forwarder to Kusto | [Link](https://twitter.com/kustonaut/status/1742845625404645790) | [Link](https://www.linkedin.com/posts/adxkusto_ingest-data-from-splunk-universal-forwarder-activity-7148610793889017857-6FdA)|
 | 334 | Migrate your ADX cluster to support multiple availability zones | [Link](https://twitter.com/kustonaut/status/1743218138055864488) | [Link](https://www.linkedin.com/posts/adxkusto_migrate-your-cluster-to-support-multiple-activity-7148981940023418880-ThFj)|
+| 335 | Calculate the dot product of two numeric series in Kusto | [Link](https://twitter.com/kustonaut/status/1744263809743946095) | [Link](https://www.linkedin.com/posts/adxkusto_seriesdotproduct-azure-data-explorer-activity-7150028076087656448-K7IP)|
 
 
 # Assets
