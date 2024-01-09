@@ -604,7 +604,7 @@ All the day wise content for #365daysofADX
 | 333 | Ingest data from Splunk Universal Forwarder to Kusto | [Link](https://twitter.com/kustonaut/status/1742845625404645790) | [Link](https://www.linkedin.com/posts/adxkusto_ingest-data-from-splunk-universal-forwarder-activity-7148610793889017857-6FdA)|
 | 334 | Migrate your ADX cluster to support multiple availability zones | [Link](https://twitter.com/kustonaut/status/1743218138055864488) | [Link](https://www.linkedin.com/posts/adxkusto_migrate-your-cluster-to-support-multiple-activity-7148981940023418880-ThFj)|
 | 335 | Calculate the dot product of two numeric series in Kusto | [Link](https://twitter.com/kustonaut/status/1744263809743946095) | [Link](https://www.linkedin.com/posts/adxkusto_seriesdotproduct-azure-data-explorer-activity-7150028076087656448-K7IP)|
-
+| 336 | Lakehouse vs Warehouse vs Real-Time Analytics | [Link](https://twitter.com/kustonaut/status/1744674128366571915) | [Link](https://www.linkedin.com/posts/adxkusto_lakehouse-vs-data-warehouse-vs-real-time-activity-7150439117191831552-jOsu)|
 
 # Assets
 
