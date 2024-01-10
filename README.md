@@ -610,7 +610,7 @@ All the day wise content for #365daysofADX
 
 | Day | Topic                                     | Twitter Post | LinkedIn Post |
 | --- | ---------------------------------------------------- | ------------ | ------------- |
-| 330 | Get data from Eventstream to KQL DB in MS Fabric | [Link](https://twitter.com/kustonaut/status/1745070573401862493) | [Link](https://www.linkedin.com/posts/adxkusto_get-data-from-eventstream-microsoft-fabric-activity-7150835777369690113-FpU8)|
+| 337 | Get data from Eventstream to KQL DB in MS Fabric | [Link](https://twitter.com/kustonaut/status/1745070573401862493) | [Link](https://www.linkedin.com/posts/adxkusto_get-data-from-eventstream-microsoft-fabric-activity-7150835777369690113-FpU8)|
 
 # Assets
 
