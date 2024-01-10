@@ -606,6 +606,12 @@ All the day wise content for #365daysofADX
 | 335 | Calculate the dot product of two numeric series in Kusto | [Link](https://twitter.com/kustonaut/status/1744263809743946095) | [Link](https://www.linkedin.com/posts/adxkusto_seriesdotproduct-azure-data-explorer-activity-7150028076087656448-K7IP)|
 | 336 | Lakehouse vs Warehouse vs Real-Time Analytics | [Link](https://twitter.com/kustonaut/status/1744674128366571915) | [Link](https://www.linkedin.com/posts/adxkusto_lakehouse-vs-data-warehouse-vs-real-time-activity-7150439117191831552-jOsu)|
 
+## Week 49
+
+| Day | Topic                                     | Twitter Post | LinkedIn Post |
+| --- | ---------------------------------------------------- | ------------ | ------------- |
+| 330 | Get data from Eventstream to KQL DB in MS Fabric | [Link](https://twitter.com/kustonaut/status/1745070573401862493) | [Link](https://www.linkedin.com/posts/adxkusto_get-data-from-eventstream-microsoft-fabric-activity-7150835777369690113-FpU8)|
+
 # Assets
 
 This folder contains the assets used to create the social posts.
