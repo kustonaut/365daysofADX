@@ -25,6 +25,9 @@ The aim of #365daysofADX is to get started with Azure Data Explorer(ADX) a.k.a. 
 |[Week 43](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-43)|[Week 44](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-44)|[Week 45](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-45)|[Week 46](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-46)|[Week 47](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-47)|[Week 48](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-48)|[Week 49](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-49)|
 | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
 
+|[Week 50](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-50)|[Week 51](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-51)|[Week 52](https://github.com/kustonaut/365daysofADX/blob/main/README.md#week-52)|
+| ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
+
 
 # Content
 
