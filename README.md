@@ -614,6 +614,7 @@ All the day wise content for #365daysofADX
 | --- | ---------------------------------------------------- | ------------ | ------------- |
 | 337 | Get data from Eventstream to KQL DB in MS Fabric | [Link](https://twitter.com/kustonaut/status/1745070573401862493) | [Link](https://www.linkedin.com/posts/adxkusto_get-data-from-eventstream-microsoft-fabric-activity-7150835777369690113-FpU8)|
 | 338 | Data formats supported by Real-Time Analytics | [Link](https://twitter.com/kustonaut/status/1745366357460525425) | [Link](https://www.linkedin.com/posts/adxkusto_realtimeanalytics-365daysofadx-100daysofrta-activity-7151131530025664512-0sIR)|
+| 339 | Kusto Insights - Monthly Newsletter - December Update | [Link](https://twitter.com/kustonaut/status/1745779349914300672) | [Link](https://www.linkedin.com/posts/adxkusto_kusto-insights-december-update-activity-7151544581656821760-nbm0)|
 
 # Assets
 
