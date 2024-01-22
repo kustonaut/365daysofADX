@@ -618,6 +618,7 @@ All the day wise content for #365daysofADX
 | 340 | Data Activator tutorial using sample data | [Link](https://twitter.com/kustonaut/status/1747206959391277495) | [Link](https://www.linkedin.com/posts/adxkusto_data-activator-tutorial-using-sample-data-activity-7152972179612012545-vWC2)|
 | 341 | KQL Database consumption monitoring | [Link](https://twitter.com/kustonaut/status/1747495406295236732) | [Link](https://www.linkedin.com/posts/adxkusto_kql-database-consumption-microsoft-fabric-activity-7153260295094730753-9kqm)|
 | 342 | Blog: Ingest data using Splunk Universal forwarder to ADX | [Link](https://twitter.com/kustonaut/status/1747951115390582951) | [Link](https://www.linkedin.com/posts/adxkusto_ingest-data-using-splunk-universal-forwarder-activity-7153715802519539712-qKY4)|
+| 343 | One-time ingestion to Kusto | [Link](https://twitter.com/kustonaut/status/1749382377695072653) | [Link](https://www.linkedin.com/posts/adxkusto_azure-data-explorer-data-ingestion-overview-activity-7155147083593699328-SJgz)|
 
 
 # Assets
