@@ -620,6 +620,11 @@ All the day wise content for #365daysofADX
 | 342 | Blog: Ingest data using Splunk Universal forwarder to ADX | [Link](https://twitter.com/kustonaut/status/1747951115390582951) | [Link](https://www.linkedin.com/posts/adxkusto_ingest-data-using-splunk-universal-forwarder-activity-7153715802519539712-qKY4)|
 | 343 | One-time ingestion to Kusto | [Link](https://twitter.com/kustonaut/status/1749382377695072653) | [Link](https://www.linkedin.com/posts/adxkusto_azure-data-explorer-data-ingestion-overview-activity-7155147083593699328-SJgz)|
 
+## Week 50
+
+| Day | Topic                                     | Twitter Post | LinkedIn Post |
+| --- | ---------------------------------------------------- | ------------ | ------------- |
+| 344 | Continuous data ingestion to Kusto | [Link](https://twitter.com/kustonaut/status/1751550345476759916) | [Link](https://www.linkedin.com/posts/adxkusto_continuous-data-ingestion-activity-7157314807279349761-217z)|
 
 # Assets
 
