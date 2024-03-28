@@ -625,6 +625,7 @@ All the day wise content for #365daysofADX
 | Day | Topic                                     | Twitter Post | LinkedIn Post |
 | --- | ---------------------------------------------------- | ------------ | ------------- |
 | 344 | Continuous data ingestion to Kusto | [Link](https://twitter.com/kustonaut/status/1751550345476759916) | [Link](https://www.linkedin.com/posts/adxkusto_continuous-data-ingestion-activity-7157314807279349761-217z)|
+| 345 | Export data from Defender for Endpoint to Azure Data Explorer | [Link](https://twitter.com/kustonaut/status/1773212287626621245) | [Link](https://www.linkedin.com/posts/adxkusto_how-to-export-data-from-defender-for-endpoint-activity-7178977371411161088-nN17)|
 
 # Assets
 
