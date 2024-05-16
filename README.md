@@ -629,6 +629,7 @@ All the day wise content for #365daysofADX
 | 346 | What is Real-Time Analytics (Fabric Flashcard version) | [Link](https://twitter.com/kustonaut/status/1789932990820221039) | [Link](https://www.linkedin.com/posts/adxkusto_what-is-real-time-analytics-activity-7195697533380096000-BKTf)|
 | 347 | What is the benefit of using KQL for Data Analysis? | [Link](https://twitter.com/kustonaut/status/1790236555321204953) | [Link](https://www.linkedin.com/posts/adxkusto_what-is-the-benefit-of-using-kql-for-data-activity-7196001257919033344-pIWl)|
 | 348 | What are the benefits of using Real-Time Analytics? | [Link](https://twitter.com/kustonaut/status/1790635004239782209) | [Link](https://www.linkedin.com/posts/adxkusto_what-are-the-benefits-of-using-real-time-activity-7196399557457416192-xOnw)|
+| 349 | What is Kusto Query Language? | [Link](https://twitter.com/kustonaut/status/1791031001495302184) | [Link](https://www.linkedin.com/posts/adxkusto_what-is-kusto-query-language-activity-7196790594055090178-Y5yw)|
 
 # Assets
 
