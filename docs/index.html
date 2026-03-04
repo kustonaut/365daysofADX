@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#365daysofADX â€” Random Post Picker</title>
+    <meta name="description" content="Discover a random Azure Data Explorer learning post from the #365daysofADX series. 350 bite-sized posts covering KQL, ingestion, visualization, and more.">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>ðŸŽ²</text></svg>">
+    <style>
+        :root {
+            --adx-blue: #0078D4;
+            --adx-dark: #001B3D;
+            --adx-light: #E8F4FD;
+            --adx-accent: #50E6FF;
+            --adx-green: #00B294;
+            --card-bg: #FFFFFF;
+            --text-primary: #1B2A4A;
+            --text-secondary: #5A6B80;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: linear-gradient(135deg, var(--adx-dark) 0%, #002855 50%, #003D7A 100%);
+            min-height: 100vh;
+            color: var(--text-primary);
+            overflow-x: hidden;
+        }
+
+        /* Animated background particles */
+        .bg-particles {
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            pointer-events: none;
+            z-index: 0;
+        }
+        .particle {
+            position: absolute;
+            border-radius: 50%;
+            background: rgba(80, 230, 255, 0.08);
+            animation: float 20s infinite ease-in-out;
+        }
+        .particle:nth-child(1) { width: 300px; height: 300px; top: 10%; left: -5%; animation-delay: 0s; }
+        .particle:nth-child(2) { width: 200px; height: 200px; top: 60%; right: -3%; animation-delay: -5s; }
+        .particle:nth-child(3) { width: 150px; height: 150px; top: 30%; right: 20%; animation-delay: -10s; }
+        @keyframes float {
+            0%, 100% { transform: translateY(0) scale(1); opacity: 0.5; }
+            50% { transform: translateY(-40px) scale(1.1); opacity: 0.8; }
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .logo {
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: #FFFFFF;
+            letter-spacing: -0.5px;
+        }
+
+        h1 span {
+            background: linear-gradient(90deg, var(--adx-accent), var(--adx-green));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .subtitle {
+            color: rgba(255,255,255,0.65);
+            font-size: 1.05rem;
+            margin-top: 0.5rem;
+        }
+
+        .stats-bar {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 1.2rem;
+            flex-wrap: wrap;
+        }
+
+        .stat {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--adx-accent);
+        }
+
+        .stat-label {
+            font-size: 0.75rem;
+            color: rgba(255,255,255,0.5);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* Action Button */
+        .action-area {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .roll-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.6rem;
+            padding: 1rem 2.5rem;
+            font-size: 1.15rem;
+            font-weight: 600;
+            color: #FFFFFF;
+            background: linear-gradient(135deg, var(--adx-blue), #005A9E);
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 20px rgba(0, 120, 212, 0.4);
+        }
+
+        .roll-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 30px rgba(0, 120, 212, 0.6);
+        }
+
+        .roll-btn:active {
+            transform: translateY(0);
+        }
+
+        .roll-btn .dice {
+            font-size: 1.4rem;
+            display: inline-block;
+            transition: transform 0.5s ease;
+        }
+
+        .roll-btn:hover .dice {
+            animation: shake 0.4s ease;
+        }
+
+        @keyframes shake {
+            0%, 100% { transform: rotate(0); }
+            25% { transform: rotate(-15deg); }
+            75% { transform: rotate(15deg); }
+        }
+
+        /* Filter chips */
+        .filter-section {
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .filter-label {
+            font-size: 0.8rem;
+            color: rgba(255,255,255,0.45);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 0.6rem;
+        }
+
+        .chips {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.4rem;
+        }
+
+        .chip {
+            padding: 0.35rem 0.85rem;
+            font-size: 0.8rem;
+            color: rgba(255,255,255,0.7);
+            background: rgba(255,255,255,0.08);
+            border: 1px solid rgba(255,255,255,0.12);
+            border-radius: 20px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            user-select: none;
+        }
+
+        .chip:hover {
+            background: rgba(255,255,255,0.15);
+            color: #FFFFFF;
+        }
+
+        .chip.active {
+            background: var(--adx-blue);
+            border-color: var(--adx-blue);
+            color: #FFFFFF;
+        }
+
+        .chip .count {
+            font-size: 0.7rem;
+            opacity: 0.7;
+            margin-left: 0.2rem;
+        }
+
+        /* Post Card */
+        .card-wrapper {
+            perspective: 1000px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: 0 8px 40px rgba(0,0,0,0.3);
+            transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            animation: slideUp 0.5s ease;
+        }
+
+        .card.hidden {
+            display: none;
+        }
+
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .card-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1.2rem;
+        }
+
+        .day-badge {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-width: 64px;
+            height: 64px;
+            background: linear-gradient(135deg, var(--adx-blue), #005A9E);
+            border-radius: 12px;
+            color: #FFFFFF;
+        }
+
+        .day-badge .day-label {
+            font-size: 0.6rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            opacity: 0.8;
+        }
+
+        .day-badge .day-number {
+            font-size: 1.6rem;
+            font-weight: 700;
+            line-height: 1;
+        }
+
+        .card-title {
+            flex: 1;
+        }
+
+        .card-title h2 {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            line-height: 1.3;
+        }
+
+        .card-title .week-label {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            margin-top: 0.2rem;
+        }
+
+        .card-category {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: var(--adx-blue);
+            background: var(--adx-light);
+            border-radius: 12px;
+            margin-bottom: 1.2rem;
+        }
+
+        .card-actions {
+            display: flex;
+            gap: 0.8rem;
+            flex-wrap: wrap;
+        }
+
+        .card-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.7rem 1.4rem;
+            font-size: 0.9rem;
+            font-weight: 600;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: all 0.2s ease;
+        }
+
+        .card-btn.primary {
+            color: #FFFFFF;
+            background: #0A66C2;
+        }
+
+        .card-btn.primary:hover {
+            background: #004182;
+        }
+
+        .card-btn.secondary {
+            color: var(--adx-blue);
+            background: var(--adx-light);
+        }
+
+        .card-btn.secondary:hover {
+            background: #D0E8F8;
+        }
+
+        /* History */
+        .history {
+            margin-top: 2rem;
+        }
+
+        .history-title {
+            font-size: 0.8rem;
+            color: rgba(255,255,255,0.4);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 0.8rem;
+        }
+
+        .history-list {
+            display: flex;
+            flex-direction: column;
+            gap: 0.4rem;
+        }
+
+        .history-item {
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+            padding: 0.6rem 1rem;
+            background: rgba(255,255,255,0.05);
+            border-radius: 8px;
+            text-decoration: none;
+            transition: background 0.2s;
+        }
+
+        .history-item:hover {
+            background: rgba(255,255,255,0.1);
+        }
+
+        .history-item .h-day {
+            font-size: 0.8rem;
+            font-weight: 700;
+            color: var(--adx-accent);
+            min-width: 35px;
+        }
+
+        .history-item .h-topic {
+            font-size: 0.85rem;
+            color: rgba(255,255,255,0.75);
+            flex: 1;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid rgba(255,255,255,0.08);
+        }
+
+        footer p {
+            font-size: 0.8rem;
+            color: rgba(255,255,255,0.35);
+        }
+
+        footer a {
+            color: var(--adx-accent);
+            text-decoration: none;
+        }
+
+        footer a:hover { text-decoration: underline; }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .container { padding: 1.5rem 1rem; }
+            h1 { font-size: 1.6rem; }
+            .card { padding: 1.5rem; }
+            .card-title h2 { font-size: 1.1rem; }
+            .stats-bar { gap: 1.2rem; }
+        }
+
+        /* Confetti burst animation for the button */
+        .confetti-container {
+            position: fixed;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            pointer-events: none;
+            z-index: 100;
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-particles">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+
+    <div class="container">
+        <header>
+            <div class="logo">ðŸŽ²</div>
+            <h1><span>#365daysofADX</span> Random Post</h1>
+            <p class="subtitle">Discover a random Azure Data Explorer learning nugget</p>
+            <div class="stats-bar">
+                <div class="stat">
+                    <div class="stat-number">350</div>
+                    <div class="stat-label">Posts</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">50</div>
+                    <div class="stat-label">Weeks</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number" id="viewed-count">0</div>
+                    <div class="stat-label">Viewed</div>
+                </div>
+            </div>
+        </header>
+
+        <div class="filter-section">
+            <div class="filter-label">Filter by Category</div>
+            <div class="chips" id="chips"></div>
+        </div>
+
+        <div class="action-area">
+            <button class="roll-btn" id="roll-btn" onclick="rollRandom()">
+                <span class="dice">ðŸŽ²</span>
+                Show Random Post
+            </button>
+        </div>
+
+        <div class="card-wrapper">
+            <div class="card hidden" id="post-card">
+                <div class="card-header">
+                    <div class="day-badge">
+                        <span class="day-label">Day</span>
+                        <span class="day-number" id="card-day"></span>
+                    </div>
+                    <div class="card-title">
+                        <h2 id="card-topic"></h2>
+                        <div class="week-label" id="card-week"></div>
+                    </div>
+                </div>
+                <div class="card-category" id="card-category"></div>
+                <div class="card-actions">
+                    <a class="card-btn primary" id="card-linkedin" href="#" target="_blank" rel="noopener">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                        Read on LinkedIn
+                    </a>
+                    <button class="card-btn secondary" onclick="rollRandom()">
+                        ðŸŽ² Next Random
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="history" id="history-section" style="display:none">
+            <div class="history-title">Recently Rolled</div>
+            <div class="history-list" id="history-list"></div>
+        </div>
+
+        <footer>
+            <p>
+                Built from <a href="https://github.com/kustonaut/365daysofADX" target="_blank">kustonaut/365daysofADX</a>
+                &nbsp;Â·&nbsp; Created by <a href="https://www.linkedin.com/in/dixitakshay/" target="_blank">Akshay Dixit</a>
+            </p>
+        </footer>
+    </div>
+
+    <script>
+    // === DATA ===
+    const posts = [{"day": 1, "topic": "Free cluster", "url": "https://www.linkedin.com/posts/dixitakshay_365daysofadx-kusto-365daysofadx-activity-7015347995281879040-Haj7/", "week": 1}, {"day": 2, "topic": "Create Database", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-adx-kql-activity-7015718959287005184-JXW3/", "week": 1}, {"day": 3, "topic": "Print Operator", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-adx-azuredataexplorer-activity-7016067183193534464-8eZl/", "week": 1}, {"day": 4, "topic": "Create Table Command", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-adx-kusto-activity-7016453067806011392-9XUZ", "week": 1}, {"day": 5, "topic": "Ingest Data from Blob(s)", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-azure-data-activity-7016784840242925569-bqp4", "week": 1}, {"day": 6, "topic": "Create Table and ingest data from CSV", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-adx-kusto-activity-7017174698388037632-48So", "week": 1}, {"day": 7, "topic": "Drop Table(s)", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-kql-adx-activity-7017530334967664641-PfaX", "week": 1}, {"day": 8, "topic": "Run T-SQL Query", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-kql-adx-activity-7017893686839537664-wcW4", "week": 2}, {"day": 9, "topic": "Take operator", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-data-sql-activity-7018259398670061568-pVCm", "week": 2}, {"day": 10, "topic": "SQL to KQL translation using EXPLAIN", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-sql-kql-activity-7018623785448714243-lUlX", "week": 2}, {"day": 11, "topic": "Sample gallery on help cluster", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-kql-activity-7018978989192949760-4jpc", "week": 2}, {"day": 12, "topic": "Major components of ADX ecosystem", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-adx-kql-activity-7019337900332920832-sQLR", "week": 2}, {"day": 13, "topic": "What is Azure Data Explorer? Learn module", "url": "https://www.linkedin.com/posts/adxkusto_what-is-azure-data-explorer-activity-7019656238720294913-d_V-", "week": 2}, {"day": 14, "topic": "When should you use ADX?", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-bigdata-analytics-activity-7020039947403300864-RIh5", "week": 2}, {"day": 15, "topic": "Tabular Statement", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-kql-activity-7020377226369974272-IPp9", "week": 3}, {"day": 16, "topic": "Project and Project-Away Operators", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-kql-activity-7020794638475112448-OP8k", "week": 3}, {"day": 17, "topic": "Where Operator", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-kql-kusto-activity-7021162481158897664-_xy5", "week": 3}, {"day": 18, "topic": "Extend Operator", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-kql-kusto-activity-7021525506009251840-0R7a", "week": 3}, {"day": 19, "topic": "Let Statement", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-kql-kusto-activity-7021833903304814592-l_Jk", "week": 3}, {"day": 20, "topic": "Datatable operator", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-kql-adx-activity-7022197825023139840-KL1K", "week": 3}, {"day": 21, "topic": "Contains operator", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-kql-kusto-activity-7022577190944841728-c9qL", "week": 3}, {"day": 22, "topic": "Has operator", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-kql-activity-7022897883007856640-z1vi", "week": 4}, {"day": 23, "topic": "Contains vs Has operator", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-kql-activity-7023299226302300160-XTu-", "week": 4}, {"day": 24, "topic": "Kusto Detective Agency", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-bigdata-kda-activity-7023660141212315648-TIDW", "week": 4}, {"day": 25, "topic": "Kusto Emulator", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-kql-kusto-activity-7024023614567890944-rJmD", "week": 4}, {"day": 26, "topic": "DateTime Data Type", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-kql-activity-7024412183476248576-_SlC", "week": 4}, {"day": 27, "topic": "Between Operator", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-adx-kusto-activity-7024730812000407552-JMKU", "week": 4}, {"day": 28, "topic": "Sort Operator", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-kql-kusto-activity-7025148143675531264-ltf6", "week": 4}, {"day": 29, "topic": "Summarize Operator", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-kql-activity-7025523184003092481-IGCF", "week": 5}, {"day": 30, "topic": "Bin Function", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-adx-activity-7025876901336354816-Nrqn", "week": 5}, {"day": 31, "topic": "Render Operator", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-kwe-ke-activity-7026183847440465920-sP7a", "week": 5}, {"day": 32, "topic": "PieChart Visualization", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-geospatial-azure-activity-7026597958158553089-qtFr", "week": 5}, {"day": 33, "topic": "ColumnChart Visualization", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-kql-kusto-activity-7026963156446887936-iGqD", "week": 5}, {"day": 34, "topic": "BarChart Visualization", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-microsoft-azure-activity-7027325295355412480-7VNF", "week": 5}, {"day": 35, "topic": "AreaChart Visualization", "url": "https://www.linkedin.com/posts/adxkusto_areachart-365daysofadx-note-activity-7027606937546440704-VJKL", "week": 5}, {"day": 36, "topic": "Stacked AreaChart Visualization", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-adx-activity-7028039980572631040-NTL3", "week": 6}, {"day": 37, "topic": "Scatter Chart Visualization", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-adx-kusto-activity-7028335291799060480-nki5", "week": 6}, {"day": 38, "topic": "Card Visualization", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-kql-activity-7028746442844385280-FJwB", "week": 6}, {"day": 39, "topic": "Line Chart Visualization", "url": "https://www.linkedin.com/posts/adxkusto_linechart-365daysofadx-note-activity-7029126704182833152-CnSo", "week": 6}, {"day": 40, "topic": "Time Chart Visualization", "url": "https://www.linkedin.com/posts/adxkusto_timechart-note-syntax-activity-7029447856776196096-aodc", "week": 6}, {"day": 41, "topic": "Anomaly Chart Visualization", "url": "https://www.linkedin.com/posts/adxkusto_anomaly-365daysofadx-note-activity-7029849660630446080-i_7b", "week": 6}, {"day": 42, "topic": "Join Operator", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-syntax-example-activity-7030234122153340929-Mm_m", "week": 6}, {"day": 43, "topic": "Pin Query to Dashboard", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-adx-activity-7030594670564913152-IDXM", "week": 7}, {"day": 44, "topic": "Default Join", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-kql-learnmore-activity-7030947264269328384-l4PA", "week": 7}, {"day": 45, "topic": "Inner Join", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-kql-activity-7031305797422723072-J1rQ", "week": 7}, {"day": 46, "topic": "Left Outer Join", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-kql-activity-7031637776194232321-3BLg", "week": 7}, {"day": 47, "topic": "Right Outer Join", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-kwe-kusto-activity-7032012962261282816--XEP", "week": 7}, {"day": 48, "topic": "Full Outer Join", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-kql-activity-7032386381297401856-olCV", "week": 7}, {"day": 49, "topic": "Left Anti Join", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-kql-activity-7032743936653705216-IDF7", "week": 7}, {"day": 50, "topic": "Right Anti Join", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-azuredataexplorer-activity-7033090962314649600-BZgA", "week": 8}, {"day": 51, "topic": "Left Semi Join", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-azure-data-activity-7033437808279105536-EtFb", "week": 8}, {"day": 52, "topic": "Right Semi Join", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-kql-activity-7033768343325007872-7U4X", "week": 8}, {"day": 53, "topic": "ADX Dashboards", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-kql-activity-7034124387054141440-_djj", "week": 8}, {"day": 54, "topic": "Data Ingestion", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-datamanagement-data-activity-7034540266564825090-K3Wu", "week": 8}, {"day": 55, "topic": "OSS Connectors", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-data-visualization-activity-7034860825374863360-cv-f", "week": 8}, {"day": 56, "topic": "Native Ingestion from AWS S3", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-aws-amazon-activity-7035306938624028673-kYYK", "week": 8}, {"day": 57, "topic": "Data Connectors Overview", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-azuresynapseanalytics-activity-7035622244387074048-sUrK", "week": 9}, {"day": 58, "topic": "Telegraf Output Connector", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-azuredataexplorer-telegraf-activity-7035987917172785152-RFMf", "week": 9}, {"day": 59, "topic": "Kafka Sink Connector", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-apachekafka-opensource-activity-7036321603298701312-I3F4", "week": 9}, {"day": 60, "topic": "Logstash Output Connector", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-logstash-opensource-activity-7036752130367500288-SAAy", "week": 9}, {"day": 61, "topic": "OpenTelemetry Connector", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-opentelemetry-otel-activity-7037104012151681024-kjSg", "week": 9}, {"day": 62, "topic": "Supported Data Formats for Ingestion", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-azuredataexplorer-adx-activity-7037425082834530305-IaXR", "week": 9}, {"day": 63, "topic": "Client Libraries", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-azure-azuredataexplorer-activity-7037829305438986240-_Z2H", "week": 9}, {"day": 64, "topic": "Rest API Supported Actions", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-analytics-azuredataexplorer-activity-7038197910626349058-GGKZ", "week": 10}, {"day": 65, "topic": "Geospatial Visualizations", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-geospatial-kusto-activity-7038554404785917952-XSdX", "week": 10}, {"day": 66, "topic": "Geospatial Clustering Methods Comparison", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-azuredataexplorer-geohash-activity-7038915943015591936-sQts", "week": 10}, {"day": 67, "topic": "Visualize points on a map", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-azure-data-activity-7039271471910690816-KqfM", "week": 10}, {"day": 68, "topic": "Find an ADX Partner", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-azuredataexplorer-adx-activity-7039633990059737088-8hlz", "week": 10}, {"day": 69, "topic": "Find My Partner Dashboard", "url": "https://www.linkedin.com/posts/adxkusto_azure-data-explorer-find-my-partner-dashboard-activity-7039969096481845249-JCyG", "week": 10}, {"day": 70, "topic": "KQL Quick Reference", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-kql-activity-7040384886150475776-6LLG", "week": 10}, {"day": 71, "topic": "Daily Average Cycle", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-adx-azure-activity-7040722089208594432-D3R8", "week": 11}, {"day": 72, "topic": "Solution Architectures", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-azuredataexplorer-data-activity-7041087864939393025-ooke", "week": 11}, {"day": 73, "topic": "What's new in ADX Documentation", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-adx-azure-activity-7041422628200275970-jlGr", "week": 11}, {"day": 74, "topic": "Data Analysis with KQL Learning Path", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-azuredataexplorer-adx-activity-7041777256901271552-o2Mh", "week": 11}, {"day": 75, "topic": "Free Pluralsight Courses", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-adx-activity-7042147610538717184-JE2l", "week": 11}, {"day": 76, "topic": "Analyse impact of News on BTC Prices", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-azuredataexplorer-adx-activity-7042489069108375552-Zvq9", "week": 11}, {"day": 77, "topic": "Azure Data Share with ADX", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-azuredataexplorer-azuredatashare-activity-7042850015878201344-th4k", "week": 11}, {"day": 78, "topic": "VNet Injection for ADX", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-azuredataexplorer-vnet-activity-7043186792883195904--OcA", "week": 12}, {"day": 79, "topic": "Private Endpoint for ADX", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-vnet-vpn-activity-7043522893871296513-MC97", "week": 12}, {"day": 80, "topic": "Splunk to KQL Cheat Sheet", "url": "https://www.linkedin.com/posts/adxkusto_splunk-to-kusto-query-language-map-activity-7043961470417547264-yzbU", "week": 12}, {"day": 81, "topic": "E2E Blob Ingestion using C#", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-adx-azure-activity-7044303241978785792-FS5i", "week": 12}, {"day": 82, "topic": "E2E Blob Ingestion using Python", "url": "https://www.linkedin.com/posts/adxkusto_python-365daysofadx-adx-activity-7044705229656764416-MDKX", "week": 12}, {"day": 83, "topic": "Historical Data Ingestion using wizard", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-azuredataexplorer-lightingest-activity-7045079155759013889-V8A4", "week": 12}, {"day": 84, "topic": "Power Automate Connector for ADX", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-azuredataexplorer-powerautomate-activity-7045433689920483328", "week": 12}, {"day": 85, "topic": "ADX Web UI Keyboard Shortcuts", "url": "https://www.linkedin.com/posts/adxkusto_adx-web-ui-keyboard-shortcuts-activity-7045807360186933248-iUmU", "week": 13}, {"day": 86, "topic": "IoT Reference Architecture with ADX", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-azure-iot-activity-7046059639947337728-9IeW", "week": 13}, {"day": 87, "topic": "ADX as key component in MS Data&AI Stack", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-dataanalytics-machinelearning-activity-7046332188404912128-XtNC", "week": 13}, {"day": 88, "topic": "RabbitMQ to ADX via Event Hubs", "url": "https://www.linkedin.com/posts/adxkusto_importing-data-from-rabbitmq-into-azure-data-activity-7046787883684249602-dTUj", "week": 13}, {"day": 89, "topic": "KQL Query Best Practices", "url": "https://www.linkedin.com/posts/adxkusto_kql-query-best-practices-activity-7047076462905966593--wE0", "week": 13}, {"day": 90, "topic": "Defender to ADX", "url": "https://www.linkedin.com/posts/adxkusto_unlimited-advanced-hunting-for-microsoft-activity-7047485345537388545-4qCL", "week": 13}, {"day": 91, "topic": "ADX L300: Overview, Ingestion & KQL", "url": "https://www.linkedin.com/posts/adxkusto_azure-data-explorer-l300-workshop-overview-activity-7047833104916389888-Aptf", "week": 13}, {"day": 92, "topic": "ADX L300: Hands-On Lab", "url": "https://www.linkedin.com/posts/adxkusto_azure-data-explorer-l300-workshop-hands-on-activity-7048273709073145856-aURn", "week": 14}, {"day": 93, "topic": "ADX L300: TS Analytics, High concurrency Apps and Visualization", "url": "https://www.linkedin.com/posts/adxkusto_azure-data-explorer-l300-workshop-time-activity-7048832335458230272-r98X", "week": 14}, {"day": 94, "topic": "Leaderboard with Kafka and ADX", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-adx-kafka-activity-7049241748778139648-oeYq", "week": 14}, {"day": 95, "topic": "Technology behind ADX Engine V3", "url": "https://www.linkedin.com/posts/adxkusto_the-new-technology-behind-adx-performance-activity-7049598946104467458-owfk", "week": 14}, {"day": 96, "topic": "Understanding Extents(Data Shards) in ADX", "url": "https://www.linkedin.com/posts/adxkusto_understanding-extents-activity-7049992359224254465-MaBf", "week": 14}, {"day": 97, "topic": "Query Performance with Time Filters", "url": "https://www.linkedin.com/posts/adxkusto_query-performance-with-time-filter-activity-7050104941658411008-5yqk", "week": 14}, {"day": 98, "topic": "Cache & Retention Policies in ADX", "url": "https://www.linkedin.com/posts/adxkusto_adx-cache-retention-policies-activity-7050315638912819200-4Soc", "week": 14}, {"day": 99, "topic": "Query Results Cache", "url": "https://www.linkedin.com/posts/adxkusto_query-performance-results-cache-activity-7050671166822199296-jPtW", "week": 15}, {"day": 100, "topic": "Managed Ingestion", "url": "https://www.linkedin.com/posts/adxkusto_managed-ingestion-activity-7051033555425984512-fgy1", "week": 15}, {"day": 101, "topic": "ADX Ingestion Insights", "url": "https://www.linkedin.com/posts/adxkusto_azure-data-explorer-ingestion-insights-activity-7051395945011261440-MJ9B", "week": 15}, {"day": 102, "topic": "One-Click Ingestion for Event Hub", "url": "https://www.linkedin.com/posts/adxkusto_azure-data-explorer-one-click-ingestion-for-activity-7051758330444230656-gjFp", "week": 15}, {"day": 103, "topic": "One-Click Ingestion Tutorial", "url": "https://www.linkedin.com/posts/adxkusto_easy-ingestion-activity-7052120717995180033-OqRv", "week": 15}, {"day": 104, "topic": "Transforming IoT data in ADX using KQL", "url": "https://www.linkedin.com/posts/adxkusto_transforming-iot-data-with-kql-activity-7052483115830652931-oFvH", "week": 15}, {"day": 105, "topic": "Update Policy", "url": "https://www.linkedin.com/posts/adxkusto_update-policy-activity-7052845494867271680-gQj2", "week": 15}, {"day": 106, "topic": "Update Policy Patterns", "url": "https://www.linkedin.com/posts/adxkusto_update-policy-patterns-activity-7053207880891604992-YcnG", "week": 16}, {"day": 107, "topic": "E2E Deployment with Arm Template", "url": "https://www.linkedin.com/posts/adxkusto_adx-end-to-end-deployment-with-arm-template-activity-7053570273991606273-iUYt", "week": 16}, {"day": 108, "topic": "F1 Telemetry Analysis with ADX", "url": "https://www.linkedin.com/posts/adxkusto_formula-1-telemetry-analytics-with-adx-activity-7053932656769560576-inXB", "week": 16}, {"day": 109, "topic": "Kusto Emulator Installation", "url": "https://www.linkedin.com/posts/adxkusto_kusto-emulator-activity-7054295046451343360-4ygT", "week": 16}, {"day": 110, "topic": "ADX Detailed Overview by John Savill", "url": "https://www.linkedin.com/posts/adxkusto_azure-data-explorer-adx-overview-activity-7054657436875403264-zLN3", "week": 16}, {"day": 111, "topic": "ADX for Data Scientists", "url": "https://www.linkedin.com/posts/adxkusto_azure-data-explorer-for-data-scientists-activity-7055019823931564032-2lG8", "week": 16}, {"day": 112, "topic": "KQL Overview by John Savill", "url": "https://www.linkedin.com/posts/adxkusto_kusto-query-language-kql-overview-activity-7055382219854348288-0Vjd", "week": 16}, {"day": 113, "topic": "Azure Friday: In-Place Data Share", "url": "https://www.linkedin.com/posts/adxkusto_how-to-share-data-in-place-from-azure-data-activity-7055744597439782912-zjvS", "week": 17}, {"day": 114, "topic": "Top 3 Scenarios to use ADX", "url": "https://www.linkedin.com/posts/adxkusto_azure-data-explorer-top-3-scenarios-where-activity-7056106988673339392-zea0", "week": 17}, {"day": 115, "topic": "High Performance Data Stack using ADX", "url": "https://www.linkedin.com/posts/adxkusto_building-an-advanced-practice-using-azure-activity-7056469375129632768-pqPO", "week": 17}, {"day": 116, "topic": "Use trained Azure ML Model in ADX", "url": "https://www.linkedin.com/posts/adxkusto_how-to-use-trained-azure-machine-learning-activity-7056831767751593984-0FFA", "week": 17}, {"day": 117, "topic": "CosmosDB to ADX through Synapse Link", "url": "https://www.linkedin.com/posts/adxkusto_azure-cosmos-db-to-azure-data-explorer-synapse-activity-7057194148235218944-Zf-J", "week": 17}, {"day": 118, "topic": "Data Analytics with ADX (BI Consulting Pro)", "url": "https://www.linkedin.com/posts/adxkusto_what-is-azure-data-explorer-how-to-perform-activity-7057556548943757312-XKDv", "week": 17}, {"day": 119, "topic": "Data Analytics for Automotive test fleets", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-kql-activity-7057918923098251264-mILU", "week": 17}, {"day": 120, "topic": "ADX Customer Success Story: Husky", "url": "https://www.linkedin.com/posts/adxkusto_husky-technologies-remote-monitoring-solution-activity-7058281312041734144-08UF", "week": 18}, {"day": 121, "topic": "Log Clustering in ADX", "url": "https://www.linkedin.com/posts/adxkusto_log-clustering-in-azure-data-explorer-activity-7058685555877830656-jCCU", "week": 18}, {"day": 122, "topic": "5 Reasons to use CosmosDB to ADX Integration", "url": "https://www.linkedin.com/posts/adxkusto_5-reasons-to-use-cosmos-db-to-azure-data-activity-7059022584712937473-dV1Y", "week": 18}, {"day": 123, "topic": "ADX + Uptake Success Stories", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-data-azure-activity-7059391314366275584-NoKo", "week": 18}, {"day": 124, "topic": "Automotive demos", "url": "https://www.linkedin.com/posts/adxkusto_github-microsoftadx-automotive-demos-activity-7059758778757373953-xypv", "week": 18}, {"day": 125, "topic": "Setup dev environment to use Kusto client libraries", "url": "https://www.linkedin.com/posts/adxkusto_set-up-your-development-environment-to-use-activity-7060142716101308416-K4uM", "week": 18}, {"day": 126, "topic": "Content Delivery Network Analytics", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-cdn-kusto-activity-7060455643291299840-8lKe", "week": 18}, {"day": 127, "topic": "ADX Customer Success Story: ZF Plants", "url": "https://www.linkedin.com/posts/adxkusto_digital-manufacturing-platform-zf-plants-activity-7060818027197403136-avPc", "week": 19}, {"day": 128, "topic": "ADX + Data Mastery: Partner Blogs", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-data-azure-activity-7061216291524591616-GrdA", "week": 19}, {"day": 129, "topic": "Connecting PowerBI to ADX on private endpoint", "url": "https://www.linkedin.com/posts/adxkusto_connecting-from-power-bi-to-adx-on-a-private-activity-7061683286279897090-JzeB", "week": 19}, {"day": 130, "topic": "Observability using ADX", "url": "https://www.linkedin.com/posts/adxkusto_observability-using-adx-activity-7061901075963928576-xxL9", "week": 19}, {"day": 131, "topic": "#HelloKusto: Create your first ADX client app", "url": "https://www.linkedin.com/posts/adxkusto_hello-kusto-create-your-first-app-azure-activity-7062291263730913280-tJ_S", "week": 19}, {"day": 132, "topic": "KQL Cheat Sheets", "url": "https://www.linkedin.com/posts/adxkusto_azure-data-explorer-kql-cheat-sheets-activity-7062634419496398848-r8no", "week": 19}, {"day": 133, "topic": "Long Term Security Log Retention", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-kql-activity-7062992355317940224-15gL", "week": 19}, {"day": 134, "topic": "Customer Success Story: Mobirix", "url": "https://www.linkedin.com/posts/adxkusto_the-global-mobile-game-developer-and-publisher-activity-7063354741992431616-8OiA", "week": 20}, {"day": 135, "topic": "ADX + MAQ Software: Partner Blogs", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-data-azure-activity-7063728125263699968-S6-C", "week": 20}, {"day": 136, "topic": "Stream Analytics to ADX", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-azuredataexplorer-azurestreamanalytics-activity-7064120489325002752-prvj", "week": 20}, {"day": 137, "topic": "Serilog to ADX", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-serilog-adx-activity-7064467702542741506-BlNM", "week": 20}, {"day": 138, "topic": "Create an app to run basic queries", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-data-azure-activity-7064833939001028608-KrD6", "week": 20}, {"day": 139, "topic": "Share Queries from ADX Web UI", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-azure-data-activity-7065286944796160000-J_ZA", "week": 20}, {"day": 140, "topic": "Geospatial Data Processing and Analytics using ADX", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-kql-activity-7065529069152387072-CQdh", "week": 20}, {"day": 141, "topic": "Customer Success Story: financial Fabric", "url": "https://www.linkedin.com/posts/adxkusto_ny-fintech-streamlines-buy-side-data-analysis-activity-7065891457852710912-vZFW", "week": 21}, {"day": 142, "topic": "ADX + Option 4.0: Customer Success Story - Buhler Insights", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-microsoft-azure-activity-7066302163982913537-VerE", "week": 21}, {"day": 143, "topic": "Architecting Multi-Tenant Solution with ADX", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-azure-data-activity-7066830865623920640-6ltD", "week": 21}, {"day": 144, "topic": ".Net Applications to ADX via NLog", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-adx-activity-7067174665974079488-CuCX", "week": 21}, {"day": 145, "topic": "Real-Time Analytics in Fabric", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-microsoft-data-activity-7067348955637907456-_Qel", "week": 21}, {"day": 146, "topic": "Fluent-Bit to ADX", "url": "https://www.linkedin.com/posts/adxkusto_getting-started-with-fluent-bit-and-azure-activity-7067754198477455360-JCxq", "week": 21}, {"day": 147, "topic": "IoT Analytics with ADX", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-kql-activity-7068065787789361152-Jw_A", "week": 21}, {"day": 148, "topic": "Real-Time Analytics in Fabric: Intro Blog", "url": "https://www.linkedin.com/posts/adxkusto_sense-analyze-and-generate-insights-with-activity-7068674618479304704-oR9v", "week": 22}, {"day": 149, "topic": "Get Data from OneLake into Real-Time Analytics", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-onelake-microsoftfabric-activity-7068788687391592448-6y5j", "week": 22}, {"day": 150, "topic": "Kusto Detective Agency - Season 2", "url": "https://www.linkedin.com/posts/adxkusto_kusto-detective-agency-season-2-activity-7069187721142894592-lsT4", "week": 22}, {"day": 151, "topic": "ADX Export - Techniques and Strategies", "url": "https://www.linkedin.com/posts/adxkusto_techniques-and-strategies-for-optimal-performance-activity-7069582282516238337-mD6S", "week": 22}, {"day": 152, "topic": "ADX Build 2023 Announcements", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-adx-kustofreeclusters-activity-7069930210292285441-mKWN", "week": 22}, {"day": 153, "topic": "ADX Web UI Quick Fix Capabilities", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-kql-kusto-activity-7070298096437477377-YPn9", "week": 22}, {"day": 154, "topic": "Interactive Analytics with ADX", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-kql-activity-7070602505591676928-5Bvo", "week": 22}, {"day": 155, "topic": "ADX Web UI Query Overview", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-kql-kusto-activity-7071129222756376576-jQDV", "week": 23}, {"day": 156, "topic": "Real Time Analytics Guidebook by Brian Bonk", "url": "https://www.linkedin.com/posts/adxkusto_microsoft-fabric-real-time-analytics-guidebook-activity-7071521333192310785-y_OE", "week": 23}, {"day": 157, "topic": "Simplified ingestion from EventHub to ADX", "url": "https://www.linkedin.com/posts/adxkusto_simplifying-data-streamingfrom-event-hubs-activity-7071904588722749440-GbBq", "week": 23}, {"day": 158, "topic": "KQL function to get info from IP Address", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-kql-kusto-activity-7072140727140458496-VIT1", "week": 23}, {"day": 159, "topic": "bag_zip() to merge 2 dynamic arrays into key value pairs", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-kql-kusto-activity-7072440613761105920-1tWG", "week": 23}, {"day": 160, "topic": "Get Data in Microsoft Fabric Real Time Analytics", "url": "https://www.linkedin.com/posts/adxkusto_microsoftfabric-realtimeanalytics-365daysofadx-activity-7072905432175976448-Cxws", "week": 23}, {"day": 161, "topic": "Big Data Analytics with Azure Data Explorer", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-kql-activity-7073139216364257280-XSTO", "week": 23}, {"day": 162, "topic": "ADX Customer Success Story: LinkedIn", "url": "https://www.linkedin.com/posts/adxkusto_linkedin-simplifies-log-management-with-azure-activity-7073501601801379840-AWtE", "week": 24}, {"day": 163, "topic": "ADX User Analytics Plugins", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-funnels-activity-7073889198952300544-Nn7f", "week": 24}, {"day": 164, "topic": "View and Optimize KQL queries from PowerBI to ADX", "url": "https://www.linkedin.com/posts/adxkusto_using-show-queries-to-understand-and-optimize-activity-7074320928142204928-09WD", "week": 24}, {"day": 165, "topic": "TeachJing's KQL Tutorial Series", "url": "https://www.linkedin.com/posts/adxkusto_kql-365daysofadx-adx-activity-7075883762013659136-AQ4U", "week": 24}, {"day": 166, "topic": "Kusto Emulator on Linux", "url": "https://www.linkedin.com/posts/adxkusto_kusto-emulator-on-linux-activity-7075152103618285568-ST6h", "week": 24}, {"day": 167, "topic": "ADX Function Types", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-kql-kusto-activity-7075532521874030593-Vc8C", "week": 24}, {"day": 168, "topic": "ADX + Azure Monitor + Azure Sentinel", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-kql-activity-7075675928726577152-eIol", "week": 24}, {"day": 169, "topic": "ADX Customer Success Story: Microsoft 365 Defender", "url": "https://www.linkedin.com/posts/adxkusto_azure-data-explorer-analyzes-petabytes-of-activity-7076038324217331712-45Hd", "week": 25}, {"day": 170, "topic": "How to choose b/w materialized views & update policies", "url": "https://www.linkedin.com/posts/adxkusto_materializedviews-updatepolicies-365daysofadx-activity-7076410716307566593-_aJN", "week": 25}, {"day": 171, "topic": "Optimise ADX for High Concurrency", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-adx-kusto-activity-7076921219727466496-st9v", "week": 25}, {"day": 172, "topic": "Visualize data from ADX in Grafana", "url": "https://www.linkedin.com/posts/adxkusto_visualize-data-from-azure-data-explorer-in-activity-7077220798398107648-SQXo", "week": 25}, {"day": 173, "topic": "MustLearnKQL Video Series by David Hall", "url": "https://www.linkedin.com/posts/adxkusto_mustlearnkql-365daysofadx-kql-activity-7077690707741687808-5smD", "week": 25}, {"day": 174, "topic": "ADX: Storage authentication methods", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-kql-kusto-activity-7078047473746739201-7NjZ", "week": 25}, {"day": 175, "topic": "ADX: SKU Options", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-adx-kusto-activity-7078320157747552256-fT6Z", "week": 25}, {"day": 176, "topic": "ADX External Table using Web UI Wizard", "url": "https://www.linkedin.com/posts/adxkusto_externaltable-webui-365daysofadx-activity-7078749391565578240-8LkI", "week": 26}, {"day": 177, "topic": "ADX Table Batching Policy using Web UI Wizard", "url": "https://www.linkedin.com/posts/adxkusto_ingestion-batchingpolicy-webui-activity-7079010267241603072-O_TU", "week": 26}, {"day": 178, "topic": "ADX for Vector Similarity search", "url": "https://www.linkedin.com/posts/adxkusto_azure-data-explorer-for-vector-similarity-activity-7079520948948746240-qRp2", "week": 26}, {"day": 179, "topic": "Ingest streaming data into ADX EventHub & Databricks", "url": "https://www.linkedin.com/posts/adxkusto_ingest-streaming-data-using-azure-event-hub-activity-7079727243509342209-331W", "week": 26}, {"day": 180, "topic": "KQL Conversion Functions", "url": "https://www.linkedin.com/posts/adxkusto_introducing-conversion-functions-in-kql-activity-7080251884363554816-QiIH", "week": 26}, {"day": 181, "topic": "Entity Types in ADX", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-azuredataexplorer-kusto-activity-7080538432854196225-_jCV", "week": 26}, {"day": 182, "topic": "Fun with KQLDB in Fabric Real-Time Analytics", "url": "https://www.linkedin.com/posts/adxkusto_microsoftfabric-kql-365daysofadx-activity-7080897650371272704-An9U", "week": 26}, {"day": 183, "topic": "New Generation Cache Recommendations for ADX", "url": "https://www.linkedin.com/posts/adxkusto_new-generation-of-cache-recommendations-for-activity-7081201933381701632-XemB", "week": 27}, {"day": 184, "topic": "MustLearnKQL e-book by Rod Trent", "url": "https://www.linkedin.com/posts/adxkusto_mustlearnkqlpdf-activity-7081480925724782592-pWJX", "week": 27}, {"day": 185, "topic": "KQL Threat Hunting Hub by Kijo", "url": "https://www.linkedin.com/posts/adxkusto_github-learningkijokql-threat-hunting-activity-7081864590111686656--Fqn", "week": 27}, {"day": 186, "topic": "KQL External Data Operator", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-azuredataexplorer-azuremonitor-activity-7082342364404416512-Y91s", "week": 27}, {"day": 187, "topic": "Plotly Visualizations in ADX", "url": "https://www.linkedin.com/posts/adxkusto_plotly-visualizations-in-azure-data-explorer-activity-7082686222267015169-xxgr", "week": 27}, {"day": 188, "topic": "Parse queries & commands with Kusto.Language", "url": "https://www.linkedin.com/posts/adxkusto_parse-queries-and-commands-with-kustolanguage-activity-7082954388478074880-VrLU", "week": 27}, {"day": 189, "topic": "replace_string() function", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-kql-azuredataexplorer-activity-7083453423374745601-k0dU", "week": 27}, {"day": 190, "topic": "Cache Policy vs Retention Policy", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-azuredataexplorer-kusto-activity-7083877068047794176-rKOx", "week": 28}, {"day": 191, "topic": "Pivot Plugin", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-kql-kusto-activity-7084053022271488001-vbOo", "week": 28}, {"day": 192, "topic": "KQL Materialize Function", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-kql-azuredataexplorer-activity-7084400517128368128-cjfg", "week": 28}, {"day": 193, "topic": "Postgresql_request plugin", "url": "https://www.linkedin.com/posts/adxkusto_postgresql-365daysofadx-kql-activity-7084731195124531201-YAjL", "week": 28}, {"day": 194, "topic": "KQL Auto Delete Policy", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-kql-kusto-activity-7085128398141829121-XYS4", "week": 28}, {"day": 195, "topic": "ADX Geolocation functions for Hunting Insights", "url": "https://www.linkedin.com/posts/adxkusto_geospatial-365daysofadx-azuredataexplorer-activity-7085458132197343232-MlwR", "week": 28}, {"day": 196, "topic": "ADX Database cursors", "url": "https://www.linkedin.com/posts/adxkusto_database-cursors-activity-7086235927651454976-NV1c", "week": 28}, {"day": 197, "topic": "Comments in KQL", "url": "https://www.linkedin.com/posts/adxkusto_kql-365daysofadx-syntax-activity-7086410260336275456-BAhA", "week": 29}, {"day": 198, "topic": "Fundamentals of Data Analysis using KQL", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-mslearn-learningobjectives-activity-7086564591702319106-ILx_", "week": 29}, {"day": 199, "topic": "Tutorial: Ingest & query monitoring data in ADX", "url": "https://www.linkedin.com/posts/adxkusto_tutorial-monitoring-data-activity-7087003630121156609-Yaf_", "week": 29}, {"day": 200, "topic": "Query exported data from Azure Monitor in ADX", "url": "https://www.linkedin.com/posts/adxkusto_azuremonitor-365daysofadx-loganalytics-activity-7087371862912974849-HxcA", "week": 29}, {"day": 201, "topic": "Use LightIngest to ingest data into ADX", "url": "https://www.linkedin.com/posts/adxkusto_lightingest-365daysofadx-azuredataexplorer-activity-7087784374368165889-4Qbb", "week": 29}, {"day": 202, "topic": "Double Encryption in ADX", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-kusto-kql-activity-7088221461668069376-h3Iv", "week": 29}, {"day": 203, "topic": "Query data from ADX in Matlab", "url": "https://www.linkedin.com/posts/adxkusto_matlab-365daysofadx-azuredataexplorer-activity-7088505676020219904-K9aq", "week": 29}, {"day": 204, "topic": "Enable ADX to listen to Azure Storage via Event Grid", "url": "https://www.linkedin.com/posts/adxkusto_azurestorage-eventgrid-365daysofadx-activity-7088877500826566658-eOfM", "week": 30}, {"day": 205, "topic": "Optimizing Vector Similarity Searches at Scale in ADX", "url": "https://www.linkedin.com/posts/adxkusto_optimizing-vector-similarity-searches-at-activity-7089110084911345664-ICLN", "week": 30}, {"day": 206, "topic": "Orchestrating ADX queries using managed Apache Airflow", "url": "https://www.linkedin.com/posts/adxkusto_airflow-365daysofadx-apacheairflow-activity-7089567415444881408-l4lt", "week": 30}, {"day": 207, "topic": "Building Self serve analytics with ADX and OpenAI", "url": "https://www.linkedin.com/posts/adxkusto_startups-at-microsoft-activity-7089812632743886848-sz6j", "week": 30}, {"day": 208, "topic": "Kusto.Explorer", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-ke-kql-activity-7090194436323721216-pTzA", "week": 30}, {"day": 209, "topic": "Connect ADX with ODBC", "url": "https://www.linkedin.com/posts/adxkusto_creating-odbc-connection-with-azure-data-activity-7090736975120322560-4LRB", "week": 30}, {"day": 210, "topic": "ADX Network Isolation", "url": "https://www.linkedin.com/posts/adxkusto_adx-network-isolation-activity-7090993747278090240-0CG_", "week": 30}, {"day": 211, "topic": "Real-Time reports with PowerBI + Kusto", "url": "https://www.linkedin.com/posts/adxkusto_near-real-time-reports-in-pbi-kusto-activity-7091609835481235456-vPoC", "week": 31}, {"day": 212, "topic": "AiTM and BEC threat hunting with KQL", "url": "https://www.linkedin.com/posts/adxkusto_aitm-bec-threat-hunting-with-kql-activity-7092017172301963264-eW4l", "week": 31}, {"day": 213, "topic": "IoT Ingestion Patterns", "url": "https://www.linkedin.com/posts/adxkusto_iot-ingestion-patterns-activity-7092390407027761153-kjGc", "week": 31}, {"day": 214, "topic": "Connecting Power BI to ADX", "url": "https://www.linkedin.com/posts/adxkusto_connecting-power-bi-to-adx-activity-7092777492406575104-640F", "week": 31}, {"day": 215, "topic": "Anomaly Detection and Forecasting in ADX", "url": "https://www.linkedin.com/posts/adxkusto_anomaly-detection-and-forecasting-activity-7093235577780600834-DtmG", "week": 31}, {"day": 216, "topic": "External Tables", "url": "https://www.linkedin.com/posts/adxkusto_external-tables-activity-7093644399368114176-luMZ", "week": 31}, {"day": 217, "topic": "E2E Flow for ADX WebUI", "url": "https://www.linkedin.com/posts/adxkusto_kusto-web-interface-end-to-end-flow-activity-7094003428636397568-1FP6", "week": 31}, {"day": 218, "topic": "ADX Dashboard Walkthrough by Gabi Lehnar", "url": "https://www.linkedin.com/posts/adxkusto_adx-dashboards-activity-7094192001817935873-2GIh", "week": 32}, {"day": 219, "topic": "ADX Ingestion Hub Overview by Anshul Sharma", "url": "https://www.linkedin.com/posts/adxkusto_ingestion-hub-ingesting-data-in-azure-data-activity-7094689029870297089-h1Js", "week": 32}, {"day": 220, "topic": "Provisioning an Azure Cosmos DB connection to ADX", "url": "https://www.linkedin.com/posts/adxkusto_provisioning-a-cosmos-db-connection-activity-7094997691562127360-Gzx6", "week": 32}, {"day": 221, "topic": "Data ingestion in ADX using Azure Data Factory", "url": "https://www.linkedin.com/posts/adxkusto_data-ingestion-into-azure-data-explorer-using-activity-7095240837860630528-s-YH", "week": 32}, {"day": 222, "topic": "KQL Visualizations", "url": "https://www.linkedin.com/posts/adxkusto_kql-visualizations-activity-7095662966301241344-QWPe", "week": 32}, {"day": 223, "topic": "KQL Joins for Power BI", "url": "https://www.linkedin.com/posts/adxkusto_kql-joins-in-power-bi-and-not-only-activity-7096337958013722624--_R-", "week": 32}, {"day": 224, "topic": "Set timeout limits in ADX Web UI", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-azuredataexplorer-kusto-activity-7096539588076171264-EAeF", "week": 32}, {"day": 225, "topic": "SQL external table connection strings", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-externaltable-sql-activity-7096754549859786752-9Ao8", "week": 33}, {"day": 226, "topic": "ADX as a linked server from SQL Server", "url": "https://www.linkedin.com/posts/adxkusto_azure-data-explorer-as-linked-server-from-activity-7097271218487140352-Q5Wg", "week": 33}, {"day": 227, "topic": "Sense, analyze, & generate insights with RealTimeAnalytics", "url": "https://www.linkedin.com/posts/adxkusto_sense-analyze-and-generate-insights-with-activity-7097582510380888064-Ezh5", "week": 33}, {"day": 228, "topic": "MS Fabric Real-Time Analytics Free Trial", "url": "https://www.linkedin.com/posts/adxkusto_microsoft-fabric-activity-7097960323747332096-rmtE", "week": 33}, {"day": 229, "topic": "What makes MS Fabric Real-Time Analytics unique?", "url": "https://www.linkedin.com/posts/adxkusto_overview-of-real-time-analytics-in-microsoft-activity-7098182448416460800-krCH", "week": 33}, {"day": 230, "topic": "Microsoft Fabric Real Time Analytics: How to Get Data into a KQL Database", "url": "https://www.linkedin.com/posts/adxkusto_synapse-real-time-analytics-how-to-get-data-activity-7098684187372605440-KyIV", "week": 33}, {"day": 231, "topic": "When to use MS Fabric Real Time Analytics", "url": "https://www.linkedin.com/posts/adxkusto_overview-of-real-time-analytics-in-microsoft-activity-7099249995165409280-FAs-", "week": 33}, {"day": 232, "topic": "Stream data from Eventstream into a KQL database", "url": "https://www.linkedin.com/posts/adxkusto_synapse-real-time-analyticsstream-data-activity-7099584502590582784-yvaA", "week": 34}, {"day": 233, "topic": "Real-Time Analytics Integration with other experiences", "url": "https://www.linkedin.com/posts/adxkusto_overview-of-real-time-analytics-in-microsoft-activity-7099726353452679168-ZUFl", "week": 34}, {"day": 234, "topic": "Real-Time Analytics - Get started with KQL", "url": "https://www.linkedin.com/posts/adxkusto_synapse-real-time-analytics-get-started-activity-7100331194621259776-Wnv1", "week": 34}, {"day": 235, "topic": "Real-Time Analytics Tutorial", "url": "https://www.linkedin.com/posts/adxkusto_real-time-analytics-tutorial-introduction-activity-7100722099299729408-az6j", "week": 34}, {"day": 236, "topic": "ADX + Hilo: Customer Success Story", "url": "https://www.linkedin.com/posts/adxkusto_hilo-helps-quebecers-optimize-energy-use-activity-7100762330682056704-e3pB", "week": 34}, {"day": 237, "topic": "Real-Time Analytics: Stream data from eventhubs into KQL Database", "url": "https://www.linkedin.com/posts/adxkusto_synapse-real-time-analytics-stream-data-activity-7101401714204798976-Q2Mv", "week": 34}, {"day": 238, "topic": "ADX + ABN AMRO: Customer Success Story", "url": "https://www.linkedin.com/posts/adxkusto_abn-amro-bank-optimizes-financial-crime-detection-activity-7101605666892525568-yyvm", "week": 34}, {"day": 239, "topic": "Create a KQL database in MS Fabric Real-Time Analytics", "url": "https://www.linkedin.com/posts/adxkusto_real-time-analytics-tutorial-part-1-create-activity-7101847235256053760-Wlpr", "week": 35}, {"day": 240, "topic": "Enable MS Fabric Real-Time Analytics in OneLake", "url": "https://www.linkedin.com/posts/adxkusto_real-time-analytics-tutorial-part-1-create-activity-7102336430177198081-RupB", "week": 35}, {"day": 241, "topic": "Create Event Stream in Fabric Real-Time Analytics", "url": "https://www.linkedin.com/posts/adxkusto_real-time-analytics-tutorial-part-2-get-activity-7102509991416205312-LIur", "week": 35}, {"day": 242, "topic": "Stream data from EventStream to KQL database", "url": "https://www.linkedin.com/posts/adxkusto_real-time-analytics-tutorial-part-2-get-activity-7103042222207492096-VH4b", "week": 35}, {"day": 243, "topic": "4 steps to configure data loading from Event Stream to KQL database", "url": "https://www.linkedin.com/posts/adxkusto_real-time-analytics-tutorial-part-2-get-activity-7103423044211159040-Mj12", "week": 35}, {"day": 244, "topic": "Step by Step: Get historical data to your KQL database", "url": "https://www.linkedin.com/posts/adxkusto_real-time-analytics-tutorial-part-3-get-activity-7103792740940836864-lkdQ", "week": 35}, {"day": 245, "topic": "Explore your data with KQL and SQL", "url": "https://www.linkedin.com/posts/adxkusto_real-time-analytics-tutorial-part-4-explore-activity-7104110474916446208-VD7s", "week": 35}, {"day": 246, "topic": "Use advanced KQL queries in MS Fabric Real-Time Analytics", "url": "https://www.linkedin.com/posts/adxkusto_real-time-analytics-tutorial-part-5-use-activity-7104809280477814785-ohx_", "week": 36}, {"day": 247, "topic": "Build a Power BI report in MS Fabric Real-Time Analytics", "url": "https://www.linkedin.com/posts/adxkusto_real-time-analytics-tutorial-part-6-build-activity-7105245970510065667-c266", "week": 36}, {"day": 248, "topic": "Get data from Amazon S3 in MS Fabric Real-Time Analytics", "url": "https://www.linkedin.com/posts/adxkusto_get-data-from-amazon-s3-in-real-time-analytics-activity-7105580694357078017-p7Nm", "week": 36}, {"day": 249, "topic": "Get data from OneLake in MSFabric Real-Time Analytics", "url": "https://www.linkedin.com/posts/adxkusto_get-data-from-onelake-in-real-time-analytics-activity-7105837638447734784-2_W9", "week": 36}, {"day": 250, "topic": "Get data from Azure Event Hubs in MSFabric Real-Time Analytics", "url": "https://www.linkedin.com/posts/adxkusto_get-data-from-azure-event-hubs-in-real-time-activity-7106207208815702016-BY-k", "week": 36}, {"day": 251, "topic": "Get data from blob container in MSFabric Real-Time Analytics", "url": "https://www.linkedin.com/posts/adxkusto_get-data-from-a-blob-container-in-real-time-activity-7106701388767752192-EAQA", "week": 36}, {"day": 252, "topic": "How to configure KQL Database in a copy activity?", "url": "https://www.linkedin.com/posts/adxkusto_how-to-configure-kql-database-in-a-copy-activity-activity-7106883747962118144-4Sx6", "week": 36}, {"day": 253, "topic": "Copy Data to/from KQL Databases using Data Pipelines", "url": "https://www.linkedin.com/posts/adxkusto_using-data-pipelines-for-copying-data-to-activity-7107642780251791361-qdq-", "week": 37}, {"day": 254, "topic": "Migration Guide: ElasticSearch to ADX", "url": "https://www.linkedin.com/posts/adxkusto_elasticsearch-to-azure-data-explorer-migration-activity-7107746372195356672-C3Am", "week": 37}, {"day": 255, "topic": "Clean anomalous points in a series using series_clean_anomalies_fl()", "url": "https://www.linkedin.com/posts/adxkusto_seriescleananomaliesfl-azure-data-activity-7108404023795302400-mKJq", "week": 37}, {"day": 256, "topic": "Use a managed identity to run an update policy", "url": "https://www.linkedin.com/posts/adxkusto_run-an-update-policy-with-a-managed-identity-activity-7109232803275243520-Cq-a", "week": 37}, {"day": 257, "topic": ".show databases entities command", "url": "https://www.linkedin.com/posts/adxkusto_show-databases-entities-command-azure-activity-7109410622752067584-Amwr", "week": 37}, {"day": 258, "topic": ".show database extents partitioning statistics", "url": "https://www.linkedin.com/posts/adxkusto_show-database-extents-partitioning-statistics-activity-7109480232008491010-blXX", "week": 37}, {"day": 259, "topic": "Delete an Azure Data Explorer cluster", "url": "https://www.linkedin.com/posts/adxkusto_delete-an-azure-data-explorer-cluster-azure-activity-7109510897135497216-8Kj5", "week": 37}, {"day": 260, "topic": "Build a real-time dashboard by streaming events from Azure IoT Hub to Microsoft Fabric", "url": "https://www.linkedin.com/posts/adxkusto_build-a-real-time-dashboard-by-streaming-activity-7109599739666415617-8SOk", "week": 38}, {"day": 261, "topic": "Real-Time Data Sharing in Microsoft Fabric", "url": "https://www.linkedin.com/posts/adxkusto_real-time-data-sharing-in-microsoft-fabric-activity-7109781313934536704-juaw", "week": 38}, {"day": 262, "topic": "Sending Azure Cost Management Data to Azure Data Explorer/MS Fabric KQLDB", "url": "https://www.linkedin.com/posts/adxkusto_sending-azure-cost-management-to-azure-data-activity-7110122303459356672-ZXMc", "week": 38}, {"day": 263, "topic": "ADX: New Get Data Experience", "url": "https://www.linkedin.com/posts/adxkusto_introducing-the-new-get-data-experience-activity-7110573712667475969-joFa", "week": 38}, {"day": 264, "topic": "Create an app to get data using batching ingestion", "url": "https://www.linkedin.com/posts/adxkusto_create-an-app-to-get-data-using-batching-activity-7110873143975501824-kyoy", "week": 38}, {"day": 265, "topic": "Heatmap visuals in ADX Dashboards", "url": "https://www.linkedin.com/posts/adxkusto_dashboard-specific-visuals-azure-data-explorer-activity-7111302390531657728-SsBb", "week": 38}, {"day": 266, "topic": "ADX and MS Fabric Real-Time Analytics support data ingestion from Apache Kafka", "url": "https://www.linkedin.com/posts/adxkusto_kafka-ingestion-into-azure-data-explorer-activity-7111670263330594816-dzK9", "week": 38}, {"day": 267, "topic": "Ingest data into ADX & MS Fabric RTA using OpenTelemetry exporter", "url": "https://www.linkedin.com/posts/adxkusto_getting-started-with-open-telemetry-and-azure-activity-7112034448681934849-9pJ_", "week": 39}, {"day": 268, "topic": "Send Data from Apache Kafka to Real-Time Analytics in MS Fabric using Eventstream", "url": "https://www.linkedin.com/posts/adxkusto_kafka-microsoftfabric-realtimeanalytics-activity-7112395145546756096-Bxks", "week": 39}, {"day": 269, "topic": "Scan Operator in KQL", "url": "https://www.linkedin.com/posts/adxkusto_scan-operator-azure-data-explorer-activity-7112777478816825344-EwyK", "week": 39}, {"day": 270, "topic": "Monitor Azure Data Explorer performance, health, and usage with metrics", "url": "https://www.linkedin.com/posts/adxkusto_monitor-azure-data-explorer-performance-activity-7113428299011244032-J1iY", "week": 39}, {"day": 271, "topic": "Using KQLMagic in Jupyter notebooks", "url": "https://www.linkedin.com/posts/adxkusto_kql-cafe-session-17-guest-brian-b%C3%B8nk-activity-7113485223111094272-CJHx", "week": 39}, {"day": 272, "topic": "KQL Graph Operators", "url": "https://www.linkedin.com/posts/adxkusto_graph-operators-preview-azure-data-explorer-activity-7113775536962727940-4HOf", "week": 39}, {"day": 273, "topic": "OSS Connectors to get data into MSFabric Real-Time Analytics", "url": "https://www.linkedin.com/posts/adxkusto_overview-of-data-connectors-and-their-capabilities-activity-7114159788631994368-htcZ", "week": 39}, {"day": 274, "topic": "Create an Event Hubs data connection for Azure Data Explorer", "url": "https://www.linkedin.com/posts/adxkusto_create-an-event-hubs-data-connection-azure-activity-7114542360927059968-cA5D", "week": 40}, {"day": 275, "topic": "Continuous data export in Azure Data Explorer", "url": "https://www.linkedin.com/posts/adxkusto_continuous-data-export-activity-7114834449694928896-GeQ3", "week": 40}, {"day": 276, "topic": "Ingest data from Splunk to ADX using ADX-Splunk Add-On", "url": "https://www.linkedin.com/posts/adxkusto_getting-started-with-microsoft-azure-data-activity-7115306163935547392-uZ1c", "week": 40}, {"day": 277, "topic": "Understanding Fabric KQL DB Capacity", "url": "https://www.linkedin.com/posts/adxkusto_understanding-fabric-kql-db-capacity-microsoft-activity-7115665490848419840-zE4b", "week": 40}, {"day": 278, "topic": "Visualize Graphs in Kusto using Plotly and Python", "url": "https://www.linkedin.com/posts/adxkusto_how-to-visualize-graphs-in-kusto-using-plotly-activity-7116271370027593728-DHQW", "week": 40}, {"day": 279, "topic": "Calculating distinct counts in Power BI with data in Kusto", "url": "https://www.linkedin.com/posts/adxkusto_calculating-distinct-counts-in-power-bi-with-activity-7116470248488251392-poCZ", "week": 40}, {"day": 280, "topic": "Connect to and manage ADX in Microsoft Purview", "url": "https://www.linkedin.com/posts/adxkusto_connect-to-and-manage-azure-data-explorer-activity-7117026667851608064-f9k8", "week": 40}, {"day": 281, "topic": "Unlock Transformative Data Value with Microsoft Fabric Real-Time Analytics", "url": "https://www.linkedin.com/posts/adxkusto_modernize-your-analytics-microsoft-fabric-activity-7117114839512051714-CbR_", "week": 41}, {"day": 282, "topic": "Visualize data from Azure Data Explorer in Grafana", "url": "https://www.linkedin.com/posts/adxkusto_visualize-data-from-azure-data-explorer-by-activity-7117374560387133441-v3w_", "week": 41}, {"day": 283, "topic": "Automotive connected fleets reference architecture using ADX for Analytics", "url": "https://www.linkedin.com/posts/adxkusto_automotive-connected-fleets-azure-architecture-activity-7117901813286076416-wq4o", "week": 41}, {"day": 284, "topic": "Kusto Detective Agency LinkedIn Community", "url": "https://www.linkedin.com/posts/adxkusto_kustodetectiveagency-365daysofadx-kusto-activity-7118290583625854976-l10r", "week": 41}, {"day": 285, "topic": "Integrating ADX with Cosmos DB to analyze data in near real-time", "url": "https://www.linkedin.com/posts/adxkusto_integrating-azure-data-explorer-with-cosmos-activity-7118639522749255680-DeHO", "week": 41}, {"day": 286, "topic": "Kusto NLog connector now supports Azure Data Explorer free clusters", "url": "https://www.linkedin.com/posts/adxkusto_kusto-nlog-connector-now-supports-azure-data-activity-7118971642227101696-FOau", "week": 41}, {"day": 287, "topic": "Azure Playfab Data connections now supports game data export to free ADX clusters", "url": "https://www.linkedin.com/posts/adxkusto_azure-playfabs-data-connections-just-leveled-activity-7119286448024883201-lztf", "week": 41}, {"day": 288, "topic": "Ingest data from Telegraf into RealTimeAnalytics in MSFabric", "url": "https://www.linkedin.com/posts/adxkusto_ingest-data-from-telegraf-into-azure-data-activity-7120375182900252672-Soei", "week": 42}, {"day": 289, "topic": "What are common scenarios for using KQL graph semantics?", "url": "https://www.linkedin.com/posts/adxkusto_scenarios-for-using-kusto-query-language-activity-7120629450685202432-pYFF", "week": 42}, {"day": 290, "topic": "Ingest data from Logstash to Real-Time Analytics in MSFabric", "url": "https://www.linkedin.com/posts/adxkusto_ingest-data-from-logstash-to-real-time-analytics-activity-7121082139462242304-6FzH", "week": 42}, {"day": 291, "topic": "How to ingest historical data into kusto / Azure Data Explorer", "url": "https://www.linkedin.com/posts/adxkusto_ingest-historical-data-into-kusto-activity-7121556115456192512-y_Ik", "week": 42}, {"day": 292, "topic": "Kusto Query Language learning resources", "url": "https://www.linkedin.com/posts/adxkusto_kusto-query-language-learning-resources-activity-7121838851249123328-fWtD", "week": 42}, {"day": 293, "topic": "Create an ADX dashboard base query", "url": "https://www.linkedin.com/posts/adxkusto_create-a-dashboard-base-query-azure-data-activity-7122114868081500160-4nAj", "week": 42}, {"day": 294, "topic": "From RabbitMQ to PowerBI reports with Microsoft Fabric Real-Time Analytics", "url": "https://www.linkedin.com/posts/adxkusto_from-rabbitmq-to-powerbi-reports-with-microsoft-activity-7122435118299815938-mkPk", "week": 42}, {"day": 295, "topic": "KQL Graph Semantics - Best Practices", "url": "https://www.linkedin.com/posts/adxkusto_best-practices-for-kusto-query-language-activity-7122831697619881984-GhFL", "week": 43}, {"day": 296, "topic": "ADX Web UI - Dashboard specific visuals", "url": "https://www.linkedin.com/posts/adxkusto_dashboard-specific-visuals-azure-data-explorer-activity-7123228300075778048-mb1H", "week": 43}, {"day": 297, "topic": "Kusto .alter-merge database policy ingestionbatching command", "url": "https://www.linkedin.com/posts/adxkusto_alter-merge-database-policy-ingestionbatching-activity-7123573265133912064-jddA", "week": 43}, {"day": 298, "topic": "Manage language extensions in your ADX cluster", "url": "https://www.linkedin.com/posts/adxkusto_manage-language-extensions-in-your-azure-activity-7124242868361150464-ReYj", "week": 43}, {"day": 299, "topic": "Enable Python plugin in MS Fabric Real-Time Analytics", "url": "https://www.linkedin.com/posts/adxkusto_enable-python-plugin-in-real-time-analytics-activity-7124401746939895808-odIm", "week": 43}, {"day": 300, "topic": "Use example queries in MS Fabric Real-Time Analytics", "url": "https://www.linkedin.com/posts/adxkusto_use-example-queries-in-real-time-analytics-activity-7124808090960412673-XJE1", "week": 43}, {"day": 301, "topic": "Series processing functions in Kusto", "url": "https://www.linkedin.com/posts/adxkusto_functions-library-azure-data-explorer-activity-7125012300792520704-Uq6K", "week": 43}, {"day": 302, "topic": "Working with CDC Data in Kusto", "url": "https://www.linkedin.com/posts/adxkusto_how-to-deal-with-change-data-capture-in-azure-activity-7125457487192895488-IwPt", "week": 44}, {"day": 303, "topic": "Perform hierarchical aggregation & value selection in Kusto using top-nested operator", "url": "https://www.linkedin.com/posts/adxkusto_top-nested-operator-azure-data-explorer-activity-7125781947548676096-QktO", "week": 44}, {"day": 304, "topic": "Statistical and probability functions in Kusto", "url": "https://www.linkedin.com/posts/adxkusto_functions-library-azure-data-explorer-activity-7126259655982428160-Y0G-", "week": 44}, {"day": 305, "topic": "Real-Time Analytics KQL DB now supports Delta Lake", "url": "https://www.linkedin.com/posts/adxkusto_announcing-delta-lake-support-in-real-time-activity-7133346771765706752-loJ_", "week": 44}, {"day": 306, "topic": "Discover database schema violations in Kusto", "url": "https://www.linkedin.com/posts/adxkusto_kusto-schema-validation-activity-7133802042216656896-2m-9", "week": 44}, {"day": 307, "topic": "Azure PlayFab integration with Microsoft Fabric Real-Time Analytics", "url": "https://www.linkedin.com/posts/adxkusto_playfab-and-synapse-real-time-analytics-activity-7134174886679166976-2eDz", "week": 44}, {"day": 308, "topic": "Real-Time analytics with open-source connectors in MS Fabric", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-100daysofrta-microsoft-activity-7134596948140961792-3EH3", "week": 44}, {"day": 309, "topic": "Data Export from Kusto", "url": "https://www.linkedin.com/posts/adxkusto_data-export-azure-data-explorer-real-time-activity-7134910061864206336-bNus", "week": 45}, {"day": 310, "topic": "Characterize an unfamiliar dataset with Kusto", "url": "https://www.linkedin.com/posts/adxkusto_characterize-an-unfamiliar-dataset-with-azure-activity-7135230704942014464-61rd", "week": 45}, {"day": 311, "topic": "Integrate Azure Functions with Kusto using input and output bindings", "url": "https://www.linkedin.com/posts/adxkusto_kusto-bindings-for-azure-functions-overview-activity-7135672967467851776-AUIC", "week": 45}, {"day": 312, "topic": "What is KQLDB in Microsoft Fabric?", "url": "https://www.linkedin.com/posts/adxkusto_kqldb-365daysofadx-100daysofrta-activity-7135912090870951937-8xKP", "week": 45}, {"day": 313, "topic": "Change data policies in MS Fabric Real Time Analytics", "url": "https://www.linkedin.com/posts/adxkusto_msfabric-realtimeanalytics-365daysofadx-activity-7136671751211528192-Dbj7", "week": 45}, {"day": 314, "topic": "Create a table update policy in MS Fabric Real Time Analytics", "url": "https://www.linkedin.com/posts/adxkusto_msfabric-realtimeanalytics-365daysofadx-activity-7136674728169078784-68Ca", "week": 45}, {"day": 315, "topic": "Write multi-table queries in KQL", "url": "https://www.linkedin.com/posts/adxkusto_multi-table-queries-with-kusto-query-language-activity-7137138727952203776-wD6j", "week": 45}, {"day": 316, "topic": "Gain insights from your data using KQL", "url": "https://www.linkedin.com/posts/adxkusto_gain-insights-from-your-data-by-using-kusto-activity-7137329152130531328-Y8Ko", "week": 46}, {"day": 317, "topic": "Fabric Change the Game: Real-Time Analytics Blog", "url": "https://www.linkedin.com/posts/adxkusto_fabric-change-the-game-real-time-analytics-activity-7137705304628051968-vtsY", "week": 46}, {"day": 318, "topic": "Kusto Insights - monthly Kusto Newsletter", "url": "https://www.linkedin.com/posts/adxkusto_kusto-insights-november-update-activity-7138088112789819395-4ted", "week": 46}, {"day": 319, "topic": "Real-Time Analytics on data with Service Bus Azure Data Explorer", "url": "https://www.linkedin.com/posts/adxkusto_realtimeanalytics-365daysofadx-100daysofrta-activity-7138469100460163072-1oRg", "week": 46}, {"day": 320, "topic": "9 Free Kusto trainings to take your skills to the next level", "url": "https://www.linkedin.com/posts/adxkusto_kusto-365daysofadx-100daysofrta-activity-7140214613572333569-9Uhz", "week": 46}, {"day": 321, "topic": "Kusto Detective Agency SANS Holiday Hack 2023", "url": "https://www.linkedin.com/posts/adxkusto_365daysofadx-100daysofrta-kql-activity-7140622215544307712-VPD8", "week": 46}, {"day": 322, "topic": "Create materialized views in MS Fabric Real-Time Analytics", "url": "https://www.linkedin.com/posts/adxkusto_msfabric-realtimeanalytics-365daysofadx-activity-7140990959571431426-9pCw", "week": 46}, {"day": 323, "topic": "Stored Query Results in Kusto", "url": "https://www.linkedin.com/posts/adxkusto_kusto-365daysofadx-100daysofrta-activity-7141375792164319232-grIr", "week": 47}, {"day": 324, "topic": "Infographics - Evolution of Kusto over the years", "url": "https://www.linkedin.com/posts/adxkusto_kusto-365daysofadx-100daysofrta-activity-7142519666370854914-JjHm", "week": 47}, {"day": 325, "topic": "Text Analytics functions in Kusto", "url": "https://www.linkedin.com/posts/adxkusto_functions-library-azure-data-explorer-activity-7146117200246898688-JjRM", "week": 47}, {"day": 326, "topic": "MachineLearning Functions in Kusto", "url": "https://www.linkedin.com/feed/update/urn:li:activity:7146145271373021184", "week": 47}, {"day": 327, "topic": "Cluster a dataset in Kusto using the k-means algorithm", "url": "https://www.linkedin.com/feed/update/urn:li:activity:7146183039298023424", "week": 47}, {"day": 328, "topic": "Plotly functions in Kusto", "url": "https://www.linkedin.com/feed/update/urn:li:activity:7146371762048368640", "week": 47}, {"day": 329, "topic": "Create an interactive anomaly chart using Plotly functions in Kusto", "url": "https://www.linkedin.com/feed/update/urn:li:activity:7146396125560750080", "week": 47}, {"day": 330, "topic": "Create an interactive 3D scatter chart using Plotly functions in Kusto", "url": "https://www.linkedin.com/feed/update/urn:li:activity:7146417072908951552", "week": 48}, {"day": 331, "topic": "Create a Microsoft Entra application registration in ADX", "url": "https://www.linkedin.com/feed/update/urn:li:activity:7147859652095934465", "week": 48}, {"day": 332, "topic": "Ingest data with Apache Flink into Kusto", "url": "https://www.linkedin.com/posts/adxkusto_ingest-data-with-apache-flink-into-azure-activity-7148195197707857920-KWxn", "week": 48}, {"day": 333, "topic": "Ingest data from Splunk Universal Forwarder to Kusto", "url": "https://www.linkedin.com/posts/adxkusto_ingest-data-from-splunk-universal-forwarder-activity-7148610793889017857-6FdA", "week": 48}, {"day": 334, "topic": "Migrate your ADX cluster to support multiple availability zones", "url": "https://www.linkedin.com/posts/adxkusto_migrate-your-cluster-to-support-multiple-activity-7148981940023418880-ThFj", "week": 48}, {"day": 335, "topic": "Calculate the dot product of two numeric series in Kusto", "url": "https://www.linkedin.com/posts/adxkusto_seriesdotproduct-azure-data-explorer-activity-7150028076087656448-K7IP", "week": 48}, {"day": 336, "topic": "Lakehouse vs Warehouse vs Real-Time Analytics", "url": "https://www.linkedin.com/posts/adxkusto_lakehouse-vs-data-warehouse-vs-real-time-activity-7150439117191831552-jOsu", "week": 48}, {"day": 337, "topic": "Get data from Eventstream to KQL DB in MS Fabric", "url": "https://www.linkedin.com/posts/adxkusto_get-data-from-eventstream-microsoft-fabric-activity-7150835777369690113-FpU8", "week": 49}, {"day": 338, "topic": "Data formats supported by Real-Time Analytics", "url": "https://www.linkedin.com/posts/adxkusto_realtimeanalytics-365daysofadx-100daysofrta-activity-7151131530025664512-0sIR", "week": 49}, {"day": 339, "topic": "Kusto Insights - Monthly Newsletter - December Update", "url": "https://www.linkedin.com/posts/adxkusto_kusto-insights-december-update-activity-7151544581656821760-nbm0", "week": 49}, {"day": 340, "topic": "Data Activator tutorial using sample data", "url": "https://www.linkedin.com/posts/adxkusto_data-activator-tutorial-using-sample-data-activity-7152972179612012545-vWC2", "week": 49}, {"day": 341, "topic": "KQL Database consumption monitoring", "url": "https://www.linkedin.com/posts/adxkusto_kql-database-consumption-microsoft-fabric-activity-7153260295094730753-9kqm", "week": 49}, {"day": 342, "topic": "Blog: Ingest data using Splunk Universal forwarder to ADX", "url": "https://www.linkedin.com/posts/adxkusto_ingest-data-using-splunk-universal-forwarder-activity-7153715802519539712-qKY4", "week": 49}, {"day": 343, "topic": "One-time ingestion to Kusto", "url": "https://www.linkedin.com/posts/adxkusto_azure-data-explorer-data-ingestion-overview-activity-7155147083593699328-SJgz", "week": 49}, {"day": 344, "topic": "Continuous data ingestion to Kusto", "url": "https://www.linkedin.com/posts/adxkusto_continuous-data-ingestion-activity-7157314807279349761-217z", "week": 50}, {"day": 345, "topic": "Export data from Defender for Endpoint to Azure Data Explorer", "url": "https://www.linkedin.com/posts/adxkusto_how-to-export-data-from-defender-for-endpoint-activity-7178977371411161088-nN17", "week": 50}, {"day": 346, "topic": "What is Real-Time Analytics (Fabric Flashcard version)", "url": "https://www.linkedin.com/posts/adxkusto_what-is-real-time-analytics-activity-7195697533380096000-BKTf", "week": 50}, {"day": 347, "topic": "What is the benefit of using KQL for Data Analysis?", "url": "https://www.linkedin.com/posts/adxkusto_what-is-the-benefit-of-using-kql-for-data-activity-7196001257919033344-pIWl", "week": 50}, {"day": 348, "topic": "What are the benefits of using Real-Time Analytics?", "url": "https://www.linkedin.com/posts/adxkusto_what-are-the-benefits-of-using-real-time-activity-7196399557457416192-xOnw", "week": 50}, {"day": 349, "topic": "What is Kusto Query Language?", "url": "https://www.linkedin.com/posts/adxkusto_what-is-kusto-query-language-activity-7196790594055090178-Y5yw", "week": 50}, {"day": 350, "topic": "Azure Data Explorer for IT Monitoring", "url": "https://www.linkedin.com/posts/adxkusto_azure-data-explorer-for-enterprise-it-monitoring-activity-7200345405732106240-u0ZI", "week": 50}];
+
+    // Category mapping
+    function getCategory(topic) {
+        const t = topic.toLowerCase();
+        const maps = [
+            [["join", "operator", "function", "statement", "command", "plugin", "where", "extend", "project", "summarize", "sort", "between", "contains", "has ", "let ", "datatable", "scan ", "pivot", "materialize", "replace_string", "top-nested", "bin ", "render"], "KQL Fundamentals"],
+            [["ingest", "connector", "telegraf", "kafka", "logstash", "opentelemetry", "flink", "splunk", "s3", "blob", "event hub", "eventstream", "cdc", "lightingest", "data format", "pipeline", "fluent-bit", "rabbitmq"], "Data Ingestion"],
+            [["chart", "visual", "pie", "bar ", "area", "scatter", "heatmap", "plotly", "dashboard", "grafana", "power bi", "powerbi", "card vis", "3d scatter"], "Visualizations"],
+            [["architecture", "multi-tenant", "iot", "automotive", "reference", "pattern", "solution", "e2e", "network", "vnet", "private endpoint", "cache", "retention", "extent", "shard", "performance", "concurrency", "export", "migration", "deploy"], "Architecture & Patterns"],
+            [["fabric", "real-time analytics", "rta", "kqldb", "onelake", "delta lake", "data activator"], "Microsoft Fabric"],
+            [["security", "defender", "threat", "hunting", "sentinel", "monitor", "anomaly detection", "encryption", "purview", "geolocation"], "Security & Monitoring"],
+            [["success story", "customer", "husky", "mobirix", "linkedin", "hilo", "abn amro", "zf plant", "uptake", "buhler", "financial fabric", "playfab"], "Customer Stories"],
+            [["emulator", "detective", "web ui", "explorer", "odbc", "rest api", "client librar", "language extension", "python plugin", "kusto.language", "arm template", "power automate", "data share", "cursor"], "Tools & Ecosystem"],
+            [["learn", "tutorial", "course", "cheat sheet", "overview", "quick reference", "training", "e-book", "video", "newsletter", "guide", "infographic", "blog", "savill"], "Learning Resources"],
+        ];
+        for (const [keywords, cat] of maps) {
+            if (keywords.some(k => t.includes(k))) return cat;
+        }
+        return "KQL Fundamentals";
+    }
+
+    // Assign categories
+    posts.forEach(p => { p.category = getCategory(p.topic); });
+
+    // Category counts
+    const catCounts = {};
+    posts.forEach(p => { catCounts[p.category] = (catCounts[p.category] || 0) + 1; });
+
+    // State
+    let activeFilter = null;
+    let history = [];
+    let viewedSet = new Set();
+
+    // Try restore from localStorage
+    try {
+        const saved = localStorage.getItem('365adx_viewed');
+        if (saved) viewedSet = new Set(JSON.parse(saved));
+    } catch(e) {}
+
+    // === UI ===
+    const chipsEl = document.getElementById('chips');
+    const categories = ["KQL Fundamentals", "Data Ingestion", "Visualizations", "Architecture & Patterns",
+                        "Joins & Operators", "Microsoft Fabric", "Security & Monitoring",
+                        "Customer Stories", "Tools & Ecosystem", "Learning Resources"];
+
+    // Build chips
+    const allChip = document.createElement('div');
+    allChip.className = 'chip active';
+    allChip.textContent = 'All';
+    allChip.innerHTML = 'All <span class="count">350</span>';
+    allChip.onclick = () => setFilter(null);
+    chipsEl.appendChild(allChip);
+
+    categories.forEach(cat => {
+        if (!catCounts[cat]) return;
+        const chip = document.createElement('div');
+        chip.className = 'chip';
+        chip.dataset.cat = cat;
+        chip.innerHTML = cat + ' <span class="count">' + catCounts[cat] + '</span>';
+        chip.onclick = () => setFilter(cat);
+        chipsEl.appendChild(chip);
+    });
+
+    function setFilter(cat) {
+        activeFilter = cat;
+        document.querySelectorAll('.chip').forEach(c => {
+            if (cat === null) {
+                c.classList.toggle('active', !c.dataset.cat);
+            } else {
+                c.classList.toggle('active', c.dataset.cat === cat);
+            }
+        });
+    }
+
+    function updateViewedCount() {
+        document.getElementById('viewed-count').textContent = viewedSet.size;
+    }
+    updateViewedCount();
+
+    function rollRandom() {
+        let pool = activeFilter ? posts.filter(p => p.category === activeFilter) : posts;
+        if (pool.length === 0) pool = posts;
+
+        const post = pool[Math.floor(Math.random() * pool.length)];
+        showPost(post);
+
+        // Track
+        viewedSet.add(post.day);
+        updateViewedCount();
+        try { localStorage.setItem('365adx_viewed', JSON.stringify([...viewedSet])); } catch(e) {}
+
+        // History
+        history = [post, ...history.filter(p => p.day !== post.day)].slice(0, 5);
+        renderHistory();
+    }
+
+    function showPost(post) {
+        const card = document.getElementById('post-card');
+        card.classList.remove('hidden');
+        // Re-trigger animation
+        card.style.animation = 'none';
+        card.offsetHeight;
+        card.style.animation = 'slideUp 0.5s ease';
+
+        document.getElementById('card-day').textContent = post.day;
+        document.getElementById('card-topic').textContent = post.topic;
+        document.getElementById('card-week').textContent = 'Week ' + post.week + ' of 50';
+        document.getElementById('card-category').textContent = post.category;
+        document.getElementById('card-linkedin').href = post.url;
+    }
+
+    function renderHistory() {
+        const section = document.getElementById('history-section');
+        const list = document.getElementById('history-list');
+        if (history.length === 0) { section.style.display = 'none'; return; }
+        section.style.display = 'block';
+        list.innerHTML = history.map(p =>
+            '<a class="history-item" href="' + p.url + '" target="_blank" rel="noopener">' +
+            '<span class="h-day">#' + p.day + '</span>' +
+            '<span class="h-topic">' + p.topic + '</span>' +
+            '</a>'
+        ).join('');
+    }
+
+    // Keyboard shortcut
+    document.addEventListener('keydown', (e) => {
+        if (e.code === 'Space' || e.code === 'Enter') {
+            e.preventDefault();
+            rollRandom();
+        }
+    });
+
+    // Auto-roll on load
+    rollRandom();
+    </script>
+</body>
+</html>
